@@ -1,0 +1,64 @@
+# Dependencies
+plugins:
+  - jekyll-sitemap
+  - jekyll-email-protect
+
+# File rules
+exclude:
+  # default excludes
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # custom excludes
+  - .gitignore
+  - Makefile
+  - LICENSE
+  - README.md
+  - assets/
+  - package.json
+  - package-lock.json
+  - scripts/
+  - .github/
+  - .nova/
+
+include:
+  - .htaccess
+  # bootstrap js
+  - node_modules/bootstrap/dist/js/bootstrap.min.js
+  - node_modules/bootstrap/dist/js/bootstrap.min.js.map
+  # bootstrap icons
+  - node_modules/bootstrap-icons/font/bootstrap-icons.css
+  - node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff
+  - node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2
+
+keep_files:
+  - .well-known
+
+# Site
+permalink: /blog/:year/:month/:day/:title/
+excerpt_separator: <!--excerpt-->
+sass:
+  style: compressed
+
+# Metadata
+title: 'DSC'
+description: 'Denver Suspension Collective'
+url: 'https://denversuspensioncollective.github.io/'
+logo: logo.png
+favicon: /favicon.ico
+timezone: America/Denver
+
+# Author
+author:
+  name: 'Denver Suspension Collective'
+  avatar: logo.png
+
+# URLs
+img_url: '/img/'
