@@ -1,0 +1,72 @@
+# Dependencies
+plugins:
+  - jekyll-sitemap
+  - jekyll-email-protect
+
+# File rules
+exclude:
+  # default excludes
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # custom excludes
+  - .gitignore
+  - Makefile
+  - Dangerfile
+  - LICENSE
+  - README.md
+  - assets/
+  - package.json
+  - package-lock.json
+  - scripts/
+  - .github/
+  - .nova/
+
+include:
+  - .htaccess
+  # bootstrap js
+  - node_modules/bootstrap/dist/js/bootstrap.min.js
+  - node_modules/bootstrap/dist/js/bootstrap.min.js.map
+  # bootstrap icons
+  - node_modules/bootstrap-icons/font/bootstrap-icons.css
+  - node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff
+  - node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2
+
+keep_files:
+  - .well-known
+
+# Site
+permalink: /blog/:year/:month/:day/:title/
+excerpt_separator: <!--excerpt-->
+sass:
+  style: compressed
+
+# Metadata
+title: 'My Website'
+description: 'My website description'
+url: 'https://www.example.com'
+logo: logo.png
+favicon: /favicon.ico
+timezone: America/Los_Angeles
+
+# Author
+author:
+  name: 'Jane Doe'
+  twitter: jane_doe
+  avatar: logo.png
+
+# Data
+feeds:
+  limit: 30
+  rss: '/feed.xml'
+  json: '/feed.json'
+
+# URLs
+img_url: '/img/'
