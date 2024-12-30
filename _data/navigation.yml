@@ -4,5 +4,12 @@
 - title: about
   page: about.md
 
+- title: events
+  page: events.md
+
+- title: 2025 retreat
+  page: retreat.md
+
 - title: contact
   page: contact.md
+
