@@ -1,2 +1,3 @@
-# denver-suspension-collective.github.io
-DSC Website
+# [Denver Suspension Collective](https://denversuspensioncollective.github.io)
+
+*The DSC Website*
