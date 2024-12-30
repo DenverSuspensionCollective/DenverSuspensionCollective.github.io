@@ -1,19 +1,26 @@
-<nav class="navbar navbar-expand-md">
+{% assign url_components = page.url | split:"/" %}
+
+<nav class="navbar navbar-expand-md mb-4">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">{{ site.title }}</a>
+        <a class="navbar-brand" href="{% link index.md %}">{{ site.title }}</a>
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav nav-underline">
+                {% for item in site.data.navigation %}
+                {% capture url %}{% link {{ item.page }} %}{% endcapture %}
+                {% assign component = url | replace: '/', '' %}
                 <li class="nav-item mx-1">
-                    <a class="nav-link {% if page.url == '/home/' %}active{% endif %}" href="/">home</a>
+                    <a class="nav-link {% if page.url == url or url_components[1] == component %}active fw-bolder{% endif %}" href="{{ url }}">
+                        {{ item.title }}
+                    </a>
                 </li>
-                <li class="nav-item mx-1">
-                    <a class="nav-link {% if page.url == '/about/' %}active{% endif %}" href="/about">about</a>
-                </li>
+                {% endfor %}
             </ul>
         </div> <!-- navbar -->
+
     </div> <!-- container -->
 </nav>
+
