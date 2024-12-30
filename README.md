@@ -1,4 +1,4 @@
-# [Denver Suspension Collective](https://denversuspensioncollective.github.io) [![CI](https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/actions/workflows/ci.yml)
+# [Denver Suspension Collective](https://denversuspensioncollective.github.io) [![CI](https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/actions/workflows/ci.yml) [![Deploy](https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/actions/workflows/jekyll.yml)
 
 *The DSC Website*
 
