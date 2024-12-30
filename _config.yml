@@ -19,7 +19,6 @@ exclude:
   # custom excludes
   - .gitignore
   - Makefile
-  - Dangerfile
   - LICENSE
   - README.md
   - assets/
@@ -49,24 +48,17 @@ sass:
   style: compressed
 
 # Metadata
-title: 'My Website'
-description: 'My website description'
-url: 'https://www.example.com'
+title: 'DSC'
+description: 'Denver Suspension Collective'
+url: 'https://denversuspensioncollective.github.io/'
 logo: logo.png
 favicon: /favicon.ico
-timezone: America/Los_Angeles
+timezone: America/Denver
 
 # Author
 author:
-  name: 'Jane Doe'
-  twitter: jane_doe
+  name: 'Denver Suspension Collective'
   avatar: logo.png
-
-# Data
-feeds:
-  limit: 30
-  rss: '/feed.xml'
-  json: '/feed.json'
 
 # URLs
 img_url: '/img/'
