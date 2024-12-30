@@ -9,7 +9,7 @@ build:
 	bundle exec jekyll build
 
 .PHONY: watch
-incr:
+watch:
 	bundle exec jekyll build
 	bundle exec jekyll build --watch --incremental
 
