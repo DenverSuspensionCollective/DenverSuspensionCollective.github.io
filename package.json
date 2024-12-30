@@ -1,0 +1,9 @@
+{
+  "name": "DSC",
+  "description": "The Denver Suspension Collective",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "bootstrap-icons": "^1.0.0"
+  }
+}
