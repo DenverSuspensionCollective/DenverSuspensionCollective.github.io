@@ -1,6 +1,6 @@
 ---
 layout: standalone
-title: About
+title: Contact
 ---
 
 Coming soon.
