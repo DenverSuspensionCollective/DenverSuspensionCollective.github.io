@@ -37,7 +37,6 @@ include:
   - node_modules/bootstrap-icons/font/bootstrap-icons.css
   - node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff
   - node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2
-  - assets
 
 keep_files:
   - .well-known
@@ -63,14 +62,3 @@ author:
 
 # URLs
 img_url: '/img/'
-
-# Site settings
-baseurl: ""  # leave empty if serving from root
-url: ""      # leave empty for local development
-
-# Asset settings
-defaults:
-  - scope:
-      path: "assets/images"
-    values:
-      image: true
