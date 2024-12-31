@@ -32,7 +32,10 @@ layout: default
 
     {% include event_heading.html title="Schedule" icon="bi-calendar3" %}
     {% for each in details.schedule %}
-    <h4 class="h4">{{ each.day }}</h3>
+    <h4 class="h4">
+        {{ each.date | date: "%A" }}
+        <small class="text-body-tertiary">{{ each.date | date: "%B %-d" }}</small>
+    </h4>
     <ul>
     {% for item in each.items %}
         <li>{{ item }}</li>
