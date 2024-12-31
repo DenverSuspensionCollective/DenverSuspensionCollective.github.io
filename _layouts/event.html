@@ -88,13 +88,22 @@ layout: default
             </span>
             {% if details.registration.pricing_options.first == each %}
             &nbsp;&nbsp;
-            <span class="text-primary">
+            <span class="text-body-secondary">
                 <i class="bi bi-star-fill"></i> Introductory Rate
             </span>
             {% endif %}
         </li>
         {% endfor %}
     </ul>
+    <div class="d-grid gap-2 col-8 mx-auto my-2">
+        <a href="{{ details.registration.link }}" class="btn btn-outline-primary">Register Now</a>
+    </div>
+    <div class="alert alert-danger my-4" role="alert">
+        <b>Note:</b> <i>This event is not open to the public.
+        Full information and protocols will be provided upon registration.
+        All participants must complete a consent form.</i>
+    </div>
+
     <div class="mt-4">
         {{ content }}
     </div>
