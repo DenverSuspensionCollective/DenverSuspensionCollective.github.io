@@ -41,22 +41,23 @@ layout: default
     {% endfor %}
 
     {% include event_heading.html title="Presentations" icon="bi-easel" %}
-    {% for each in presenters %}
-    <div class="row row-cols-2 row-cols-md-2 g-4 mb-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="{{ each.image | img_url: 'presenters' }}" class="card-img-top" alt="{{ each.name }}">
-          <div class="card-body">
-            <h5 class="card-title">{{ each.presentation_title }}</h5>
-            <p class="card-text">{{ each.presentation_description }}</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-body-secondary">{{ each.bio }}</small>
-          </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        {% for each in presenters %}
+        <div class="col">
+            <div class="card">
+                <img src="{{ each.image | img_url: 'presenters' }}" class="card-img-top" alt="{{ each.name }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ each.presentation_title }}</h5>
+                    <p class="card-text lead">{{ each.name }}</p>
+                    <p class="card-text">{{ each.presentation_description }}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">{{ each.bio }}</small>
+                </div>
+            </div>
         </div>
-      </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 
     {% include event_heading.html title="Venue" icon="bi-building" %}
     <p>{{ details.venue.description }}</p>
