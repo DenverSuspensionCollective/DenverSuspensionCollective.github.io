@@ -1,0 +1,24 @@
+registration_link: "https://forms.gle/4x4o13yndPnZAWxF8"
+event_start: 2025-04-12
+event_end: 2025-04-14
+event_location: Studio Friction, 740 Lipan St. Denver, CO 80204
+venue_image: studio_friction.jpg
+intro_text: >
+    Join us for the inaugural Denver Suspension Collective Retreat, a registrant-only event focused on education and community.
+    This drug and alcohol-free event will be hosted at Studio Friction in Denver's Lincoln Park neighborhood.
+schedule:
+  - day: Saturday
+    items:
+    - "7:00 AM - 10:00 AM: Load-in/Setup (volunteers only)"
+    - "10:00 AM - 11:00 AM: Orientation"
+    - "11:30 AM - 1:00 PM: Class/Presentation"
+    - "1:00 PM - 9:00 PM: Suspensions"
+  - day: Sunday
+    items:
+    - "10:00 AM - 11:30 AM: Class/Presentation"
+    - "11:30 AM - 9:00 PM: Suspensions"
+  - day: Monday
+    items:
+     - "10:00 AM - 11:30 AM: Class/Presentation"
+     - "11:30 AM - 7:00 PM: Suspensions"
+     - "7:00 PM - 10:00 PM: Load-out/Cleanup (volunteers only)"

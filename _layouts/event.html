@@ -2,11 +2,16 @@
 layout: default
 ---
 
+{% assign event_id = page.event_id %}
+{% assign event = site.data[event_id] %}
+{% assign details = event.details %}
+{% assign presenters = event.presenters %}
+
 <article>
     <h1 class="h1">{{ page.title }}</h1>
 
     <div class="pb-3">
-      <img src="{{ page.venue_image | img_url: "venues" }}" class="img-fluid img-thumbnail" alt="{{ page.event_location }}">
+      <img src="{{ details.venue_image | img_url: "venues" }}" class="img-fluid img-thumbnail" alt="{{ details.event_location }}">
     </div>
 
     <h3 class="h3">Event Details</h3>
@@ -14,17 +19,31 @@ layout: default
     <ul class="list-group my-4">
       <li class="list-group-item">
         <i class="bi bi-calendar3 pe-2"></i>
-        <b>Dates:</b> {{ page.event_start | date: "%B %d" }} &mdash; {{ page.event_end | date: "%B %d, %Y" }}
+        <b>Dates:</b> {{ details.event_start | date: "%B %d" }} &mdash; {{ details.event_end | date: "%B %d, %Y" }}
       </li>
       <li class="list-group-item">
         <i class="bi bi-pin-map-fill pe-2"></i>
-        <b>Location:</b> {{ page.event_location }}
+        <b>Location:</b> {{ details.event_location }}
       </li>
       <li class="list-group-item">
         <i class="bi bi-ticket-perforated pe-2"></i>
-        <b>Registration Required:</b> <a href="{{ page.registration_link }}">Register Here</a>
+        <b>Registration Required:</b> <a href="{{ details.registration_link }}">Register Here</a>
       </li>
     </ul>
+
+    <p class="lead">{{ details.intro_text }}</p>
+
+    <h3 class="h3 border-bottom border-secondary-subtle bg-body-tertiary p-2 mt-4 mb-4">
+        <i class="bi bi-calendar3 pe-2"></i> Schedule
+    </h3>
+    {% for each in details.schedule %}
+    <h4 class="h4">{{ each.day }}</h3>
+    <ul>
+    {% for item in each.items %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+    {% endfor %}
 
     <div>
         {{ content }}
