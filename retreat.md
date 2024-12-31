@@ -4,7 +4,7 @@ title: Retreat
 event_date: 2025
 location: Studio Friction, Denver
 registration_status: open
-featured_image: assets/images/studio-friction.jpg
+featured_image: studio_friction.jpg
 ---
 
 # Denver Suspension Collective Retreat
