@@ -1,4 +1,13 @@
-registration_link: "https://forms.gle/4x4o13yndPnZAWxF8"
+registration:
+  link: "https://forms.gle/4x4o13yndPnZAWxF8"
+  pricing_options:
+    - date_begin: 2025-01-01
+      date_end: 2025-01-31
+      cost: 250
+    - date_begin: 2025-02-01
+      date_end: 2025-03-31
+      cost: 300
+  close_date: 2025-04-01
 event_start: 2025-04-12
 event_end: 2025-04-14
 event_location: Studio Friction, 740 Lipan St. Denver, CO 80204

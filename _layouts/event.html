@@ -18,7 +18,7 @@ layout: default
     <ul class="list-group list-unstyled">
       <li class="my-2">
         <i class="bi bi-calendar3 pe-2"></i>
-        <b>Dates:</b> {{ details.event_start | date: "%B %d" }} &mdash; {{ details.event_end | date: "%B %d, %Y" }}
+        <b>Dates:</b> {{ details.event_start | date: "%B %-d" }} &mdash; {{ details.event_end | date: "%B %-d, %Y" }}
       </li>
       <li class="my-2">
         <i class="bi bi-pin-map-fill pe-2"></i>
@@ -26,7 +26,7 @@ layout: default
       </li>
       <li class="my-2">
         <i class="bi bi-ticket-perforated pe-2"></i>
-        <b>Registration Required:</b> <a href="{{ details.registration_link }}">Register Here</a>
+        <b>Registration Required:</b> <a href="{{ details.registration.link }}">Register Here</a>
       </li>
     </ul>
 
@@ -68,6 +68,30 @@ layout: default
         {% endfor %}
     </ul>
 
+    {% include event_heading.html title="Registration & Pricing" icon="bi-person-badge-fill" %}
+    <div class="alert alert-warning" role="alert">
+        <b><i class="bi bi-exclamation-triangle-fill"></i></b>
+        Registration closes on <span class="fw-medium">{{ details.registration.close_date | date: "%B %-d, %Y" }}</span>
+    </div>
+    <ul class="list-group list-group-flush">
+        {% for each in details.registration.pricing_options %}
+        <li class="list-group-item">
+            <span class="fw-medium font-monospace">
+                ${{ each.cost }} USD
+            </span>
+            &nbsp;&nbsp;
+            <span class="fst-italic">
+                {{ each.date_begin | date: "%b %-d" }} &mdash; {{ each.date_end | date: "%b %-d" }}
+            </span>
+            {% if details.registration.pricing_options.first == each %}
+            &nbsp;&nbsp;
+            <span class="text-primary">
+                <i class="bi bi-star-fill"></i> Introductory Rate
+            </span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
     <div class="mt-4">
         {{ content }}
     </div>
