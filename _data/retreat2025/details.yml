@@ -22,3 +22,11 @@ schedule:
      - "10:00 AM - 11:30 AM: Class/Presentation"
      - "11:30 AM - 7:00 PM: Suspensions"
      - "7:00 PM - 10:00 PM: Load-out/Cleanup (volunteers only)"
+venue:
+  description: >
+    We will be hosted by Studio Friction, a rope and aerial centered non-profit
+    community space we have worked with for over a year.
+  points:
+     - "3 Dynamic Indoor Points"
+     - "1 Aerial Rig Outdoor (weather-permitting)"
+     - "1 Cube"

@@ -8,34 +8,29 @@ layout: default
 {% assign presenters = event.presenters %}
 
 <article>
-    <h1 class="h1">{{ page.title }}</h1>
-
-    <div class="pb-3">
-      <img src="{{ details.venue_image | img_url: "venues" }}" class="img-fluid img-thumbnail" alt="{{ details.event_location }}">
+    <h1 class="display-5">{{ page.title }}</h1>
+    <p class="lead">{{ details.intro_text }}</p>
+    <div>
+      <img src="{{ details.venue_image | img_url: 'venues' }}" class="img-fluid img-thumbnail" alt="{{ details.event_location }}">
     </div>
 
-    <h3 class="h3">Event Details</h3>
-
-    <ul class="list-group my-4">
-      <li class="list-group-item">
+    {% include event_heading.html title="Event Details" icon="bi-list-ul" %}
+    <ul class="list-group list-unstyled">
+      <li class="my-2">
         <i class="bi bi-calendar3 pe-2"></i>
         <b>Dates:</b> {{ details.event_start | date: "%B %d" }} &mdash; {{ details.event_end | date: "%B %d, %Y" }}
       </li>
-      <li class="list-group-item">
+      <li class="my-2">
         <i class="bi bi-pin-map-fill pe-2"></i>
         <b>Location:</b> {{ details.event_location }}
       </li>
-      <li class="list-group-item">
+      <li class="my-2">
         <i class="bi bi-ticket-perforated pe-2"></i>
         <b>Registration Required:</b> <a href="{{ details.registration_link }}">Register Here</a>
       </li>
     </ul>
 
-    <p class="lead">{{ details.intro_text }}</p>
-
-    <h3 class="h3 border-bottom border-secondary-subtle bg-body-tertiary p-2 mt-4 mb-4">
-        <i class="bi bi-calendar3 pe-2"></i> Schedule
-    </h3>
+    {% include event_heading.html title="Schedule" icon="bi-calendar3" %}
     {% for each in details.schedule %}
     <h4 class="h4">{{ each.day }}</h3>
     <ul>
@@ -45,7 +40,34 @@ layout: default
     </ul>
     {% endfor %}
 
-    <div>
+    {% include event_heading.html title="Presentations" icon="bi-easel" %}
+    {% for each in presenters %}
+    <div class="row row-cols-2 row-cols-md-2 g-4 mb-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="{{ each.image | img_url: 'presenters' }}" class="card-img-top" alt="{{ each.name }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ each.presentation_title }}</h5>
+            <p class="card-text">{{ each.presentation_description }}</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">{{ each.bio }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+    {% include event_heading.html title="Venue" icon="bi-building" %}
+    <p>{{ details.venue.description }}</p>
+    <p>The following suspension points will be set up:</p>
+    <ul>
+        {% for each in details.venue.points %}
+        <li>{{ each }}</li>
+        {% endfor %}
+    </ul>
+
+    <div class="mt-4">
         {{ content }}
     </div>
 </article>
