@@ -3,7 +3,29 @@ layout: default
 ---
 
 <article>
-    <h1>{{ page.title }}</h1>
+    <h1 class="h1">{{ page.title }}</h1>
+
+    <div class="pb-3">
+      <img src="{{ page.venue_image | img_url: "venues" }}" class="img-fluid img-thumbnail" alt="{{ page.event_location }}">
+    </div>
+
+    <h3 class="h3">Event Details</h3>
+
+    <ul class="list-group my-4">
+      <li class="list-group-item">
+        <i class="bi bi-calendar3 pe-2"></i>
+        <b>Dates:</b> {{ page.event_start | date: "%B %d" }} &mdash; {{ page.event_end | date: "%B %d, %Y" }}
+      </li>
+      <li class="list-group-item">
+        <i class="bi bi-pin-map-fill pe-2"></i>
+        <b>Location:</b> {{ page.event_location }}
+      </li>
+      <li class="list-group-item">
+        <i class="bi bi-ticket-perforated pe-2"></i>
+        <b>Registration Required:</b> <a href="{{ page.registration_link }}">Register Here</a>
+      </li>
+    </ul>
+
     <div>
         {{ content }}
     </div>
