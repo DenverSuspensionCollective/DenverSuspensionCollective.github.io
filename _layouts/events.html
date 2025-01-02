@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="container mt-4">
+  {{ content }}
+  
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    {% assign today_date = 'now' | date: '%Y-%m-%d' %}
+    {% for event in site.data.event_list.events %}
+      {% assign event_date = event.event_start | date: '%Y-%m-%d' %}
+      {% if event_date >= today_date %}
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">{{ event.event_name }}</h5>
+              <p class="card-text">
+                <i class="bi bi-geo-alt-fill"></i> {{ event.event_location }}
+              </p>
+              <p class="card-text">
+                <i class="bi bi-calendar-event"></i>
+                {% if event.event_start == event.event_end %}
+                  {{ event.event_start | date: "%B %d, %Y" }}
+                {% else %}
+                  {{ event.event_start | date: "%B %d" }} - {{ event.event_end | date: "%B %d, %Y" }}
+                {% endif %}
+              </p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div> 
