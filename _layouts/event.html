@@ -5,7 +5,7 @@ layout: default
 {% assign event_id = page.event_id %}
 {% assign event = site.data[event_id] %}
 {% assign details = event.details %}
-{% assign presenters = event.presenters %}
+{% assign presenters = event.presentations.presenters %}
 
 <article>
     <h1 class="display-5">{{ page.title }}</h1>
@@ -60,6 +60,27 @@ layout: default
             </div>
         </div>
         {% endfor %}
+        {% if event.presentations.include_tba_card %}
+        <div class="col">
+            <div class="card">
+                <div class="card-img-top bg-secondary-subtle">
+                    <h1 class="p-4 m-4 display-1 text-center"><i class="bi bi-person-fill"></i></h1>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">To Be Announced</h5>
+                    <p class="card-text lead">Guest Speaker</p>
+                    <p class="card-text">
+                        Speakers and their presentations will be announced as they are confirmed.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">
+                        If you are interested giving a presentation, please <a href="{% link contact.md %}">contact us</a>.
+                    </small>
+                </div>
+            </div>
+        </div>
+        {% endif %}
     </div>
 
     {% include event_heading.html title="Venue" icon="bi-building" %}
