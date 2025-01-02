@@ -1,8 +1,8 @@
 - title: home
   page: index.md
 
-- title: about
-  page: about.md
+- title: events
+  page: events.md
 
 - title: contact
   page: contact.md
