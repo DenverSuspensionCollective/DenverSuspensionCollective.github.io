@@ -4,11 +4,6 @@ layout: default
 
 # Denver Suspension Collective
 
-Coming soon!
+{% assign img_link = site.logo | img_url %}
 
-{% include image.html
-file="logo.png"
-alt="logo"
-caption=null
-source_link=null
-%}
+<img class="img-fluid img-thumbnail logo" src="{% link {{ img_link }} %}"/>

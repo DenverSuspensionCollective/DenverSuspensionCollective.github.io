@@ -1,1 +1,13 @@
 // custom sass here
+
+@include color-mode(light) {
+    .logo {
+        content: url("/img/logo.jpg")
+    }
+}
+
+@include color-mode(dark) {
+    .logo {
+        content: url("/img/logo-dark.jpg")
+    }
+}
