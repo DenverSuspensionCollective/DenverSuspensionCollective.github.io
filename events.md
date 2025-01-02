@@ -1,6 +1,6 @@
 ---
 layout: standalone
-title: About
+title: Events
 ---
 
 Coming soon.
