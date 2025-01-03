@@ -44,3 +44,7 @@ Please <a href="{% link contact.md %}">contact us</a> if you're interested in at
 
 {% endfor %}
 </div>
+
+<p class="text-secondary mt-4">
+For a list of global suspension events, please check out this <a href="https://calendar.google.com/calendar/embed?src=suspension.events%40gmail.com">calendar</a>.
+</p>

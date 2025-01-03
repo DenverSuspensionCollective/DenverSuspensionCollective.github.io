@@ -88,11 +88,6 @@ layout: default
                         Speakers and their presentations will be announced as they are confirmed.
                     </p>
                 </div>
-                <div class="card-footer">
-                    <small class="text-body-secondary">
-                        If you are interested giving a presentation, please <a href="{% link contact.md %}">contact us</a>.
-                    </small>
-                </div>
             </div>
         </div>
         {% endif %}
@@ -145,13 +140,12 @@ layout: default
     {% include event_heading.html title="Food & Drink" icon="bi-cup-hot-fill" %}
     <p>{{ details.food | markdownify }}</p>
 
-    {% include event_heading.html title="Equipment & Safety" icon="bi-bandaid-fill" %}
-    <h4 class="h4">Hooks</h4>
+    {% include event_heading.html title="Hooks" icon="bi-link" %}
     {% for each in details.hooks %}
         <p>{{ each | markdownify }}</p>
     {% endfor %}
 
-    <h4 class="h4">COVID Policy</h4>
+    {% include event_heading.html title="COVID Policy" icon="bi-virus" %}
     {% for each in details.covid %}
         <p>{{ each | markdownify }}</p>
     {% endfor %}
