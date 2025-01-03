@@ -43,11 +43,18 @@ layout: default
         {{ each.date | date: "%A" }}
         <small class="text-body-tertiary">{{ each.date | date: "%B %-d" }}</small>
     </h4>
-    <ul>
-    {% for item in each.items %}
-        <li>{{ item }}</li>
-    {% endfor %}
-    </ul>
+    <div class="table-responsive">
+    <table class="table table-sm table-striped table-bordered">
+        <tbody>
+            {% for item in each.items %}
+            <tr>
+                <td width="200px">{{ item.time }}</td>
+                <td>{{ item.details }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </div>
     {% endfor %}
 
     {% include event_heading.html title="Presentations" icon="bi-easel" %}
@@ -102,11 +109,7 @@ layout: default
 
     {% include event_heading.html title="Registration & Pricing" icon="bi-person-badge-fill" %}
     <p>{{ details.registration.description | markdownify }}</p>
-    <div class="alert alert-warning" role="alert">
-        <b><i class="bi bi-exclamation-triangle-fill"></i></b>
-        Registration closes on <span class="fw-medium">{{ details.registration.close_date | date: "%B %-d, %Y" }}</span>
-    </div>
-    <ul class="list-group list-group-flush">
+    <ul class="list-group list-group-flush mb-4">
         {% for each in details.registration.pricing_options %}
         <li class="list-group-item">
             <span class="fw-medium font-monospace pe-4">
@@ -122,9 +125,13 @@ layout: default
             {% endif %}
         </li>
         {% endfor %}
+        <li class="list-group-item bg-warning-subtle bg-gradient">
+            <b><i class="bi bi-exclamation-triangle-fill"></i></b>
+            <span class="fw-medium">Registration closes on {{ details.registration.close_date | date: "%B %-d, %Y" }}</span>
+        </li>
     </ul>
     <div class="d-grid gap-2 col-8 mx-auto my-2">
-        <a href="{{ details.registration.link }}" class="btn btn-primary">Register Now</a>
+        <a href="{{ details.registration.link }}" class="btn btn-primary btn-lg">Register Now</a>
     </div>
     <div class="alert alert-danger my-4" role="alert">
         <b>Note:</b> <i>This event is not open to the public.
