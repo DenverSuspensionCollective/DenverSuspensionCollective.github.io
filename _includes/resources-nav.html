@@ -1,0 +1,18 @@
+<nav class="bg-dark text-light p-3 h-100 border-end" style="position: sticky; top: 0;">
+    <div class="nav flex-column">
+        {% for section in site.data.resources_nav %}
+        <div class="nav-item mb-3">
+            <h6 class="mb-2">{{ section.section }}</h6>
+            {% for item in section.items %}
+            {% assign item_url = item.url %}
+            {% assign current_section = url_components[2] | default: '' %}
+            <a class="nav-link text-light ps-2 {% if page.url == item_url or current_section == item.url | split:'/' | last %}active fw-bolder{% endif %}" 
+               href="{{ item.url }}" 
+               title="{{ item.description }}">
+                {{ item.title }}
+            </a>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</nav>
