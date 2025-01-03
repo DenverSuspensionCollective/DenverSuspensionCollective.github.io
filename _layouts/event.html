@@ -1,0 +1,150 @@
+---
+layout: default
+---
+
+{% assign event_id = page.event_id %}
+{% assign event = site.data[event_id] %}
+{% assign details = event.details %}
+{% assign schedule = event.schedule %}
+{% assign presenters = event.presentations.presenters %}
+
+<article>
+    <h1 class="display-5">{{ page.title }}</h1>
+    <p class="lead">{{ details.intro }}</p>
+    <div>
+      <img src="{{ details.venue.image | img_url: 'venues' }}" class="img-fluid img-thumbnail" alt="{{ details.venue.location }}">
+    </div>
+
+    {% include event_heading.html title="Event Details" icon="bi-list-ul" %}
+    <p>{{ details.description | markdownify }}</p>
+    <ul class="list-group list-unstyled">
+      <li class="my-2">
+        <i class="bi bi-calendar3 pe-2"></i>
+        <b>Dates:</b> {{ details.event_start | date: "%B %-d" }} &mdash; {{ details.event_end | date: "%B %-d, %Y" }}
+      </li>
+      <li class="my-2">
+        <i class="bi bi-pin-map-fill pe-2"></i>
+        <b>Location:</b> <a href="{{ details.venue.link }}">{{ details.venue.location }}</a>
+        (<a href="{{ details.venue.map }}">map</a>)
+      </li>
+      <li class="my-2">
+        <i class="bi bi-ticket-perforated pe-2"></i>
+        <b>Registration Required:</b> <a href="{{ details.registration.link }}">Register Here</a>
+      </li>
+    </ul>
+
+    {% include event_heading.html title="Schedule" icon="bi-calendar3" %}
+    {% for each in schedule %}
+    <h4 class="h4">
+        {{ each.date | date: "%A" }}
+        <small class="text-body-tertiary">{{ each.date | date: "%B %-d" }}</small>
+    </h4>
+    <ul>
+    {% for item in each.items %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+    {% endfor %}
+
+    {% include event_heading.html title="Presentations" icon="bi-easel" %}
+    <p>There will be one class or presentation each morning of the event.</p>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        {% for each in presenters %}
+        <div class="col">
+            <div class="card">
+                <img src="{{ each.image | img_url: 'presenters' }}" class="card-img-top" alt="{{ each.name }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ each.presentation_title }}</h5>
+                    <p class="card-text lead">{{ each.name }}</p>
+                    <p class="card-text">{{ each.presentation_description }}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">{{ each.bio }}</small>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% if event.presentations.include_tba_card %}
+        <div class="col">
+            <div class="card">
+                <div class="card-img-top bg-secondary-subtle">
+                    <h1 class="p-4 m-4 display-1 text-center"><i class="bi bi-person-fill"></i></h1>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">To Be Announced</h5>
+                    <p class="card-text lead">Guest Speaker</p>
+                    <p class="card-text">
+                        Speakers and their presentations will be announced as they are confirmed.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">
+                        If you are interested giving a presentation, please <a href="{% link contact.md %}">contact us</a>.
+                    </small>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    {% include event_heading.html title="Venue" icon="bi-building-fill" %}
+    <p>{{ details.venue.description }}</p>
+    <p>The following suspension points will be set up:</p>
+    <ul>
+        {% for each in details.venue.points %}
+        <li>{{ each }}</li>
+        {% endfor %}
+    </ul>
+
+    {% include event_heading.html title="Registration & Pricing" icon="bi-person-badge-fill" %}
+    <div class="alert alert-warning" role="alert">
+        <b><i class="bi bi-exclamation-triangle-fill"></i></b>
+        Registration closes on <span class="fw-medium">{{ details.registration.close_date | date: "%B %-d, %Y" }}</span>
+    </div>
+    <ul class="list-group list-group-flush">
+        {% for each in details.registration.pricing_options %}
+        <li class="list-group-item">
+            <span class="fw-medium font-monospace pe-4">
+                ${{ each.cost }} USD
+            </span>
+            <span class="fst-italic">
+                {{ each.date_begin | date: "%b %-d" }} &mdash; {{ each.date_end | date: "%b %-d" }}
+            </span>
+            {% if details.registration.pricing_options.first == each %}
+            <span class="text-body-secondary ps-4">
+                <i class="bi bi-star-fill"></i> Introductory Rate
+            </span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="d-grid gap-2 col-8 mx-auto my-2">
+        <a href="{{ details.registration.link }}" class="btn btn-primary">Register Now</a>
+    </div>
+    <div class="alert alert-danger my-4" role="alert">
+        <b>Note:</b> <i>This event is not open to the public.
+        Full information and protocols will be provided upon registration.
+        All participants must complete a consent form.</i>
+    </div>
+
+    {% include event_heading.html title="Accommodation" icon="bi-house-fill" %}
+    <p>{{ details.accommodation | markdownify }}</p>
+
+    {% include event_heading.html title="Food & Drink" icon="bi-cup-hot-fill" %}
+    <p>{{ details.food | markdownify }}</p>
+
+    {% include event_heading.html title="Equipment & Safety" icon="bi-bandaid-fill" %}
+    <h4 class="h4">Hooks</h4>
+    {% for each in details.hooks %}
+        <p>{{ each | markdownify }}</p>
+    {% endfor %}
+
+    <h4 class="h4">COVID Policy</h4>
+    {% for each in details.covid %}
+        <p>{{ each | markdownify }}</p>
+    {% endfor %}
+
+    <div class="mt-4">
+        {{ content }}
+    </div>
+</article>
