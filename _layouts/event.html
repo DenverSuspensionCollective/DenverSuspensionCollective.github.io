@@ -5,16 +5,18 @@ layout: default
 {% assign event_id = page.event_id %}
 {% assign event = site.data[event_id] %}
 {% assign details = event.details %}
+{% assign schedule = event.schedule %}
 {% assign presenters = event.presentations.presenters %}
 
 <article>
     <h1 class="display-5">{{ page.title }}</h1>
-    <p class="lead">{{ details.intro_text }}</p>
+    <p class="lead">{{ details.intro }}</p>
     <div>
-      <img src="{{ details.venue_image | img_url: 'venues' }}" class="img-fluid img-thumbnail" alt="{{ details.event_location }}">
+      <img src="{{ details.venue.image | img_url: 'venues' }}" class="img-fluid img-thumbnail" alt="{{ details.venue.location }}">
     </div>
 
     {% include event_heading.html title="Event Details" icon="bi-list-ul" %}
+    <p>{{ details.description | markdownify }}</p>
     <ul class="list-group list-unstyled">
       <li class="my-2">
         <i class="bi bi-calendar3 pe-2"></i>
@@ -22,7 +24,8 @@ layout: default
       </li>
       <li class="my-2">
         <i class="bi bi-pin-map-fill pe-2"></i>
-        <b>Location:</b> {{ details.event_location }}
+        <b>Location:</b> <a href="{{ details.venue.link }}">{{ details.venue.location }}</a>
+        (<a href="{{ details.venue.map }}">map</a>)
       </li>
       <li class="my-2">
         <i class="bi bi-ticket-perforated pe-2"></i>
@@ -31,7 +34,7 @@ layout: default
     </ul>
 
     {% include event_heading.html title="Schedule" icon="bi-calendar3" %}
-    {% for each in details.schedule %}
+    {% for each in schedule %}
     <h4 class="h4">
         {{ each.date | date: "%A" }}
         <small class="text-body-tertiary">{{ each.date | date: "%B %-d" }}</small>
@@ -100,16 +103,14 @@ layout: default
     <ul class="list-group list-group-flush">
         {% for each in details.registration.pricing_options %}
         <li class="list-group-item">
-            <span class="fw-medium font-monospace">
+            <span class="fw-medium font-monospace pe-4">
                 ${{ each.cost }} USD
             </span>
-            &nbsp;&nbsp;
             <span class="fst-italic">
                 {{ each.date_begin | date: "%b %-d" }} &mdash; {{ each.date_end | date: "%b %-d" }}
             </span>
             {% if details.registration.pricing_options.first == each %}
-            &nbsp;&nbsp;
-            <span class="text-body-secondary">
+            <span class="text-body-secondary ps-4">
                 <i class="bi bi-star-fill"></i> Introductory Rate
             </span>
             {% endif %}
@@ -124,6 +125,12 @@ layout: default
         Full information and protocols will be provided upon registration.
         All participants must complete a consent form.</i>
     </div>
+
+    {% include event_heading.html title="Accommodation" icon="bi-house-fill" %}
+    <p>{{ details.accommodation | markdownify }}</p>
+
+    {% include event_heading.html title="Food & Drink" icon="bi-cup-hot-fill" %}
+    <p>{{ details.food | markdownify }}</p>
 
     <div class="mt-4">
         {{ content }}
