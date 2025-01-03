@@ -1,0 +1,12 @@
+- name: Suspension Sunday
+  start_date: 2025-02-09
+  location: Denver, CO
+
+- name: Suspension Sunday
+  start_date: 2025-03-09
+  location: Denver, CO
+
+- name: April Retreat
+  start_date: 2025-04-12
+  end_date: 2025-04-14
+  location: Denver, CO
