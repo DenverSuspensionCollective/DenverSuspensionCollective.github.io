@@ -119,7 +119,7 @@ layout: default
         {% endfor %}
     </ul>
     <div class="d-grid gap-2 col-8 mx-auto my-2">
-        <a href="{{ details.registration.link }}" class="btn btn-outline-primary">Register Now</a>
+        <a href="{{ details.registration.link }}" class="btn btn-primary">Register Now</a>
     </div>
     <div class="alert alert-danger my-4" role="alert">
         <b>Note:</b> <i>This event is not open to the public.
@@ -132,6 +132,17 @@ layout: default
 
     {% include event_heading.html title="Food & Drink" icon="bi-cup-hot-fill" %}
     <p>{{ details.food | markdownify }}</p>
+
+    {% include event_heading.html title="Equipment & Safety" icon="bi-bandaid-fill" %}
+    <h4 class="h4">Hooks</h4>
+    {% for each in details.hooks %}
+        <p>{{ each | markdownify }}</p>
+    {% endfor %}
+
+    <h4 class="h4">COVID Policy</h4>
+    {% for each in details.covid %}
+        <p>{{ each | markdownify }}</p>
+    {% endfor %}
 
     <div class="mt-4">
         {{ content }}
