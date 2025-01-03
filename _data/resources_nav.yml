@@ -1,0 +1,11 @@
+- section: general
+  items:
+    - title: FAQ
+      url: /resources/faq
+      description: Common questions about hook suspension
+
+- section: protocols
+  items: []
+
+- section: tools
+  items: []
