@@ -1,15 +1,26 @@
 - date: 2025-04-12
   items:
-  - "7:00 AM - 10:00 AM: Load-in/Setup (volunteers only)"
-  - "10:00 AM - 11:00 AM: Orientation"
-  - "11:30 AM - 1:00 PM: Class/Presentation"
-  - "1:00 PM - 9:00 PM: Suspensions"
+  - time: "7:00 AM - 10:00 AM"
+    details: Load-in/Setup
+  - time: "10:00 AM - 11:00 AM"
+    details: Orientation
+  - time: "11:30 AM — 1:00 PM"
+    details: Class/Presentation
+  - time: "1:00 PM - 9:00 PM"
+    details: Suspensions
+
 - date: 2025-04-13
   items:
-  - "10:00 AM - 11:30 AM: Class/Presentation"
-  - "11:30 AM - 9:00 PM: Suspensions"
+  - time: "10:00 AM - 11:30 AM"
+    details: Class/Presentation
+  - time: "11:30 AM - 9:00 PM"
+    details: Suspensions
+
 - date: 2025-04-14
   items:
-  - "10:00 AM - 11:30 AM: Class/Presentation"
-  - "11:30 AM - 7:00 PM: Suspensions"
-  - "7:00 PM - 10:00 PM: Load-out/Cleanup (volunteers only)"
+  - time: "10:00 AM - 11:30 AM"
+    details: Class/Presentation
+  - time: "11:30 AM - 7:00 PM"
+    details: Suspensions
+  - time: "7:00 PM - 10:00 PM"
+    details: Load-out/Cleanup (volunteers only)
