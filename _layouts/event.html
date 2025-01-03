@@ -16,7 +16,11 @@ layout: default
     </div>
 
     {% include event_heading.html title="Event Details" icon="bi-list-ul" %}
-    <p>{{ details.description | markdownify }}</p>
+
+    {% for each in details.description %}
+    <p>{{ each | markdownify}}</p>
+    {% endfor %}
+
     <ul class="list-group list-unstyled">
       <li class="my-2">
         <i class="bi bi-calendar3 pe-2"></i>
@@ -97,6 +101,7 @@ layout: default
     </ul>
 
     {% include event_heading.html title="Registration & Pricing" icon="bi-person-badge-fill" %}
+    <p>{{ details.registration.description | markdownify }}</p>
     <div class="alert alert-warning" role="alert">
         <b><i class="bi bi-exclamation-triangle-fill"></i></b>
         Registration closes on <span class="fw-medium">{{ details.registration.close_date | date: "%B %-d, %Y" }}</span>

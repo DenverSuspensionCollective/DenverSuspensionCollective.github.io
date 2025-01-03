@@ -8,15 +8,26 @@ registration:
       date_end: 2025-03-31
       cost: 300
   close_date: 2025-04-01
+  description: >
+    Registration includes a full retreat pass, event t-shirt, and two suspensions.
+    You will be emailed an invoice within one week of submitting the registration form.
+    Payment is due 7 days after receiving your invoice in order to reserve the spot in
+    your registration tier listed below. Once payment is received,
+    you will be added to the Facebook attendee group.
+    **Registration is non-refundable.**
 event_start: 2025-04-12
 event_end: 2025-04-14
 intro: >
   Join us for the inaugural Denver Suspension Collective Retreat, a registrant-only event focused on education and community.
   This drug and alcohol-free event will be hosted at Studio Friction in Denver's Lincoln Park neighborhood.
-description: >
-  This will be the first Denver Suspension Collective Retreat. Please note that this event is not open to the public
-  and for registrants only. _Full information and event protocols will be made available upon payment of your registration._
-  **This event is drug and alcohol free.**
+description:
+  - This will be the first Denver Suspension Collective Retreat. Please note that this event is not open to the public
+    and for registrants only. _Full information and event protocols will be made available upon payment of your registration._
+    **This event is drug and alcohol free.**
+  - Most suspensions will be accommodated at the retreat but if you think your suspension may require special attention,
+    involve multiple practitioners, or have additional risks for any reason,
+    please contact us to discuss what's possible.
+  - A consent form will be required by all attendees at the retreat.
 venue:
   location: Studio Friction, 740 Lipan St. Denver, CO 80204
   link: "https://studiofriction.com"
@@ -43,7 +54,7 @@ hooks:
     with the City and County of Denver Rules and Regulations for Body Art Establishments.
   - Some new hooks will be available for purchase at the event but in order to use them there,
     sterilization must be arranged beforehand. If you have any concerns about previously used
-    hooks or want to arrange to purchase hooks for your suspension at the event, please send us an email.
+    hooks or want to arrange to purchase hooks for your suspension at the event, please contact us.
   - If you bring your own hooks to use at the event,
     please ensure they are in sterile packages which have not been compromised.
 covid:
