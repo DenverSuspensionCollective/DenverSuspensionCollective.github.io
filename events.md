@@ -17,9 +17,15 @@ Please <a href="{% link contact.md %}">contact us</a> if you're interested in at
 
 {% if event_date >= today_date %}
 <div class="col">
-    <div class="card h-100">
+    <div class="card">
         <div class="card-body">
-            <h5 class="card-title">{{ event.name }}</h5>
+            <h5 class="card-title">
+                {% if event.page %}
+                <a href="{% link {{ event.page }} %}">{{ event.name }}</a>
+                {% else %}
+                {{ event.name }}
+                {% endif %}
+            </h5>
             <p class="card-text">
                 <i class="bi bi-geo-alt-fill"></i> {{ event.location }}
             </p>
