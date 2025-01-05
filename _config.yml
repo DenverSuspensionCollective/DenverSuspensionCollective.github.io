@@ -30,9 +30,9 @@ exclude:
 
 include:
   - .htaccess
-  # bootstrap js
-  - node_modules/bootstrap/dist/js/bootstrap.min.js
-  - node_modules/bootstrap/dist/js/bootstrap.min.js.map
+  # bootstrap js + popper
+  - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+  - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
   # bootstrap icons
   - node_modules/bootstrap-icons/font/bootstrap-icons.css
   - node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff
