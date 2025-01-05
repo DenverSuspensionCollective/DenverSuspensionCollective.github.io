@@ -9,6 +9,13 @@
 
 - title: resources
   page: resources/index.md
+  submenu:
+  - title: FAQ
+    page: resources/faq.md
+  - title: Protocols
+    page: resources/protocols.md
+  - title: Tools
+    page: resources/tools.md
 
 - title: contact
   page: contact.md

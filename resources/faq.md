@@ -1,7 +1,9 @@
 ---
-layout: resources
+layout: standalone
 title: Hook Suspension FAQ
 ---
+
+Common questions about hook suspension.
 
 ## Before Your Suspension
 

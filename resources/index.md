@@ -1,6 +1,16 @@
 ---
-layout: resources
+layout: standalone
 title: Resources
 ---
 
-Welcome to our resources section. Here you'll find comprehensive information about hook suspension, including our FAQ, protocols, and tools. Use the navigation menu on the left to browse through our documentation.
+{% for item in site.data.navigation %}
+{% if item.title == "resources" %}
+<ul>
+    {% for sub_item in item.submenu %}
+    <li>
+        <a href="{% link {{ sub_item.page }} %}">{{ sub_item.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
