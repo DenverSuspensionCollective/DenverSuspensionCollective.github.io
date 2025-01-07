@@ -1,4 +1,0 @@
----
-layout: standalone
-title: Protocols
----

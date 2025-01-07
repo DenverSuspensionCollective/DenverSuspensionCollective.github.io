@@ -22,10 +22,19 @@
                             {{ item.title }}
                         </a>
                             <ul class="dropdown-menu">
-                                {% for sub_item in item.submenu %}
                                 <li>
-                                    <a class="dropdown-item" href="{% link {{ sub_item.page }} %}">{{ sub_item.title }}</a>
+                                    <a class="dropdown-item" href="{% link {{ item.page }} %}">Main</a>
                                 </li>
+                                <li><hr class="dropdown-divider"></li>
+                                {% for section in item.submenu %}
+                                    <li>
+                                        <h6 class="dropdown-header"><i class="bi bi-list"></i> {{ section.heading }}</h6>
+                                    </li>
+                                    {% for sub_item in section.items %}
+                                    <li>
+                                        <a class="dropdown-item" href="{% link {{ sub_item.page }} %}">{{ sub_item.title }}</a>
+                                    </li>
+                                    {% endfor %}
                                 {% endfor %}
                             </ul>
                         </li>

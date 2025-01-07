@@ -8,14 +8,20 @@
   page: retreats/2025.md
 
 - title: resources
-  page: resources/index.md
+  page: resources/index.html
   submenu:
-  - title: FAQ
-    page: resources/faq.md
-  - title: Protocols
-    page: resources/protocols.md
-  - title: Tools
-    page: resources/tools.md
+    - heading: General
+      items:
+      - title: FAQ
+        page: resources/general/faq.md
+    - heading: Protocols
+      items:
+      - title: Protocols Example
+        page: resources/protocols/example.md
+    - heading: Tools
+      items:
+      - title: Tools Example
+        page: resources/tools/example.md
 
 - title: contact
   page: contact.md
