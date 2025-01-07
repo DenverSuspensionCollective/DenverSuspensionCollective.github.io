@@ -15,7 +15,7 @@ layout: default
       <img src="{{ details.venue.image | img_url: 'venues' }}" class="img-fluid img-thumbnail" alt="{{ details.venue.location }}">
     </div>
 
-    {% include event_heading.html title="Event Details" icon="bi-list-ul" %}
+    {% include heading_block.html title="Event Details" icon="bi-list-ul" %}
 
     {% for each in details.description %}
     <p>{{ each | markdownify}}</p>
@@ -37,7 +37,7 @@ layout: default
       </li>
     </ul>
 
-    {% include event_heading.html title="Schedule" icon="bi-calendar3" %}
+    {% include heading_block.html title="Schedule" icon="bi-calendar3" %}
     {% for each in schedule %}
     <h4 class="h4">
         {{ each.date | date: "%A" }}
@@ -57,7 +57,7 @@ layout: default
     </div>
     {% endfor %}
 
-    {% include event_heading.html title="Presentations" icon="bi-easel" %}
+    {% include heading_block.html title="Presentations" icon="bi-easel" %}
     <p>There will be one class or presentation each morning of the event.</p>
     <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
         {% for each in presenters %}
@@ -93,7 +93,7 @@ layout: default
         {% endif %}
     </div>
 
-    {% include event_heading.html title="Venue" icon="bi-building-fill" %}
+    {% include heading_block.html title="Venue" icon="bi-building-fill" %}
     <p>{{ details.venue.description }}</p>
     <p>The following suspension points will be set up:</p>
     <ul>
@@ -102,7 +102,7 @@ layout: default
         {% endfor %}
     </ul>
 
-    {% include event_heading.html title="Registration & Pricing" icon="bi-person-badge-fill" %}
+    {% include heading_block.html title="Registration & Pricing" icon="bi-person-badge-fill" %}
     <p>{{ details.registration.description | markdownify }}</p>
     <ul class="list-group list-group-flush mb-4">
         {% for each in details.registration.pricing_options %}
@@ -134,18 +134,18 @@ layout: default
         All participants must complete a consent form.</i>
     </div>
 
-    {% include event_heading.html title="Accommodation" icon="bi-house-fill" %}
+    {% include heading_block.html title="Accommodation" icon="bi-house-fill" %}
     <p>{{ details.accommodation | markdownify }}</p>
 
-    {% include event_heading.html title="Food & Drink" icon="bi-cup-hot-fill" %}
+    {% include heading_block.html title="Food & Drink" icon="bi-cup-hot-fill" %}
     <p>{{ details.food | markdownify }}</p>
 
-    {% include event_heading.html title="Hooks" icon="bi-link" %}
+    {% include heading_block.html title="Hooks" icon="bi-link" %}
     {% for each in details.hooks %}
         <p>{{ each | markdownify }}</p>
     {% endfor %}
 
-    {% include event_heading.html title="COVID Policy" icon="bi-virus" %}
+    {% include heading_block.html title="COVID Policy" icon="bi-virus" %}
     {% for each in details.covid %}
         <p>{{ each | markdownify }}</p>
     {% endfor %}
