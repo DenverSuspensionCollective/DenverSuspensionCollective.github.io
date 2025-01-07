@@ -3,11 +3,11 @@ layout: standalone
 title: Hook Suspension FAQ
 ---
 
-Common questions about hook suspension.
+*Common questions about hook suspension.*
 
-## Before Your Suspension
+{% include heading_block.html title="Before Your Suspension" %}
 
-### What should I do to prepare for my first suspension?
+#### What should I do to prepare for my first suspension?
 
 Before your suspension, it's important to:
 
@@ -21,7 +21,7 @@ Before your suspension, it's important to:
 
 * Medical Conditions: Inform your practitioner if you have conditions like epilepsy, bleeding disorders, or Ehlers-Danlos syndrome. These conditions could affect your safety and the approach to your suspension.
 
-### What will happen when I arrive for my suspension?
+#### What will happen when I arrive for my suspension?
 
 Upon arrival:
 
@@ -31,9 +31,9 @@ Upon arrival:
 
 * You'll lie on a massage bed for the piercings, which may be done in tandem to minimize discomfort.
 
-## During Your Suspension
+{% include heading_block.html title="During Your Suspension" %}
 
-### How does the suspension process work?
+#### How does the suspension process work?
 
 During the suspension:
 
@@ -43,21 +43,19 @@ During the suspension:
 
 * If you feel uncomfortable, communicate with your coach to adjust the pace.
 
-### Can I document my suspension experience?
+#### Can I document my suspension experience?
 
 * Photos: Allowed during both the piercing and suspension phases.
 
 * Videos: Permitted only during the suspension. No video recording is allowed during the piercing process.
 
-## After Your Suspension
+{% include heading_block.html title="After Your Suspension" %}
 
-### What aftercare should I follow?
-
-After your suspension:
+#### What aftercare should I follow?
 
 * Keep the bandages on for the remainder of the day; you may leave them on overnight if that is more convenient.
 
-* After removing bandages, wash the wounds gently with soap and water. Rebandaging is optional and only recommended if you have significant blood spotting.
+* After removing bandages, wash the wounds gently with soap and water. Re-bandaging is optional and only recommended if you have significant blood spotting.
 
 * Expect some blood spotting and sleep on a towel for the first couple of nights if you're concerned about staining sheets with blood.
 
@@ -67,13 +65,13 @@ After your suspension:
 
 * Contact us if you have any concerns about your wounds or general health post-suspension.
 
-### How soon can I resume physical activities?
+#### How soon can I resume physical activities?
 
 * Take it easy for the first 24-48 hours. Gentle activities like walking or yoga are advisable if you feel up to it.
 
 * Avoid strenuous exercises and public water bodies for one week to prevent infection and aid healing.
 
-### How do I know if my wounds are infected?
+#### How do I know if my wounds are infected?
 
 While we take many steps to minimize the risk of infection, mild infections can sometimes occur.
 
@@ -88,13 +86,13 @@ Signs of infection include:
 
 If you're concerned about possible signs of infection or symptoms worsen over several days, consult with your primary care physician or an urgent care facility about additional treatment.
 
-### What emotional reactions might I experience?
+#### What emotional reactions might I experience?
 
 * Some people report being physically or emotionally drained due to the intense experience. It may be helpful to take 24 hours off emotionally stressful activities to give you space to process.
 
 * If you need to talk, feel free to reach out at any time.
 
-## Additional Considerations
+{% include heading_block.html title="Additional Considerations" %}
 
 * Safety Protocols: We follow strict protocols to assess and reduce the risks associated with suspension. If you have any questions about our sterilization processes, gear inspection and standards, or anything else, we are happy to share that information.
 
