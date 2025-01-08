@@ -12,15 +12,43 @@
                 {% for item in site.data.navigation %}
                 {% capture url %}{% link {{ item.page }} %}{% endcapture %}
                 {% assign component = url | replace: '/', '' %}
-                <li class="nav-item mx-1">
-                    <a class="nav-link {% if page.url == url or url_components[1] == component %}active fw-bolder{% endif %}" href="{{ url }}">
-                        {{ item.title }}
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div> <!-- navbar -->
 
+                    {% if item.submenu %}
+                        <li class="nav-item mx-1 dropdown">
+                        <a class="nav-link dropdown-toggle {% if page.url == url or url_components[1] == component %}active fw-bolder{% endif %}"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            {{ item.title }}
+                        </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="{% link {{ item.page }} %}">Main</a>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                {% for section in item.submenu %}
+                                    <li>
+                                        <h6 class="dropdown-header"><i class="bi bi-list"></i> {{ section.heading }}</h6>
+                                    </li>
+                                    {% for sub_item in section.items %}
+                                    <li>
+                                        <a class="dropdown-item" href="{% link {{ sub_item.page }} %}">{{ sub_item.title }}</a>
+                                    </li>
+                                    {% endfor %}
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% else %}
+                    <li class="nav-item mx-1">
+                        <a class="nav-link {% if page.url == url or url_components[1] == component %}active fw-bolder{% endif %}" href="{{ url }}">
+                            {{ item.title }}
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+
+            </ul> <!-- menu -->
+        </div> <!-- navbar -->
     </div> <!-- container -->
 </nav>
 

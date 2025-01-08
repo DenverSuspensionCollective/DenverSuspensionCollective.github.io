@@ -7,5 +7,29 @@
 - title: 2025 retreat
   page: retreats/2025.md
 
+- title: resources
+  page: resources/index.html
+  submenu:
+    - heading: General
+      items:
+      - title: FAQ
+        page: resources/general/faq.md
+    #
+    # TODO: uncomment below to add more resources
+    # See: https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/issues/36
+    #
+    # - heading: Protocols
+    #   items:
+    #   - title: Protocols Page 1
+    #     page: resources/protocols/page1.md
+    #   - title: Protocols Page 2
+    #     page: resources/protocols/page2.md
+    # - heading: Tools
+    #   items:
+    #   - title: Tools Page 1
+    #     page: resources/tools/page1.md
+    #   - title: Tools Page 2
+    #     page: resources/tools/page2.md
+
 - title: contact
   page: contact.md
