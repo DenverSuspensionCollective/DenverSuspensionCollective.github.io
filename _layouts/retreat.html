@@ -39,6 +39,9 @@ layout: default
             {% else %}
             <a href="{{ details.registration.link }}" target="_blank">Register Here</a>
             {% endif %}
+            {% if details.registration.waitlist != null %}
+            (<a href="{{ details.registration.waitlist }}" target="_blank">Join the Waitlist</a>)
+            {% endif %}
       </li>
     </ul>
 
@@ -149,6 +152,15 @@ layout: default
         >
             {{ btn_text }}
         </a>
+        {% if details.registration.waitlist != null %}
+        <a href="{{ details.registration.waitlist }}"
+            class="btn btn-outline-primary btn-lg"
+            role="button"
+            target="_blank"
+        >
+            Join the Waitlist
+        </a>
+        {% endif %}
     </div>
 
     <div class="alert alert-danger my-4" role="alert">

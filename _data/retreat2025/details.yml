@@ -1,5 +1,6 @@
 registration:
   link: "https://forms.gle/4x4o13yndPnZAWxF8"
+  waitlist: null
   pricing_options:
     - date_begin: 2025-01-01
       date_end: 2025-01-31
