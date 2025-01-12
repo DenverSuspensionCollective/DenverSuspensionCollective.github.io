@@ -12,7 +12,7 @@ layout: default
     <h1 class="display-5">{{ page.title }}</h1>
     <p class="lead">{{ details.intro }}</p>
     <div>
-      <img src="{{ details.venue.image | img_url: 'venues' }}" class="img-fluid img-thumbnail" alt="{{ details.venue.location }}">
+      <img src="{{ details.banner | img_url: 'events' }}" class="img-fluid img-thumbnail" alt="{{ page.title }}">
     </div>
 
     {% include heading_block.html title="Event Details" icon="bi-list-ul" %}
@@ -101,6 +101,9 @@ layout: default
         <li>{{ each }}</li>
         {% endfor %}
     </ul>
+    <div>
+      <img src="{{ details.venue.image | img_url: 'venues' }}" class="img-fluid img-thumbnail" alt="{{ details.venue.location }}">
+    </div>
 
     {% include heading_block.html title="Registration & Pricing" icon="bi-person-badge-fill" %}
     <p>{{ details.registration.description | markdownify }}</p>
