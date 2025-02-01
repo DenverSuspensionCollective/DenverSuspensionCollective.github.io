@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Jekyll
-gem 'jekyll', '~> 4.0'
+gem 'jekyll', '~> 4.4'
 gem 'jekyll-sitemap'
 gem 'jekyll-email-protect'
 
