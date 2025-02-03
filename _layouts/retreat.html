@@ -56,8 +56,13 @@ layout: default
         <tbody>
             {% for item in each.items %}
             <tr>
-                <td width="200px">{{ item.time }}</td>
-                <td>{{ item.details }}</td>
+                <td width="200px">{{ item.time_begin | date: "%I:%M %p" }} &mdash; {{ item.time_end | date: "%I:%M %p" }}</td>
+                <td>
+                    {{ item.details }}
+                    {% if item.volunteers_only %}
+                    <i>(volunteers only)</i>
+                    {% endif %}
+                </td>
             </tr>
             {% endfor %}
         </tbody>
