@@ -7,6 +7,7 @@ layout: default
 {% assign details = event.details %}
 {% assign schedule = event.schedule %}
 {% assign presenters = event.presentations.presenters %}
+{% assign sponsors = event.sponsors %}
 
 <article>
     <h1 class="display-5">{{ page.title }}</h1>
@@ -44,6 +45,23 @@ layout: default
             {% endif %}
       </li>
     </ul>
+
+    {% include heading_block.html title="Sponsors" icon="bi-star" %}
+    <p>This event is proudly sponsored by the following individuals, organizations, and businesses.</p>
+    <div class="row row-cols-1 row-cols-md-2 g-4 mb-4 pb-3">
+        {% for each in sponsors %}
+        <div class="col">
+            <div class="card">
+                <img src="{{ each.image | img_url: 'sponsors' }}" class="card-img-top" alt="{{ each.name }}">
+                <div class="card-footer">
+                    <p class="card-text text-center text-un">
+                        <a href="{{ each.link }}" target="_blank">{{ each.name }}</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 
     {% include heading_block.html title="Schedule" icon="bi-calendar3" %}
     {% for each in schedule %}
