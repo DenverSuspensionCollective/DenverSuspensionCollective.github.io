@@ -1,4 +1,8 @@
+{% assign title = include.title %}
+{% assign icon = include.icon %}
 
-<h3 class="h3 border-bottom border-secondary-subtle bg-body-tertiary p-2 mt-4 mb-4">
-    {% if include.icon %}<i class="bi {{ include.icon }} pe-2"></i> {% endif %}{{ include.title }}
+<h3 id="{{ title | slugify }}" class="h3 border-bottom border-secondary-subtle bg-body-tertiary p-2 mt-4 mb-4">
+    <a href="#{{ title | slugify }}" class="text-reset text-decoration-none">
+        {% if icon %}<i class="bi {{ icon }} pe-2"></i> {% endif %}{{ title }}
+    </a>
 </h3>
