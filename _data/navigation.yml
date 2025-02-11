@@ -16,16 +16,16 @@
         page: resources/general/faq.md
       - title: Suture Care
         page: resources/general/sutures.md
+
+    - heading: Protocols
+      items:
+      - title: Hook Reprocessing
+        page: resources/protocols/hook-reprocessing.md
+
     #
     # TODO: uncomment below to add more resources
     # See: https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/issues/36
     #
-    # - heading: Protocols
-    #   items:
-    #   - title: Protocols Page 1
-    #     page: resources/protocols/page1.md
-    #   - title: Protocols Page 2
-    #     page: resources/protocols/page2.md
     # - heading: Tools
     #   items:
     #   - title: Tools Page 1
