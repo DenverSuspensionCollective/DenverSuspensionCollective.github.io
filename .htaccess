@@ -32,3 +32,9 @@ Header set Cache-Control "max-age=2628000, public"
 <filesMatch "\.(zip|tar|dmg|xml|json)$">
 Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate, public"
 </filesMatch>
+
+# ---------
+# redirects
+# ---------
+
+Redirect 301 /sutures/ /resources/general/sutures/
