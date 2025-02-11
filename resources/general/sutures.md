@@ -5,13 +5,13 @@ title: Suture Care
 
 *How to care for your sutures.*
 
-{% include heading_block.html title="What are sutures?" %}
+{% include heading_block.html title="What Are Sutures?" %}
 
 A suture is a stitch or a row of stitches holding together the edges of a wound.
 Sutures can sometimes be called stitches.
 It is important to care for your sutures to help the healing process.
 
-{% include heading_block.html title="Keep the wound dry" %}
+{% include heading_block.html title="Keep the Wound Dry" %}
 
 - It is important to keep your wound dry, especially for the first 24 hours.
 The wound needs time to heal and moisture will slow this down.
@@ -20,19 +20,19 @@ Pat the wound dry immediately after it gets wet.
 - Do not soak the wound or swim until the sutures have been removed.
 - If your sutures are also dressed with bandages, follow the care instructions given by your practitioner.
 
-{% include heading_block.html title="Keep the wound clean" %}
+{% include heading_block.html title="Keep the Wound Clean" %}
 
 - Keep your wound clean and dirt free.
 - Avoid any activities that may put strain on the area that has been sutured. This could lead to sutures coming apart.
 
-{% include heading_block.html title="The healing process" %}
+{% include heading_block.html title="The Healing Process" %}
 
 - Do not pick covering dressings.
 - Do not pick scabs. They will fall off once the wound is healed or when the sutures are removed.
 - A slight ooze may occur when the suturing is removed. This is normal.
 - It is normal for the scar to be red in color initially, but this will fade over the next few months.
 
-{% include heading_block.html title="Signs of infection" %}
+{% include heading_block.html title="Signs of Infection" %}
 
 A wound may become infected. Signs of infection are:
 
@@ -45,11 +45,11 @@ A wound may become infected. Signs of infection are:
 
 If you are concerned about possible signs of infection or have any other concerns visit your GP or Emergency Department.
 
-{% include heading_block.html title="Pain relief" %}
+{% include heading_block.html title="Pain Relief" %}
 
 If you have mild pain, consider taking paracetamol or ibuprofen and follow the manufacturer’s instructions.
 
-{% include heading_block.html title="Removal of sutures" %}
+{% include heading_block.html title="Removal of Sutures" %}
 
 - If sutures fall out before their removal date, see your doctor.
 - Your GP may be able to remove the sutures.
@@ -57,8 +57,8 @@ If you have mild pain, consider taking paracetamol or ibuprofen and follow the m
 <table class="table table-striped table-hover table-bordered mb-4">
     <thead>
         <tr>
-            <th scope="col">Wound location</th>
-            <th scope="col">Timing of removal</th>
+            <th scope="col">Wound Location</th>
+            <th scope="col">Timing of Removal</th>
         </tr>
     </thead>
     <tbody>
@@ -85,7 +85,7 @@ If you have mild pain, consider taking paracetamol or ibuprofen and follow the m
     </tbody>
 </table>
 
-#### Wound healing and scarring
+#### Wound Healing and Scarring
 
 Scars form as a normal part of healing whenever the skin is damaged.
 All cuts will heal with a scar, however, the scar will be less noticeable
@@ -96,9 +96,9 @@ Scars can take up to 2 years to fully mature.
 The final appearance of the scar depends on several factors including the extent of the original wound,
 inherited skin qualities and how well the scar was looked after.
 
-{% include heading_block.html title="Looking after your scar" %}
+{% include heading_block.html title="Looking After Your Scar" %}
 
-#### Scar massage
+#### Scar Massage
 
 After the sutures have been removed from a wound, or around 2 to 4 weeks after the injury,
 scar massage can be performed. This should be done for 5 to 10 minutes, twice a day.
@@ -113,16 +113,16 @@ Continue to massage daily until the scar is pale and thin.
 Moisturizing lotions such as Vitamin E cream, aloe vera, sorbolene or
 other non-fragranced products can be used to soften the scar and make massage easier.
 
-#### Sun protection
+#### Sun Protection
 
 It is very important to protect the scar from sun damage, which can permanently discolor the scar.
 You should always cover the scar with at least SPF 30 sunblock, wear clothing that covers the scar and stay in the shade.
 
-#### Daily activity
+#### Daily Activity
 
 It is important to avoid activities and areas that will get the wound dirty.
 
-#### Problem scars
+#### Problem Scars
 
 A scar is a problem if it is painful or itchy, hard or raised, restricts movement or remains purple or red.
 Risk factors for problem scars include certain skin types, previous problem scars,
