@@ -14,6 +14,8 @@
       items:
       - title: FAQ
         page: resources/general/faq.md
+      - title: Suture Care
+        page: resources/general/sutures.md
     #
     # TODO: uncomment below to add more resources
     # See: https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/issues/36
