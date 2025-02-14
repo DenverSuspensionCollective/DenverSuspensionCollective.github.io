@@ -1,0 +1,18 @@
+{% assign presenters = event.presentations.presenters %}
+
+{% include heading_block.html title="Presentations" icon="bi-easel" %}
+
+<p>There will be one class or presentation each morning hosted by one of our volunteer speakers.</p>
+
+<ul class="list-unstyled pt-3">
+    {% for each in presenters %}
+    <li class="list-group-item d-flex justify-content-between align-items-start mb-2">
+        <div>
+            <h5 class="h5">
+               {{ each.presentation_title }}
+            </h5>
+            <p class="fst-italic">{{ each.presentation_description }}</p>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
