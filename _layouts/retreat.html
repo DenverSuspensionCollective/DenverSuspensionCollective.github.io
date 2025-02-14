@@ -88,41 +88,7 @@ layout: default
     </div>
     {% endfor %}
 
-    {% include heading_block.html title="Presentations" icon="bi-easel" %}
-    <p>There will be one class or presentation each morning hosted by one of our volunteer speakers.</p>
-    <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
-        {% for each in presenters %}
-        <div class="col">
-            <div class="card">
-                <img src="{{ each.image | img_url: 'presenters' }}" class="card-img-top" alt="{{ each.name }}">
-                <div class="card-body">
-                    <h5 class="card-title">{{ each.presentation_title }}</h5>
-                    <p class="card-text lead">{{ each.name }}</p>
-                    <p class="card-text">{{ each.presentation_description }}</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-body-secondary">{{ each.bio }}</small>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-        {% if event.presentations.include_tba_card %}
-        <div class="col">
-            <div class="card">
-                <div class="card-img-top bg-secondary-subtle">
-                    <h1 class="p-4 m-4 display-1 text-center"><i class="bi bi-person-fill"></i></h1>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">To Be Announced</h5>
-                    <p class="card-text lead">Guest Speaker</p>
-                    <p class="card-text">
-                        Speakers and their presentations will be announced as they are confirmed.
-                    </p>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-    </div>
+    {% include event_speaker_cards.html event=event %}
 
     {% include heading_block.html title="Venue" icon="bi-building-fill" %}
     <p>{{ details.venue.description }}</p>
