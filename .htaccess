@@ -38,3 +38,6 @@ Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate, public
 # ---------
 
 Redirect 301 /sutures/ /resources/general/sutures/
+
+Redirect 301 /payments/ /pay/
+Redirect 301 /venmo/ /pay/
