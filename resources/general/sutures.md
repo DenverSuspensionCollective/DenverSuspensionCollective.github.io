@@ -85,6 +85,20 @@ If you have mild pain, consider taking paracetamol or ibuprofen and follow the m
     </tbody>
 </table>
 
+#### Removing Your Own Sutures
+
+1. Gather your suture removal pack.
+1. Perform hand hygiene.
+1. Apply alcohol based hand sanitizer to your hands.
+1. Don gloves.
+1. Open all the packages.
+1. Wipe the area with an alcohol wipe.
+1. Using the tweezers, pull gently up on each knot.
+1. Slip the scissors into the loop, and snip the stitch.
+1. Gently tug on the thread until the suture slips through your skin and out. You may feel slight pressure during this, but removing stitches is rarely painful. Don’t pull the knot through your skin. This could be painful and cause bleeding.
+1. Once all the stitches are removed, clean the wound area thoroughly with an alcohol wipe. If you have antibiotic ointment on hand, apply it to the area.
+1. Bandage the area.
+
 #### Wound Healing and Scarring
 
 Scars form as a normal part of healing whenever the skin is damaged.
