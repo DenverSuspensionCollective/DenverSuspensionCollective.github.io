@@ -30,7 +30,8 @@ description:
     please contact us to discuss what's possible.
   - A consent form will be required by all attendees at the retreat.
 venue:
-  location: Studio Friction, 740 Lipan St. Denver, CO 80204
+  name: Studio Friction
+  address: 740 Lipan St. Denver, CO 80204
   link: "https://studiofriction.com"
   map: "https://maps.app.goo.gl/N3nT48w2AW1tVMDz9"
   image: studio_friction.jpg
