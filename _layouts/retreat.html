@@ -29,7 +29,7 @@ layout: default
       </li>
       <li class="my-2">
         <i class="bi bi-pin-map-fill pe-2"></i>
-        <b>Location:</b> <a href="{{ details.venue.link }}">{{ details.venue.location }}</a>
+        <b>Location:</b> <a href="{{ details.venue.link }}">{{ details.venue.name }}</a>, {{ details.venue.address }}
         (<a href="{{ details.venue.map }}">map</a>)
       </li>
       <li class="my-2">
@@ -91,7 +91,9 @@ layout: default
     {% include event_speaker_list.html event=event %}
 
     {% include heading_block.html title="Venue" icon="bi-building-fill" %}
-    <p>{{ details.venue.description }}</p>
+    <p>{{ details.venue.description }} <a href="{{ details.venue.link }}">{{ details.venue.name }}</a>
+        is located at <a href="{{ details.venue.map }}">{{ details.venue.address }}</a>.
+    </p>
     <p>The following suspension points will be set up:</p>
     <ul>
         {% for each in details.venue.points %}
