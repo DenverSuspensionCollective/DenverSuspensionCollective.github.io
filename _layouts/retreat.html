@@ -55,7 +55,11 @@ layout: default
                 <img src="{{ each.image | img_url: 'sponsors' }}" class="card-img-top" alt="{{ each.name }}">
                 <div class="card-footer">
                     <p class="card-text text-center text-un">
+                    {% if each.link != null %}
                         <a href="{{ each.link }}" target="_blank">{{ each.name }}</a>
+                    {% else %}
+                        {{ each.name }}
+                    {% endif %}
                     </p>
                 </div>
             </div>
