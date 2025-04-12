@@ -19,8 +19,14 @@
 
     - heading: Protocols
       items:
+      - title: Code of Conduct
+        page: resources/protocols/code-of-conduct.md
       - title: Hook Reprocessing
         page: resources/protocols/hook-reprocessing.md
+      - title: Infection Control
+        page: resources/protocols/infection-control-protocol.md
+      - title: Rigging
+        page: resources/protocols/rigging-protocol.md
 
     #
     # TODO: uncomment below to add more resources
