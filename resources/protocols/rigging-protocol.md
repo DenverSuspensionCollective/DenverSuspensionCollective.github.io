@@ -180,9 +180,10 @@ Factors that should be considered when selecting cord:
 
 **Cord used by DSC:**
 
--   3.3mm DCRC Cord (UHMWPE) - MBS 500kg
--   3mm FX Dyneema Cord (UHMWPE) - MBS 1000kg
--   3.5mm Polyester Cord - MBS 350kg
+-   1/8" Amsteel Blue (UHMWPE) - MBS 2300lbs
+-   7/64" Amsteel Blue (UHMWPE) - MBS 1400lbs
+-   1/8" QNR Polyester Cord with Kevlar Core - MBS 825lbs
+-   1/8" Polyester Cord - MBS 400lbs
 
 [**CORD CALCULATOR**](https://docs.google.com/spreadsheets/d/1NG3_Zai3ntha1OdE_BdJEdPDxjSq9F92NWY50dqIRcU/edit?usp=sharing)
 
@@ -372,3 +373,4 @@ To be visually carried out before, during and after use. For specific inspection
 -   *Circus Safe New Zealand*
 -   *Physics for roping technicians 2020 - Richard Delaney*
 -   *Hall Rigging Academy*
+-   *Eden Thomson*
