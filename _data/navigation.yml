@@ -23,9 +23,9 @@
         page: resources/protocols/code-of-conduct.md
       - title: Hook Reprocessing
         page: resources/protocols/hook-reprocessing.md
-      - title: Infection Control Protocol
+      - title: Infection Control
         page: resources/protocols/infection-control-protocol.md
-      - title: Rigging Protocol
+      - title: Rigging
         page: resources/protocols/rigging-protocol.md
 
     #
