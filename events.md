@@ -9,9 +9,9 @@ Please <a href="{% link contact.md %}">contact us</a> if you're interested in at
 </p>
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-{% assign sorted_events = site.data.events | sort: 'start_date' %}
+{% assign sorted_meets = site.data.events.monthly_meets | sort: 'start_date' %}
 
-{% for event in sorted_events %}
+{% for event in sorted_meets %}
 <div class="col">
     <div class="card">
         <div class="card-body">
@@ -50,5 +50,22 @@ Please <a href="{% link contact.md %}">contact us</a> if you're interested in at
 
 <p class="text-secondary mt-4">
 For a list of global suspension events, please check out
-<a href="https://calendar.google.com/calendar/embed?src=suspension.events%40gmail.com">this calendar</a>.
+<a href="https://calendar.google.com/calendar/embed?src=suspension.events%40gmail.com" target="_blank">this calendar</a>.
 </p>
+
+<br/>
+
+<h3 class="h3">Past Events</h3>
+
+<p>
+    In addition to monthly meets, we occasionally host larger events.
+</p>
+
+{% assign past_events = site.data.events.past_events | sort: 'start_date' %}
+<ul>
+{% for event in past_events %}
+<li>
+    <a href="{% link {{ event.page }} %}">{{ event.name }}</a>
+</li>
+{% endfor %}
+</ul>
