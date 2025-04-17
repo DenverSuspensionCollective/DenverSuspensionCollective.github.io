@@ -21,9 +21,9 @@
       - title: Hook Reprocessing
         page: resources/protocols/hook-reprocessing.md
       - title: Infection Control
-        page: resources/protocols/infection-control-protocol.md
+        page: resources/protocols/infection-control.md
       - title: Rigging
-        page: resources/protocols/rigging-protocol.md
+        page: resources/protocols/rigging.md
 
     #
     # TODO: uncomment below to add more resources
