@@ -18,6 +18,8 @@
       items:
       - title: Code of Conduct
         page: resources/protocols/code-of-conduct.md
+      - title: Disinfection and Sterilization
+        page: resources/protocols/intro-to-disinfection-and-sterilization.md
       - title: Hook Reprocessing
         page: resources/protocols/hook-reprocessing.md
       - title: Infection Control
