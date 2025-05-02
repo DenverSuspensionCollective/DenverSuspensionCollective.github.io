@@ -73,33 +73,23 @@ Disinfection alone is insufficient because:
 3. Infectious doses of pathogens can be very small when introduced directly into blood or tissue
 4. Some bloodborne pathogens (like Hepatitis B virus) can survive on surfaces for extended periods and remain infectious
 
-The CDC's Spaulding Classification system, which is the standard for determining reprocessing requirements in healthcare settings, specifies that any instrument that penetrates the skin or mucous membranes and enters normally sterile areas of the body (such as blood vessels) must be sterilized. This same principle applies to suspension hooks.
+The [CDC's Spaulding Classification system](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html), which is the standard for determining reprocessing requirements in healthcare settings, specifies that any instrument that penetrates the skin or mucous membranes and enters normally sterile areas of the body (such as blood vessels) must be sterilized. This same principle applies to suspension hooks.
 
 {% include heading_block.html title="Disinfectants and Their Applications" %}
 
 **Common Types of EPA-Registered Disinfectants Used in Body Art Settings**
 
-1. **Accelerated Hydrogen Peroxide (AHP)**
-   - **Mechanism**: Free radical oxidation of cell components
-   - **Advantages**: Broad spectrum, environmentally friendly, rapid action
-   - **Disadvantages**: Can be corrosive to some metals at high concentrations
-   - **Uses**: Surface disinfection, instrument pre-cleaning
+| Disinfectant Type | Mechanism | Advantages | Disadvantages | [EPA Toxicity Category](https://www.scican.com/us/products/cleaners-disinfectants/optim-33-tb/) |
+|-------------------|-----------|------------|---------------|-----------------------|
+| **Accelerated Hydrogen Peroxide (AHP)** | Free radical oxidation of cell components | Broad spectrum, environmentally friendly, rapid action | Can be corrosive to some metals at high concentrations | Category 4 |
+| **Quaternary Ammonium Compounds (Quats)** | Disruption of cell membranes | Good cleaning properties, stable, non-corrosive | Limited effectiveness against certain pathogens | Category 2 and 3 |
+| **Phenolics** | Disruption of cell walls | Broad spectrum, residual activity | Potential toxicity, environmental concerns | Category 1 |
 
-1. **Quaternary Ammonium Compounds (Quats)**
-   - **Mechanism**: Disruption of cell membranes
-   - **Advantages**: Good cleaning properties, stable, non-corrosive
-   - **Disadvantages**: Limited effectiveness against certain pathogens
-   - **Uses**: Environmental surface cleaning
-
-1. **Phenolics**
-   - **Mechanism**: Disruption of cell walls
-   - **Advantages**: Broad spectrum, residual activity
-   - **Disadvantages**: Potential toxicity, environmental concerns
-   - **Uses**: Surface disinfection
+---
 
 **EPA's List S: Antimicrobial Products Effective Against Bloodborne Pathogens**
 
-The Environmental Protection Agency (EPA) maintains a list of registered antimicrobial products that are effective against bloodborne pathogens, specifically HIV, Hepatitis B, and Hepatitis C. This is known as "List S" and is particularly relevant for body art settings. The complete, up-to-date list can be found at [EPA's Registered Antimicrobial Products Effective Against Bloodborne Pathogens](https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-bloodborne)
+Disinfectant labeling such as “commercial grade” or “hospital grade” can be misleading and should not be relied upon when choosing a suitable product. The Environmental Protection Agency (EPA) maintains a list of registered antimicrobial products that are effective against bloodborne pathogens, specifically HIV, Hepatitis B, and Hepatitis C. This is known as "List S" and is particularly relevant for body art settings. The complete, up-to-date list can be found at [EPA's Registered Antimicrobial Products Effective Against Bloodborne Pathogens](https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-bloodborne)
 
 **Appropriate Selection and Use**
 
@@ -232,7 +222,7 @@ A steam autoclave uses saturated steam under pressure to achieve sterilization. 
 
 **Types of Steam Autoclaves**
 
-According to European standard EN 13060, autoclaves are classified into three categories based on their capabilities:
+The EN 13060 standard classifies autoclaves into three categories based on their capabilities:
 
 1. **Class N (Non-vacuum) Autoclaves**
    - Uses gravity displacement for air removal
