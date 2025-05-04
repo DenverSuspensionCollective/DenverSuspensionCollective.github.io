@@ -9,6 +9,8 @@
   submenu:
     - heading: General
       items:
+      - title: Code of Conduct
+        page: resources/general/code-of-conduct.md
       - title: FAQ
         page: resources/general/faq.md
       - title: Suture Care
@@ -16,8 +18,6 @@
 
     - heading: Protocols
       items:
-      - title: Code of Conduct
-        page: resources/protocols/code-of-conduct.md
       - title: Disinfection and Sterilization
         page: resources/protocols/intro-to-disinfection-and-sterilization.md
       - title: Hook Reprocessing
