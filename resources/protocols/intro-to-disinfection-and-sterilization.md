@@ -24,7 +24,7 @@ Proper hook reprocessing is critical to prevent transmission of bloodborne patho
 
 {% include heading_block.html title="Terminology and Basic Concepts" %}
 
-**Key Terms**
+#### Key Terms
 
 - **Cleaning**: Physical removal of organic matter and contaminants from instruments using detergent, water, and mechanical action.
 - **Disinfection**: The process of eliminating most pathogenic microorganisms (except bacterial spores) on inanimate objects.
@@ -33,15 +33,15 @@ Proper hook reprocessing is critical to prevent transmission of bloodborne patho
 - **Bioburden**: The number of contaminating organisms on a material.
 - **Biofilm**: An accumulation of microorganisms and their extracellular products on a surface.
 
-**Hierarchy of Infection Control**
+#### Hierarchy of Infection Control
 
-1. **Cleaning** - First and most essential step for all items
-2. **Disinfection** - Intermediate step in the reprocessing of critical items that will be sterilized (like hooks); may be the final step for non-critical items that don't penetrate skin
-3. **Sterilization** - Final and required step for all critical items that penetrate skin (such as hooks)
+1. **Cleaning**: First and most essential step for all items
+2. **Disinfection**: Intermediate step in the reprocessing of critical items that will be sterilized (like hooks); may be the final step for non-critical items that don't penetrate skin
+3. **Sterilization**: Final and required step for all critical items that penetrate skin (such as hooks)
 
 {% include heading_block.html title="Disinfection vs. Sterilization" %}
 
-**Disinfection**
+#### Disinfection
 
 - **Definition**: Process that eliminates many or all pathogenic microorganisms on inanimate objects, except bacterial spores.
 - **Applications**: Used for surfaces, non-critical items, and some semi-critical items.
@@ -51,7 +51,7 @@ Proper hook reprocessing is critical to prevent transmission of bloodborne patho
   - **High-level disinfection**: Kills all microorganisms except high numbers of bacterial spores
 - **Limitations**: Cannot ensure complete elimination of all microbial life, particularly resistant bacterial spores.
 
-**Sterilization**
+#### Sterilization
 
 - **Definition**: Process that destroys or eliminates all forms of microbial life, including bacterial spores.
 - **Applications**: Required for all critical items that enter sterile tissue or the vascular system.
@@ -175,7 +175,7 @@ Disinfection alone is insufficient because:
 
 Disinfectant labeling such as “commercial grade” or “hospital grade” can be misleading and should not be relied upon when choosing a suitable product. The Environmental Protection Agency (EPA) maintains a list of registered antimicrobial products that are effective against bloodborne pathogens, specifically HIV, Hepatitis B, and Hepatitis C. This is known as "List S" and is particularly relevant for body art settings. The complete, up-to-date list can be found at [EPA's Registered Antimicrobial Products Effective Against Bloodborne Pathogens](https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-bloodborne)
 
-**Appropriate Selection and Use**
+#### Appropriate Selection and Use
 
 When selecting a disinfectant, consider:
 - **Efficacy**: Level of antimicrobial activity required (products on EPA List S for bloodborne pathogens)
@@ -184,7 +184,7 @@ When selecting a disinfectant, consider:
 - **Ease of use**: Contact time, preparation required
 - **Environmental impact**: Disposal considerations
 
-**The Role of Disinfectants in Hook Processing**
+#### Role of Disinfectants in Hook Processing
 
 In hook reprocessing, disinfectants are primarily used for:
 1. **Pre-cleaning**: Removing gross contamination before thorough cleaning
@@ -195,7 +195,7 @@ In hook reprocessing, disinfectants are primarily used for:
 
 {% include heading_block.html title="Ultrasonic Cleaners and Enzymatic Solutions" %}
 
-**Ultrasonic Cleaner Function**
+#### Ultrasonic Cleaner Function
 
 Ultrasonic cleaners use high-frequency sound waves (typically 35-160 kHz) to create cavitation bubbles in a liquid cleaning solution. When these bubbles collapse, they:
 
@@ -203,7 +203,7 @@ Ultrasonic cleaners use high-frequency sound waves (typically 35-160 kHz) to cre
 2. Reach crevices and areas inaccessible to manual cleaning
 3. Dislodge contaminants from instrument surfaces
 
-**Components of an Ultrasonic Cleaner**
+#### Components of an Ultrasonic Cleaner
 
 1. **Tank**: Typically stainless steel, holds cleaning solution
 2. **Transducers**: Convert electrical energy to sound waves
@@ -212,7 +212,7 @@ Ultrasonic cleaners use high-frequency sound waves (typically 35-160 kHz) to cre
 5. **Timer**: Controls cleaning cycle duration
 6. **Cover**: Reduces noise and evaporation
 
-**Enzymatic Detergents**
+#### Enzymatic Detergents
 
 Enzymatic detergents contain specific enzymes that break down biological materials:
 
@@ -227,36 +227,36 @@ Benefits of enzymatic cleaners:
 - Environmentally friendlier than harsh chemicals
 - More effective than regular detergents for biological materials
 
-**Optimal Use of Ultrasonic Cleaners**
+#### Optimal Use of Ultrasonic Cleaners
 
 1. **Preparation**:
-   - Use fresh cleaning solution at the start of each day
-   - Mix according to manufacturer's instructions
-   - Degas solution before first use (run empty for 5 minutes)
-   - Maintain proper temperature - temperatures above 40°C (104°F) can cause the hardening of proteins
+  - Use fresh cleaning solution at the start of each day
+  - Mix according to manufacturer's instructions
+  - Degas solution before first use (run empty for 5 minutes)
+  - Maintain proper temperature - temperatures above 40°C (104°F) can cause the hardening of proteins
 
 2. **Pre-cleaning**:
-   - Rinse instruments to remove gross contamination
-   - Disassemble instruments if possible
-   - Keep sharps separate to prevent damage
+  - Rinse instruments to remove gross contamination
+  - Disassemble instruments if possible
+  - Keep sharps separate to prevent damage
 
 3. **Loading**:
-   - Do not overload the basket
-   - Ensure instruments are fully submerged
-   - Arrange to maximize surface exposure
-   - Use instrument cassettes or holders when available
+  - Do not overload the basket
+  - Ensure instruments are fully submerged
+  - Arrange to maximize surface exposure
+  - Use instrument cassettes or holders when available
 
 4. **Cycle Time**:
-   - Typically 5-10 minutes for properly pre-cleaned instruments
-   - Follow manufacturer recommendations
-   - Extended time may be needed for heavily soiled items
+  - Typically 5-10 minutes for properly pre-cleaned instruments
+  - Follow manufacturer recommendations
+  - Extended time may be needed for heavily soiled items
 
 5. **Post-ultrasonic Cleaning**:
-   - Rinse instruments thoroughly with clean water
-   - Visually inspect for cleanliness
-   - Dry before packaging for sterilization
+  - Rinse instruments thoroughly with clean water
+  - Visually inspect for cleanliness
+  - Dry before packaging for sterilization
 
-**What Ultrasonic Cleaning Does and Doesn't Do**
+#### What Ultrasonic Cleaning Does and Doesn't Do
 
 **Does**:
 - Removes debris from hard-to-reach areas
@@ -272,7 +272,7 @@ Benefits of enzymatic cleaners:
 - Remove all contaminants without proper solution and time
 - Work effectively with plastic or rubber items that absorb sound waves
 
-**Testing Ultrasonic Cleaner Efficiency**
+#### Testing Ultrasonic Cleaner Efficiency
 
 1. **Aluminum Foil Test**:
    - Place a sheet of aluminum foil in the cleaner
@@ -288,14 +288,14 @@ Benefits of enzymatic cleaners:
 
 {% include heading_block.html title="Steam Autoclaves: Function and Operation" %}
 
-**Basic Principles**
+#### Basic Principles
 
 A steam autoclave uses saturated steam under pressure to achieve sterilization. The three critical parameters for steam sterilization are:
 - **Temperature** (typically 121°C/250°F or 134°C/273°F)
 - **Pressure** (15-30 PSI)
 - **Time** (15-30 minutes depending on temperature and load)
 
-**How Steam Sterilization Works**
+#### How Steam Sterilization Works
 
 1. **Steam Generation**: Water is heated to create steam
 2. **Air Removal**: Air is evacuated from the chamber (air impedes heat transfer)
@@ -304,7 +304,7 @@ A steam autoclave uses saturated steam under pressure to achieve sterilization. 
 5. **Microbial Destruction**: Heat denatures proteins and destroys microorganisms
 6. **Drying**: Excess moisture is removed
 
-**Types of Steam Autoclaves**
+#### Types of Steam Autoclaves
 
 The EN 13060 standard classifies autoclaves into three categories based on their capabilities:
 
@@ -332,7 +332,7 @@ The EN 13060 standard classifies autoclaves into three categories based on their
    - Suitable for some hollow instruments depending on specifications
    - **Common examples**: SciCan STATIM 2000/5000 (cassette autoclaves), some Tuttnauer EZ models
 
-**Critical Parameters**
+#### Critical Parameters
 
 1. **Temperature**:
    - 121°C (250°F) for 30 minutes at 15 PSI, OR
@@ -348,7 +348,7 @@ The EN 13060 standard classifies autoclaves into three categories based on their
    - Measured in PSI (pounds per square inch) or kPa
    - Common pressure: 15-30 PSI
 
-**Autoclave Operation Procedure**
+#### Autoclave Operation Procedure
 
 1. **Pre-sterilization Checks**:
    - Check water reservoir level
@@ -378,7 +378,7 @@ The EN 13060 standard classifies autoclaves into three categories based on their
    - Verify packages are dry
    - Record results in sterilization log
 
-**Factors Affecting Steam Sterilization**
+#### Factors Affecting Steam Sterilization
 
 1. **Air Pockets**: Prevent steam contact with surfaces
 2. **Improper Packaging**: Can block steam penetration
@@ -478,61 +478,61 @@ Sterilization indicators monitor the sterilization process and help ensure that 
 
 {% include heading_block.html title="Biological (Spore) Testing" %}
 
-**What is Biological Monitoring?**
+#### What is Biological Monitoring?
 
 Biological monitoring uses bacterial spores to verify sterilization efficacy. These spores are chosen for their extreme resistance to the sterilization method being tested. For steam sterilization, Geobacillus stearothermophilus spores are used. Denver regulations require monthly testing using a commercial biological monitoring system.
 
-**Types of Biological Indicators (BIs)**
+#### Types of Biological Indicators (BIs)
 
 1. **Self-contained BIs**:
-   - Contain both the spores and growth medium in a single vial
-   - Medium is released after sterilization
-   - Results available after incubation (typically 24-48 hours)
-   - Easy to use with minimal risk of contamination
+  - Contain both the spores and growth medium in a single vial
+  - Medium is released after sterilization
+  - Results available after incubation (typically 24-48 hours)
+  - Easy to use with minimal risk of contamination
 
 1. **Spore Strips**:
-   - Paper strips impregnated with spores
-   - Must be transferred to growth medium after sterilization
-   - Requires more handling and has higher contamination risk
-   - Less expensive but more labor-intensive
+  - Paper strips impregnated with spores
+  - Must be transferred to growth medium after sterilization
+  - Requires more handling and has higher contamination risk
+  - Less expensive but more labor-intensive
 
 1. **Rapid Readout BIs**:
-   - Detect enzymes associated with spore metabolism
-   - Results available in 1-3 hours
-   - More expensive but allows faster release of loads
-   - Increasingly common in high-volume settings
+  - Detect enzymes associated with spore metabolism
+  - Results available in 1-3 hours
+  - More expensive but allows faster release of loads
+  - Increasingly common in high-volume settings
 
-**Proper Biological Testing Protocol**
+#### Proper Biological Testing Protocol
 
 1. **Frequency**:
-   - Monthly at minimum (per Denver regulations)
-   - After sterilizer repairs or malfunction
-   - After relocation of sterilizer
-   - For validation of new sterilization processes
+  - Monthly at minimum (per Denver regulations)
+  - After sterilizer repairs or malfunction
+  - After relocation of sterilizer
+  - For validation of new sterilization processes
 
 2. **Placement**:
-   - Inside a standard pack or PCD (Process Challenge Device)
-   - In the area most challenging for sterilization (typically center/bottom of the load)
-   - Use multiple indicators for large loads or initial validation
+  - Inside a standard pack or PCD (Process Challenge Device)
+  - In the area most challenging for sterilization (typically center/bottom of the load)
+  - Use multiple indicators for large loads or initial validation
 
 3. **Control Testing**:
-   - Always run a control BI from the same lot
-   - Do NOT sterilize the control
-   - Incubate alongside the test BI
-   - Control must show growth for valid test
+  - Always run a control BI from the same lot
+  - Do NOT sterilize the control
+  - Incubate alongside the test BI
+  - Control must show growth for valid test
 
 4. **Processing**:
-   - Label test and control BIs appropriately
-   - Process test BI through normal sterilization cycle
-   - Activate and incubate both test and control according to manufacturer instructions
-   - Maintain proper incubation temperature
+  - Label test and control BIs appropriately
+  - Process test BI through normal sterilization cycle
+  - Activate and incubate both test and control according to manufacturer instructions
+  - Maintain proper incubation temperature
 
 5. **Interpretation**:
-   - **Negative result** (no growth in test BI, growth in control): Sterilization successful
-   - **Positive result** (growth in test BI, growth in control): Sterilization failure
-   - **Invalid test** (no growth in control): Test must be repeated
+  - **Negative result** (no growth in test BI, growth in control): Sterilization successful
+  - **Positive result** (growth in test BI, growth in control): Sterilization failure
+  - **Invalid test** (no growth in control): Test must be repeated
 
-**Record-Keeping Requirements**
+#### Record-Keeping Requirements
 
 Per Denver regulations:
 - Maintain records of all biological tests for a minimum of two years
@@ -545,81 +545,81 @@ Per Denver regulations:
   - Corrective actions taken (if applicable)
   - Name of person performing the test
 
-**Responding to Failed Biological Tests**
+#### Responding to Failed Biological Tests
 
 1. **Immediate Actions**:
-   - Remove sterilizer from service
-   - Recall all items processed since last negative BI
-   - Re-sterilize recalled items in a different sterilizer
-   - Notify all affected personnel
+  - Remove sterilizer from service
+  - Recall all items processed since last negative BI
+  - Re-sterilize recalled items in a different sterilizer
+  - Notify all affected personnel
 
 2. **Troubleshooting**:
-   - Check sterilizer operating parameters
-   - Inspect door gaskets and seals
-   - Verify proper loading procedures
-   - Check steam quality
-   - Review maintenance records
+  - Check sterilizer operating parameters
+  - Inspect door gaskets and seals
+  - Verify proper loading procedures
+  - Check steam quality
+  - Review maintenance records
 
 3. **Repeat Testing**:
-   - Run three consecutive empty cycles with BIs
-   - All must test negative before returning to service
-   - Document all test results and corrective actions
+  - Run three consecutive empty cycles with BIs
+  - All must test negative before returning to service
+  - Document all test results and corrective actions
 
 4. **External Testing**:
-   - If problems persist, arrange for service technician
-   - Consider independent laboratory testing
-   - Follow manufacturer recommendations
+  - If problems persist, arrange for service technician
+  - Consider independent laboratory testing
+  - Follow manufacturer recommendations
 
 {% include heading_block.html title="Quality Control and Documentation" %}
 
-**Required Documentation**
+#### Required Documentation
 
 According to Denver regulations, maintain the following records for a minimum of two years:
 
 1. **Sterilization Logs**:
-   - Date and time of each load
-   - Contents of load
-   - Exposure time and temperature
-   - Pressure readings
-   - Operator identification
-   - Results of chemical indicators
-   - Corrective actions (if needed)
+  - Date and time of each load
+  - Contents of load
+  - Exposure time and temperature
+  - Pressure readings
+  - Operator identification
+  - Results of chemical indicators
+  - Corrective actions (if needed)
 
 2. **Biological Monitoring Records**:
-   - Test date
-   - Test results
-   - Control results
-   - Laboratory reports
-   - Corrective actions taken for failed tests
+  - Test date
+  - Test results
+  - Control results
+  - Laboratory reports
+  - Corrective actions taken for failed tests
 
 3. **Maintenance Records**:
-   - Service dates
-   - Repairs performed
-   - Validation testing after repairs
-   - Preventive maintenance schedule
+  - Service dates
+  - Repairs performed
+  - Validation testing after repairs
+  - Preventive maintenance schedule
 
-**Quality Assurance Program Elements**
+#### Quality Assurance Program Elements
 
 1. **Regular Equipment Testing**:
-   - Daily: Bowie-Dick test for pre-vacuum sterilizers
-   - Weekly: Ultrasonic cleaning effectiveness test
-   - Monthly: Biological indicator testing
+  - Daily: Bowie-Dick test for pre-vacuum sterilizers
+  - Weekly: Ultrasonic cleaning effectiveness test
+  - Monthly: Biological indicator testing
 
 2. **Staff Competency Assessment**:
-   - Initial training documentation
-   - Annual competency validation
-   - Continuing education
+  - Initial training documentation
+  - Annual competency validation
+  - Continuing education
 
 3. **Process Validation**:
-   - Periodic review of procedures
-   - Random audits of documentation
-   - Observation of technique
+  - Periodic review of procedures
+  - Random audits of documentation
+  - Observation of technique
 
 4. **Adverse Event Reporting**:
-   - Protocol for identifying adverse events
-   - Documentation of incidents
-   - Root cause analysis
-   - Corrective action implementation
+  - Protocol for identifying adverse events
+  - Documentation of incidents
+  - Root cause analysis
+  - Corrective action implementation
 
 {% include heading_block.html title="Resources and References" %}
 
