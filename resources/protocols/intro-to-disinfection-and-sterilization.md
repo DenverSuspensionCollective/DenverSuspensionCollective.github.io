@@ -45,10 +45,10 @@ Proper hook reprocessing is critical to prevent transmission of bloodborne patho
 
 - **Definition**: Process that eliminates many or all pathogenic microorganisms on inanimate objects, except bacterial spores.
 - **Applications**: Used for surfaces, non-critical items, and some semi-critical items.
-- **Levels**:
-  - **Low-level disinfection**: Kills most vegetative bacteria, some fungi, and some viruses (enveloped viruses). Example: Quaternary ammonium compounds.
-  - **Intermediate-level disinfection**: Kills vegetative bacteria, most fungi, most viruses, and some bacterial spores. Example: 70% isopropyl alcohol, some phenolics.
-  - **High-level disinfection**: Kills all microorganisms except high numbers of bacterial spores. Example: 2% glutaraldehyde, 7.5% hydrogen peroxide.
+- [**Levels**](https://www.cdc.gov/infection-control/media/pdfs/Strive-EC101-508.pdf):
+  - **Low-level disinfection**: Kills most vegetative bacteria, some fungi, and some viruses (enveloped viruses)
+  - **Intermediate-level disinfection**: Kills vegetative bacteria, most fungi, most viruses, and some bacterial spores
+  - **High-level disinfection**: Kills all microorganisms except high numbers of bacterial spores
 - **Limitations**: Cannot ensure complete elimination of all microbial life, particularly resistant bacterial spores.
 
 **Sterilization**
@@ -57,14 +57,61 @@ Proper hook reprocessing is critical to prevent transmission of bloodborne patho
 - **Applications**: Required for all critical items that enter sterile tissue or the vascular system.
 - **Methods**:
   - **Steam under pressure (autoclaving)** - Most common and preferred method for metal instruments
+  - **Ethylene oxide (EtO) gas** - For heat-sensitive materials; common for pre-packaged sterile supplies like piercing needles and skin markers
   - **Dry heat** - For materials damaged by steam
-  - **Ethylene oxide (EtO) gas** - For heat-sensitive materials
   - **Hydrogen peroxide plasma** - For heat-sensitive materials
   - **Chemical sterilants** - Extended exposure to high-level disinfectants
 
+**Spaulding Classifications**
+
+The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html) is the standard for determining appropriate reprocessing requirements in healthcare settings. This system categorizes medical devices based on their intended use and associated risk of infection transmission.
+
+<div class="table-responsive">
+<table class="sterilization-table">
+  <thead>
+    <tr>
+      <th>Classification</th>
+      <th>Definition</th>
+      <th>Examples</th>
+      <th>Minimum Required Processing</th>
+      <th>Rationale</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Classification">
+        <span class="type-name">Critical Items</span>
+      </td>
+      <td data-label="Definition">Items that enter sterile tissue or the vascular system</td>
+      <td data-label="Examples">Surgical instruments, implants, needles, hooks, catheters</td>
+      <td data-label="Minimum Required Processing">Sterilization</td>
+      <td data-label="Rationale">These items present a high risk of infection if contaminated with microorganisms, especially bacterial spores</td>
+    </tr>
+    <tr>
+      <td data-label="Classification">
+        <span class="type-name">Semi-critical Items</span>
+      </td>
+      <td data-label="Definition">Items that contact mucous membranes or non-intact skin</td>
+      <td data-label="Examples">Respiratory therapy equipment, endoscopes, laryngoscope blades</td>
+      <td data-label="Minimum Required Processing">High-level disinfection (minimally)<br>Sterilization (preferably)</td>
+      <td data-label="Rationale">These items contact mucous membranes which generally offer some barrier to infection</td>
+    </tr>
+    <tr>
+      <td data-label="Classification">
+        <span class="type-name">Non-critical Items</span>
+      </td>
+      <td data-label="Definition">Items that contact intact skin but not mucous membranes</td>
+      <td data-label="Examples">Blood pressure cuffs, stethoscopes, furniture, countertops</td>
+      <td data-label="Minimum Required Processing">Low to intermediate-level disinfection</td>
+      <td data-label="Rationale">Intact skin acts as an effective barrier to most microorganisms</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+---
 **Why Hooks Must Be Sterilized, Not Just Disinfected**
 
-Hooks are considered "critical items" because they penetrate the skin and contact the bloodstream. In medical practice, the CDC categorizes items that penetrate skin and contact blood as "critical items" requiring sterilization. This is consistent with medical practices for procedures involving needles, surgical instruments, and implants.
+Any instrument that penetrates the skin or mucous membranes and contacts blood is a "critical item" that must be sterilized. This same principle applies to suspension hooks.
 
 Disinfection alone is insufficient because:
 
@@ -73,17 +120,54 @@ Disinfection alone is insufficient because:
 3. Infectious doses of pathogens can be very small when introduced directly into blood or tissue
 4. Some bloodborne pathogens (like Hepatitis B virus) can survive on surfaces for extended periods and remain infectious
 
-The [CDC's Spaulding Classification system](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html), which is the standard for determining reprocessing requirements in healthcare settings, specifies that any instrument that penetrates the skin or mucous membranes and enters normally sterile areas of the body (such as blood vessels) must be sterilized. This same principle applies to suspension hooks.
+> **Note:** The DSC treats all components of the hook as critical items even if those component do not penetrate the skin (e.g. the bolt on a Gilson hook). All shackles used to connect hooks to cord are decontaminated according to the same protocol as the hooks but may be treated as non-critical items after sterilization. 
 
 {% include heading_block.html title="Disinfectants and Their Applications" %}
 
 **Common Types of EPA-Registered Disinfectants Used in Body Art Settings**
 
-| Disinfectant Type | Mechanism | Advantages | Disadvantages | [EPA Toxicity Category](https://www.scican.com/us/products/cleaners-disinfectants/optim-33-tb/) |
-|-------------------|-----------|------------|---------------|-----------------------|
-| **Accelerated Hydrogen Peroxide (AHP)** | Free radical oxidation of cell components | Broad spectrum, environmentally friendly, rapid action | Can be corrosive to some metals at high concentrations | Category 4 |
-| **Quaternary Ammonium Compounds (Quats)** | Disruption of cell membranes | Good cleaning properties, stable, non-corrosive | Limited effectiveness against certain pathogens | Category 2 and 3 |
-| **Phenolics** | Disruption of cell walls | Broad spectrum, residual activity | Potential toxicity, environmental concerns | Category 1 |
+<div class="table-responsive">
+<table class="sterilization-table">
+  <thead>
+    <tr>
+      <th>Disinfectant Type</th>
+      <th>Mechanism</th>
+      <th>Advantages</th>
+      <th>Disadvantages</th>
+      <th><a href="https://www.scican.com/us/products/cleaners-disinfectants/optim-33-tb/">EPA Toxicity Category</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Disinfectant Type">
+        <span class="type-name">Accelerated Hydrogen Peroxide (AHP)</span>
+      </td>
+      <td data-label="Mechanism">Free radical oxidation of cell components</td>
+      <td data-label="Advantages">Broad spectrum, environmentally friendly, rapid action</td>
+      <td data-label="Disadvantages">Can be corrosive to some metals at high concentrations</td>
+      <td data-label="EPA Toxicity Category">Category 4</td>
+    </tr>
+    <tr>
+      <td data-label="Disinfectant Type">
+        <span class="type-name">Quaternary Ammonium Compounds (Quats)</span>
+      </td>
+      <td data-label="Mechanism">Disruption of cell membranes</td>
+      <td data-label="Advantages">Good cleaning properties, stable, non-corrosive</td>
+      <td data-label="Disadvantages">Limited effectiveness against certain pathogens</td>
+      <td data-label="EPA Toxicity Category">Category 2 and 3</td>
+    </tr>
+    <tr>
+      <td data-label="Disinfectant Type">
+        <span class="type-name">Phenolics</span>
+      </td>
+      <td data-label="Mechanism">Disruption of cell walls</td>
+      <td data-label="Advantages">Broad spectrum, residual activity</td>
+      <td data-label="Disadvantages">Potential toxicity, environmental concerns</td>
+      <td data-label="EPA Toxicity Category">Category 1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ---
 
@@ -107,13 +191,13 @@ In hook reprocessing, disinfectants are primarily used for:
 2. **Surface decontamination**: Cleaning work surfaces and non-critical items
 3. **Environmental cleaning**: Maintaining general cleanliness of the area
 
-**Note**: Disinfection is never a substitute for sterilization of hooks and instruments that penetrate skin.
+>**Warning**: Disinfection is never a substitute for sterilization of hooks and instruments that penetrate skin.
 
 {% include heading_block.html title="Ultrasonic Cleaners and Enzymatic Solutions" %}
 
 **Ultrasonic Cleaner Function**
 
-Ultrasonic cleaners use high-frequency sound waves (typically 20-400 kHz) to create cavitation bubbles in a liquid cleaning solution. When these bubbles collapse, they:
+Ultrasonic cleaners use high-frequency sound waves (typically 35-160 kHz) to create cavitation bubbles in a liquid cleaning solution. When these bubbles collapse, they:
 
 1. Create microscopic "scrubbing" action
 2. Reach crevices and areas inaccessible to manual cleaning
@@ -304,64 +388,93 @@ The EN 13060 standard classifies autoclaves into three categories based on their
 6. **Chamber Temperature**: Must reach and maintain sterilization temperature
 7. **Altitude**: Requires adjustment of time/pressure parameters
 
-{% include heading_block.html title="Types of Sterilization Indicators/Integrators" %}
+{% include heading_block.html title="Chemical Sterilization Indicators/Integrators" %}
 
-Sterilization indicators monitor the sterilization process and help ensure that sterilization conditions have been met. According to the ISO 11140-1:2014, they are classified into different types:
+Sterilization indicators monitor the sterilization process and help ensure that sterilization conditions have been met. Chemical indicators provide immediate visual confirmation that sterilization parameters were exposed to specific conditions, while biological indicators verify actual sterilization effectiveness by demonstrating the killing of highly resistant bacterial spores. The [ISO 11140-1:2014](https://cdn.standards.iteh.ai/samples/55080/ddab3c99b4914fbabda467f4bdcda3eb/ISO-11140-1-2014.pdf), which is the standard for chemical indicators in health care products, classifies them into different types:
 
 > **Note:** While "type" is used in current standards to categorize sterilization indicators, they were previously referred to as "classes" before ISO committees changed the terminology in 2014. You may find both terms used interchangeably in some current and older packaging and documentation.
 
-**Type 1: Process Indicators**
+<div class="table-responsive">
+<table class="sterilization-table">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Function</th>
+      <th>Example</th>
+      <th>Use</th>
+      <th>Limitations/Advantages</th>
+      <th>When to Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Type">
+        <span class="type-name">Type 1: Process Indicators</span>
+        <span class="alt-name">External indicators</span>
+      </td>
+      <td data-label="Function">Change color when exposed to one or more sterilization parameters</td>
+      <td data-label="Example">Autoclave tape</td>
+      <td data-label="Use">Applied to the outside of packages to distinguish processed from unprocessed items</td>
+      <td data-label="Limitations/Advantages">Only indicates that the package was exposed to a sterilization process, not that sterilization was achieved</td>
+      <td data-label="When to Use">On every package as a visual cue for processing status</td>
+    </tr>
+    <tr>
+      <td data-label="Type">
+        <span class="type-name">Type 2: Specific Test Indicators</span>
+      </td>
+      <td data-label="Function">Designed for specific testing procedures</td>
+      <td data-label="Example">Bowie-Dick test for steam sterilizers</td>
+      <td data-label="Use">Tests for air removal and steam penetration in pre-vacuum sterilizers</td>
+      <td data-label="Limitations/Advantages">Specific to testing equipment function rather than monitoring routine loads</td>
+      <td data-label="When to Use">Daily before first processed load</td>
+    </tr>
+    <tr>
+      <td data-label="Type">
+        <span class="type-name">Type 3: Single-Parameter Indicators</span>
+      </td>
+      <td data-label="Function">Reacts to one critical parameter of sterilization</td>
+      <td data-label="Example">Temperature-sensitive indicators</td>
+      <td data-label="Use">Internal monitoring of a specific critical parameter</td>
+      <td data-label="Limitations/Advantages">Does not confirm that all sterilization parameters were met</td>
+      <td data-label="When to Use">When monitoring a specific parameter is sufficient for the item being sterilized</td>
+    </tr>
+    <tr>
+      <td data-label="Type">
+        <span class="type-name">Type 4: Multi-Parameter Indicators</span>
+      </td>
+      <td data-label="Function">Reacts to two or more critical parameters</td>
+      <td data-label="Example">Indicators that respond to both time and temperature</td>
+      <td data-label="Use">Internal monitoring within each package</td>
+      <td data-label="Limitations/Advantages">More reliable than Type 1 or 3 indicators</td>
+      <td data-label="When to Use">For routine internal package monitoring where higher reliability is desired</td>
+    </tr>
+    <tr>
+      <td data-label="Type">
+        <span class="type-name">Type 5: Integrating Indicators</span>
+      </td>
+      <td data-label="Function">Reacts to all critical parameters of sterilization</td>
+      <td data-label="Example">Integrating indicators that respond to time, temperature, and presence of steam</td>
+      <td data-label="Use">Placed inside packages near the center or area most difficult to sterilize</td>
+      <td data-label="Limitations/Advantages">Performance comparable to biological indicators in some cases</td>
+      <td data-label="When to Use">In every sterilization load according to Denver regulations</td>
+    </tr>
+    <tr>
+      <td data-label="Type">
+        <span class="type-name">Type 6: Emulating Indicators</span>
+      </td>
+      <td data-label="Function">Reacts to all critical parameters with very precise tolerances</td>
+      <td data-label="Example">Cycle-specific indicators designed for specific time/temperature criteria</td>
+      <td data-label="Use">When extra precision is needed</td>
+      <td data-label="Limitations/Advantages">Most precise chemical indicator available</td>
+      <td data-label="When to Use">For critical loads where precise parameter verification is essential</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-- Also called "external indicators"
-- **Function**: Change color when exposed to one or more sterilization parameters
-- **Example**: Autoclave tape
-- **Use**: Applied to the outside of packages to distinguish processed from unprocessed items
-- **Limitations**: Only indicates that the package was exposed to a sterilization process, not that sterilization was achieved
-
-**Type 2: Specific Test Indicators**
-
-- **Function**: Designed for specific testing procedures
-- **Example**: Bowie-Dick test for steam sterilizers
-- **Use**: Tests for air removal and steam penetration in pre-vacuum sterilizers
-- **When to use**: Daily before first processed load
-
-**Type 3: Single-Parameter Indicators**
-
-- **Function**: Reacts to one critical parameter of sterilization
-- **Example**: Temperature-sensitive indicators
-- **Limitations**: Does not confirm that all sterilization parameters were met
-
-**Type 4: Multi-Parameter Indicators**
-
-- **Function**: Reacts to two or more critical parameters
-- **Example**: Indicators that respond to both time and temperature
-- **Use**: Internal monitoring within each package
-- **Advantages**: More reliable than Type 1 or 3 indicators
-
-**Type 5: Integrating Indicators**
-
-- **Function**: Reacts to all critical parameters of sterilization
-- **Example**: Integrating indicators that respond to time, temperature, and presence of steam
-- **Use**: Placed inside packages near the center or area most difficult to sterilize
-- **Advantages**: Performance comparable to biological indicators in some cases
-- **Required use**: In every sterilization load according to Denver regulations
-
-**Type 6: Emulating Indicators**
-
-- **Function**: Reacts to all critical parameters with very precise tolerances
-- **Example**: Cycle-specific indicators designed for specific time/temperature criteria
-- **Use**: When extra precision is needed
-- **Advantages**: Most precise chemical indicator available
+---
 
 > **Important:** Sterilization indicators that are integrated into packages for routine monitoring are almost always Types 1, 3, and 4. According to best practices, at least one Type 5 or 6 integrator should be used per sterilization cycle in addition to these package indicators. Type 5 and 6 integrators provide a higher level of assurance and their performance requirements are designed to correlate with biological indicator results.
-
-**Biological Indicators (Spore Tests)**
-
-- **Function**: Contains resistant bacterial spores that are killed only when all sterilization parameters are met
-- **Example**: Geobacillus stearothermophilus for steam sterilization
-- **Use**: The most reliable method for confirming sterilization
-- **Frequency**: At minimum monthly, or as specified by local regulations
-- **Process**: After exposure to sterilization cycle, the indicator is incubated to determine if spores were killed
 
 {% include heading_block.html title="Biological (Spore) Testing" %}
 
@@ -508,40 +621,10 @@ According to Denver regulations, maintain the following records for a minimum of
    - Root cause analysis
    - Corrective action implementation
 
-{% include heading_block.html title="Troubleshooting and Problem Resolution" %}
-
-**Common Sterilization Issues**
-
-1. **Wet Packages**:
-   - **Causes**: Overloaded autoclave, inadequate drying time, improper packaging
-   - **Solution**: Reduce load size, increase drying time, check steam quality
-
-2. **Failed Chemical Indicators**:
-   - **Causes**: Insufficient time/temperature, air pockets, overloading
-   - **Solution**: Check sterilizer parameters, improve loading techniques
-
-3. **Failed Biological Tests**:
-   - **Causes**: Equipment malfunction, improper loading, inadequate cleaning
-   - **Solution**: Follow recall protocol, service equipment, review procedures
-
-4. **Damaged Instruments**:
-   - **Causes**: Improper cleaning, inadequate lubrication, improper packaging
-   - **Solution**: Review cleaning procedures, ensure proper maintenance
-
-**Ultrasonic Cleaner Problems**
-
-1. **Poor Cleaning Results**:
-   - **Causes**: Overloaded basket, insufficient solution, depleted enzymatic activity
-   - **Solution**: Reduce load size, change solution, verify proper concentration
-
-2. **Unusual Noise**:
-   - **Causes**: Damaged transducer, improper water level, direct contact with tank
-   - **Solution**: Have equipment serviced, maintain proper water level
-
 {% include heading_block.html title="Resources and References" %}
 
-- Centers for Disease Control and Prevention (CDC) Guidelines for Disinfection and Sterilization in Healthcare Facilities
-- Association for the Advancement of Medical Instrumentation (AAMI) Standards
+- [Centers for Disease Control and Prevention (CDC) Guidelines for Disinfection and Sterilization in Healthcare Facilities](https://www.cdc.gov/infection-control/hcp/disinfection-and-sterilization/index.html)
+- [Centers for Disease Control and Prevention (CDC) Guidelines for Environmental Infection Control in Health-Care Facilities](https://www.cdc.gov/infection-control/hcp/environmental-control/index.html)
 - [City and County of Denver Rules and Regulations for Body Artist, Body Art Establishments](https://www.denvergov.org/content/dam/denvergov/Portals/771/documents/BEH/Body%20Art%20Regulations%20New%20Format%202008.pdf)
 - Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens Standard
 - [QPR Group: Chemical Indicators: What to Use, When to Use Them, and What's the Difference between Them All?](https://www.qprgllc.com/2023/03/22/chemical-indicators-what-to-use-when-to-use-it-and-whats-the-difference-between-them-all/)
