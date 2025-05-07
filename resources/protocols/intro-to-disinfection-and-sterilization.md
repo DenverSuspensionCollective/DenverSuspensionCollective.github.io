@@ -62,12 +62,12 @@ Proper hook reprocessing is critical to prevent transmission of bloodborne patho
   - **Hydrogen peroxide plasma** - For heat-sensitive materials
   - **Chemical sterilants** - Extended exposure to high-level disinfectants
 
-**Spaulding Classifications**
+#### Spaulding Classifications
 
 The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html) is the standard for determining appropriate reprocessing requirements in healthcare settings. This system categorizes medical devices based on their intended use and associated risk of infection transmission.
 
 <div class="table-responsive">
-<table class="sterilization-table">
+<table class="table table-sm table-striped table-bordered">
   <thead>
     <tr>
       <th>Classification</th>
@@ -109,7 +109,8 @@ The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-contro
 </table>
 </div>
 ---
-**Why Hooks Must Be Sterilized, Not Just Disinfected**
+
+#### Why Hooks Must Be Sterilized, Not Just Disinfected
 
 Any instrument that penetrates the skin or mucous membranes and contacts blood is a "critical item" that must be sterilized. This same principle applies to suspension hooks.
 
@@ -120,14 +121,14 @@ Disinfection alone is insufficient because:
 3. Infectious doses of pathogens can be very small when introduced directly into blood or tissue
 4. Some bloodborne pathogens (like Hepatitis B virus) can survive on surfaces for extended periods and remain infectious
 
-> **Note:** The DSC treats all components of the hook as critical items even if those component do not penetrate the skin (e.g. the bolt on a Gilson hook). All shackles used to connect hooks to cord are decontaminated according to the same protocol as the hooks but may be treated as non-critical items after sterilization. 
+{% include note.html content="The DSC treats all components of the hook as critical items even if those component do not penetrate the skin (e.g. the bolt on a Gilson hook). All shackles used to connect hooks to cord are decontaminated according to the same protocol as the hooks but may be treated as non-critical items after sterilization." %}
 
 {% include heading_block.html title="Disinfectants and Their Applications" %}
 
-**Common Types of EPA-Registered Disinfectants Used in Body Art Settings**
+#### Common Types of EPA-Registered Disinfectants Used in Body Art Settings
 
 <div class="table-responsive">
-<table class="sterilization-table">
+<table class="table table-sm table-striped table-bordered">
   <thead>
     <tr>
       <th>Disinfectant Type</th>
@@ -171,7 +172,7 @@ Disinfection alone is insufficient because:
 
 ---
 
-**EPA's List S: Antimicrobial Products Effective Against Bloodborne Pathogens**
+#### EPA's List S: Antimicrobial Products Effective Against Bloodborne Pathogens
 
 Disinfectant labeling such as “commercial grade” or “hospital grade” can be misleading and should not be relied upon when choosing a suitable product. The Environmental Protection Agency (EPA) maintains a list of registered antimicrobial products that are effective against bloodborne pathogens, specifically HIV, Hepatitis B, and Hepatitis C. This is known as "List S" and is particularly relevant for body art settings. The complete, up-to-date list can be found at [EPA's Registered Antimicrobial Products Effective Against Bloodborne Pathogens](https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-bloodborne)
 
@@ -191,7 +192,7 @@ In hook reprocessing, disinfectants are primarily used for:
 2. **Surface decontamination**: Cleaning work surfaces and non-critical items
 3. **Environmental cleaning**: Maintaining general cleanliness of the area
 
->**Warning**: Disinfection is never a substitute for sterilization of hooks and instruments that penetrate skin.
+{% include warning.html content="Disinfection is never a substitute for sterilization of hooks and instruments that penetrate skin." %}
 
 {% include heading_block.html title="Ultrasonic Cleaners and Enzymatic Solutions" %}
 
@@ -392,10 +393,10 @@ The EN 13060 standard classifies autoclaves into three categories based on their
 
 Sterilization indicators monitor the sterilization process and help ensure that sterilization conditions have been met. Chemical indicators provide immediate visual confirmation that sterilization parameters were exposed to specific conditions, while biological indicators verify actual sterilization effectiveness by demonstrating the killing of highly resistant bacterial spores. The [ISO 11140-1:2014](https://cdn.standards.iteh.ai/samples/55080/ddab3c99b4914fbabda467f4bdcda3eb/ISO-11140-1-2014.pdf), which is the standard for chemical indicators in health care products, classifies them into different types:
 
-> **Note:** While "type" is used in current standards to categorize sterilization indicators, they were previously referred to as "classes" before ISO committees changed the terminology in 2014. You may find both terms used interchangeably in some current and older packaging and documentation.
+{% include note.html content="While \"type\" is used in current standards to categorize sterilization indicators, they were previously referred to as \"classes\" before ISO committees changed the terminology in 2014. You may find both terms used interchangeably in some current and older packaging and documentation." %}
 
 <div class="table-responsive">
-<table class="sterilization-table">
+<table class="table table-sm table-striped table-bordered">
   <thead>
     <tr>
       <th>Type</th>
@@ -472,9 +473,7 @@ Sterilization indicators monitor the sterilization process and help ensure that 
 </table>
 </div>
 
----
-
-> **Important:** Sterilization indicators that are integrated into packages for routine monitoring are almost always Types 1, 3, and 4. According to best practices, at least one Type 5 or 6 integrator should be used per sterilization cycle in addition to these package indicators. Type 5 and 6 integrators provide a higher level of assurance and their performance requirements are designed to correlate with biological indicator results.
+{% include note.html content="Sterilization indicators that are integrated into packages for routine monitoring are almost always Types 1, 3, and 4. At least one Type 5 or 6 integrator should be used per sterilization cycle in addition to these package indicators. Type 5 and 6 integrators provide a higher level of assurance and their performance requirements are designed to correlate with biological indicator results." %}
 
 {% include heading_block.html title="Biological (Spore) Testing" %}
 
@@ -626,7 +625,6 @@ According to Denver regulations, maintain the following records for a minimum of
 - [Centers for Disease Control and Prevention (CDC) Guidelines for Disinfection and Sterilization in Healthcare Facilities](https://www.cdc.gov/infection-control/hcp/disinfection-and-sterilization/index.html)
 - [Centers for Disease Control and Prevention (CDC) Guidelines for Environmental Infection Control in Health-Care Facilities](https://www.cdc.gov/infection-control/hcp/environmental-control/index.html)
 - [City and County of Denver Rules and Regulations for Body Artist, Body Art Establishments](https://www.denvergov.org/content/dam/denvergov/Portals/771/documents/BEH/Body%20Art%20Regulations%20New%20Format%202008.pdf)
-- Occupational Safety and Health Administration (OSHA) Bloodborne Pathogens Standard
 - [QPR Group: Chemical Indicators: What to Use, When to Use Them, and What's the Difference between Them All?](https://www.qprgllc.com/2023/03/22/chemical-indicators-what-to-use-when-to-use-it-and-whats-the-difference-between-them-all/)
 - [ISO 11140-1:2014 Sterilization of health care products — Chemical indicators](https://cdn.standards.iteh.ai/samples/55080/ddab3c99b4914fbabda467f4bdcda3eb/ISO-11140-1-2014.pdf)
 - [Colorado Department of Public Health and Environment - Body Art Establishments](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=421&fileName=6%20CCR%201010-22)
