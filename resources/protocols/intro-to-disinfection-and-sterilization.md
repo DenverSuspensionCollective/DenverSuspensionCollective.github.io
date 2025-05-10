@@ -15,7 +15,6 @@ title: Introduction to Disinfection and Sterilization for Hook Reprocessing
 * [Types of Sterilization Indicators/Integrators](#types-of-sterilization-indicatorsintegrators)
 * [Biological (Spore) Testing](#biological-spore-testing)
 * [Quality Control and Documentation](#quality-control-and-documentation)
-* [Troubleshooting and Problem Resolution](#troubleshooting-and-problem-resolution)
 * [Resources and References](#resources-and-references)
 
 {% include heading_block.html title="Introduction" %}
