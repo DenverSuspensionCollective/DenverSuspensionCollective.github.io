@@ -11,39 +11,3 @@
         content: url("/img/logo-dark.jpg")
     }
 }
-
-// Admonition styles
-.admonition {
-  border-left: 4px solid;
-  padding: 1rem;
-  margin: 1.5rem 0;
-  background: #f8f9fa;
-
-  &.note {
-    border-color: $info;
-    background: rgba($info, .1);
-  }
-
-  &.warning {
-    border-color: $warning;
-    background: rgba($warning, .1);
-  }
-
-  .admonition-title {
-    font-weight: bold;
-    margin-bottom: .5rem;
-    display: flex;
-    align-items: center;
-
-    .admonition-icon {
-      margin-right: .5rem;
-    }
-  }
-}
-
-// Comparison Grid for Does/Doesn't sections
-.comparison-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-}
