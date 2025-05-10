@@ -1,0 +1,25 @@
+headers:
+  - Classification
+  - Definition
+  - Examples
+  - Minimum Required Processing
+  - Rationale
+rows:
+  - cols:
+    - "Critical Items"
+    - "Items that enter sterile tissue or the vascular system"
+    - "Surgical instruments, implants, needles, hooks, catheters"
+    - "Sterilization"
+    - "These items present a high risk of infection if contaminated with microorganisms, especially bacterial spores"
+  - cols:
+    - "Semi-critical Items"
+    - "Items that contact mucous membranes or non-intact skin"
+    - "Respiratory therapy equipment, endoscopes, laryngoscope blades"
+    - "High-level disinfection (minimally)<br>Sterilization (preferably)"
+    - "These items contact mucous membranes which generally offer some barrier to infection"
+  - cols:
+    - "Non-critical Items"
+    - "Items that contact intact skin but not mucous membranes"
+    - "Blood pressure cuffs, stethoscopes, furniture, countertops"
+    - "Low to intermediate-level disinfection"
+    - "Intact skin acts as an effective barrier to most microorganisms"

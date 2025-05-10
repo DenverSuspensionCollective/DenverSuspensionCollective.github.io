@@ -1,0 +1,21 @@
+
+<div class="table-responsive">
+<table class="table table-striped table-bordered align-middle">
+    <thead class="align-middle">
+        <tr>
+            {% for header in include.table.headers %}
+            <th>{{ header | markdownify }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in include.table.rows %}
+        <tr>
+            {% for col in row.cols %}
+            <td>{{ col | markdownify }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div>
