@@ -67,48 +67,7 @@ Proper hook reprocessing is critical to prevent transmission of bloodborne patho
 
 The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html) is the standard for determining appropriate reprocessing requirements in healthcare settings. This system categorizes medical devices based on their intended use and associated risk of infection transmission.
 
-<div class="table-responsive">
-<table class="table table-striped table-bordered align-middle">
-  <thead class="align-middle">
-    <tr>
-      <th>Classification</th>
-      <th>Definition</th>
-      <th>Examples</th>
-      <th>Minimum Required Processing</th>
-      <th>Rationale</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td data-label="Classification">
-        Critical Items
-      </td>
-      <td data-label="Definition">Items that enter sterile tissue or the vascular system</td>
-      <td data-label="Examples">Surgical instruments, implants, needles, hooks, catheters</td>
-      <td data-label="Minimum Required Processing">Sterilization</td>
-      <td data-label="Rationale">These items present a high risk of infection if contaminated with microorganisms, especially bacterial spores</td>
-    </tr>
-    <tr>
-      <td data-label="Classification">
-        Semi-critical Items
-      </td>
-      <td data-label="Definition">Items that contact mucous membranes or non-intact skin</td>
-      <td data-label="Examples">Respiratory therapy equipment, endoscopes, laryngoscope blades</td>
-      <td data-label="Minimum Required Processing">High-level disinfection (minimally)<br>Sterilization (preferably)</td>
-      <td data-label="Rationale">These items contact mucous membranes which generally offer some barrier to infection</td>
-    </tr>
-    <tr>
-      <td data-label="Classification">
-        Non-critical Items
-      </td>
-      <td data-label="Definition">Items that contact intact skin but not mucous membranes</td>
-      <td data-label="Examples">Blood pressure cuffs, stethoscopes, furniture, countertops</td>
-      <td data-label="Minimum Required Processing">Low to intermediate-level disinfection</td>
-      <td data-label="Rationale">Intact skin acts as an effective barrier to most microorganisms</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+{% include resource_table.html table=site.data.resources.spaulding_classifications %}
 
 #### Why Hooks Must Be Sterilized, Not Just Disinfected
 
