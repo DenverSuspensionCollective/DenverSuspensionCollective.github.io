@@ -1,7 +1,8 @@
-<div class="admonition note">
-  <p class="admonition-title">
-    <i class="bi bi-info-circle-fill admonition-icon"></i>
-    {{ include.title | default: "Note" }}
-  </p>
-  {{ include.content | markdownify }}
+<div class="alert alert-info" role="alert">
+    <h6 class="alert-heading">
+        <i class="bi bi-info-circle-fill"></i> {{ include.title | default: "Note" }}
+    </h6>
+    <p>
+        {{ include.content | markdownify }}
+    </p>
 </div>

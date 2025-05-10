@@ -68,8 +68,8 @@ Proper hook reprocessing is critical to prevent transmission of bloodborne patho
 The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html) is the standard for determining appropriate reprocessing requirements in healthcare settings. This system categorizes medical devices based on their intended use and associated risk of infection transmission.
 
 <div class="table-responsive">
-<table class="table table-sm table-striped table-bordered">
-  <thead>
+<table class="table table-striped table-bordered align-middle">
+  <thead class="align-middle">
     <tr>
       <th>Classification</th>
       <th>Definition</th>
@@ -81,7 +81,7 @@ The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-contro
   <tbody>
     <tr>
       <td data-label="Classification">
-        <span class="type-name">Critical Items</span>
+        Critical Items
       </td>
       <td data-label="Definition">Items that enter sterile tissue or the vascular system</td>
       <td data-label="Examples">Surgical instruments, implants, needles, hooks, catheters</td>
@@ -90,7 +90,7 @@ The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-contro
     </tr>
     <tr>
       <td data-label="Classification">
-        <span class="type-name">Semi-critical Items</span>
+        Semi-critical Items
       </td>
       <td data-label="Definition">Items that contact mucous membranes or non-intact skin</td>
       <td data-label="Examples">Respiratory therapy equipment, endoscopes, laryngoscope blades</td>
@@ -99,7 +99,7 @@ The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-contro
     </tr>
     <tr>
       <td data-label="Classification">
-        <span class="type-name">Non-critical Items</span>
+        Non-critical Items
       </td>
       <td data-label="Definition">Items that contact intact skin but not mucous membranes</td>
       <td data-label="Examples">Blood pressure cuffs, stethoscopes, furniture, countertops</td>
@@ -128,8 +128,8 @@ Disinfection alone is insufficient because:
 #### Common Types of EPA-Registered Disinfectants Used in Body Art Settings
 
 <div class="table-responsive">
-<table class="table table-sm table-striped table-bordered">
-  <thead>
+<table class="table table-striped table-bordered align-middle">
+  <thead class="align-middle">
     <tr>
       <th>Disinfectant Type</th>
       <th>Mechanism</th>
@@ -141,7 +141,7 @@ Disinfection alone is insufficient because:
   <tbody>
     <tr>
       <td data-label="Disinfectant Type">
-        <span class="type-name">Accelerated Hydrogen Peroxide (AHP)</span>
+        Accelerated Hydrogen Peroxide (AHP)
       </td>
       <td data-label="Mechanism">Free radical oxidation of cell components</td>
       <td data-label="Advantages">Broad spectrum, environmentally friendly, rapid action</td>
@@ -150,7 +150,7 @@ Disinfection alone is insufficient because:
     </tr>
     <tr>
       <td data-label="Disinfectant Type">
-        <span class="type-name">Quaternary Ammonium Compounds (Quats)</span>
+        Quaternary Ammonium Compounds (Quats)
       </td>
       <td data-label="Mechanism">Disruption of cell membranes</td>
       <td data-label="Advantages">Good cleaning properties, stable, non-corrosive</td>
@@ -159,7 +159,7 @@ Disinfection alone is insufficient because:
     </tr>
     <tr>
       <td data-label="Disinfectant Type">
-        <span class="type-name">Phenolics</span>
+        Phenolics
       </td>
       <td data-label="Mechanism">Disruption of cell walls</td>
       <td data-label="Advantages">Broad spectrum, residual activity</td>
@@ -235,7 +235,7 @@ While formal standards exist (AAMI TIR30, ISO 17664), most enzymatic detergents 
 1. **Intended Use Statement**: Must explicitly state it's for removing blood and other biological materials from medical/surgical instruments
 2. **Material Compatibility**: Technical documentation should state it's compatible with the materials you use (e.g. stainless steel, titanium)
 3. **Equipment Compatibility**: Ensure compatibility with ultrasonic cleaners (low-foaming properties)
-4. **Enzyme Formulation**: Multi-enzymatic formula 
+4. **Enzyme Formulation**: Multi-enzymatic formula
 5. **Manufacturer Reputation**: Established company with healthcare focus and technical specification availability
 
 Common enzymatic detergents used in body art settings include Alconox Tergazyme, Metrex EmPower, and UPS all-in-ONE.
@@ -273,26 +273,36 @@ Common enzymatic detergents used in body art settings include Alconox Tergazyme,
 
 #### What Ultrasonic Cleaning Does and Doesn’t Do
 
-<div class="comparison-grid">
-  <div>
-    <h5>✅ Does</h5>
-    <ul>
-      <li>Removes debris from hard-to-reach areas</li>
-      <li>Enhances manual cleaning efficacy</li>
-      <li>Standardizes the cleaning process</li>
-      <li>Reduces handling of contaminated instruments</li>
-      <li>Improves efficiency of the cleaning process</li>
-    </ul>
-  </div>
-  <div>
-    <h5>❌ Doesn’t</h5>
-    <ul>
-      <li>Sterilize instruments</li>
-      <li>Disinfect instruments</li>
-      <li>Replace manual pre-cleaning for heavily soiled items</li>
-      <li>Remove all contaminants without proper solution and time</li>
-    </ul>
-  </div>
+<div class="table-responsive">
+  <table class="table table-borderless align-middle">
+    <thead class="align-middle">
+      <tr>
+        <th class="text-success"><i class="bi bi-check-circle-fill"></i> Does</th>
+        <th class="text-danger"><i class="bi bi-x-circle-fill"></i> Does Not</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Removes debris from hard-to-reach areas</td>
+        <td>Sterilize instruments</td>
+      </tr>
+      <tr>
+      <td>Enhances manual cleaning efficacy</td>
+      <td>Disinfect instruments</td>
+      </tr>
+      <tr>
+        <td>Standardizes the cleaning process</td>
+        <td>Replace manual pre-cleaning for heavily soiled items</td>
+      </tr>
+      <tr>
+        <td>Reduces handling of contaminated instruments</td>
+        <td>Remove all contaminants without proper solution and time</td>
+      </tr>
+      <tr>
+        <td>Improves efficiency of the cleaning process</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 #### Testing Ultrasonic Cleaner Efficiency
@@ -421,8 +431,8 @@ Sterilization indicators monitor the sterilization process and help ensure that 
 {% include note.html content="While \"type\" is used in current standards to categorize sterilization indicators, they were previously referred to as \"classes\" before ISO committees changed the terminology in 2014. You may find both terms used interchangeably in some current and older packaging and documentation." %}
 
 <div class="table-responsive">
-<table class="table table-sm table-striped table-bordered">
-  <thead>
+<table class="table table-striped table-bordered align-middle">
+  <thead class="align-middle">
     <tr>
       <th>Type</th>
       <th>Function</th>
@@ -435,8 +445,7 @@ Sterilization indicators monitor the sterilization process and help ensure that 
   <tbody>
     <tr>
       <td data-label="Type">
-        <span class="type-name">Type 1: Process Indicators</span>
-        <span class="alt-name">External indicators</span>
+        Type 1: Process Indicators / External indicators
       </td>
       <td data-label="Function">Change color when exposed to one or more sterilization parameters</td>
       <td data-label="Example">Autoclave tape</td>
@@ -446,7 +455,7 @@ Sterilization indicators monitor the sterilization process and help ensure that 
     </tr>
     <tr>
       <td data-label="Type">
-        <span class="type-name">Type 2: Specific Test Indicators</span>
+        Type 2: Specific Test Indicators
       </td>
       <td data-label="Function">Designed for specific testing procedures</td>
       <td data-label="Example">Bowie-Dick test for steam sterilizers</td>
@@ -456,7 +465,7 @@ Sterilization indicators monitor the sterilization process and help ensure that 
     </tr>
     <tr>
       <td data-label="Type">
-        <span class="type-name">Type 3: Single-Parameter Indicators</span>
+        Type 3: Single-Parameter Indicators
       </td>
       <td data-label="Function">Reacts to one critical parameter of sterilization</td>
       <td data-label="Example">Temperature-sensitive indicators</td>
@@ -466,7 +475,7 @@ Sterilization indicators monitor the sterilization process and help ensure that 
     </tr>
     <tr>
       <td data-label="Type">
-        <span class="type-name">Type 4: Multi-Parameter Indicators</span>
+        Type 4: Multi-Parameter Indicators
       </td>
       <td data-label="Function">Reacts to two or more critical parameters</td>
       <td data-label="Example">Indicators that respond to both time and temperature</td>
@@ -476,7 +485,7 @@ Sterilization indicators monitor the sterilization process and help ensure that 
     </tr>
     <tr>
       <td data-label="Type">
-        <span class="type-name">Type 5: Integrating Indicators</span>
+        Type 5: Integrating Indicators
       </td>
       <td data-label="Function">Reacts to all critical parameters of sterilization</td>
       <td data-label="Example">Integrating indicators that respond to time, temperature, and presence of steam</td>
@@ -486,7 +495,7 @@ Sterilization indicators monitor the sterilization process and help ensure that 
     </tr>
     <tr>
       <td data-label="Type">
-        <span class="type-name">Type 6: Emulating Indicators</span>
+        Type 6: Emulating Indicators
       </td>
       <td data-label="Function">Reacts to all critical parameters with very precise tolerances</td>
       <td data-label="Example">Cycle-specific indicators designed for specific time/temperature criteria</td>
