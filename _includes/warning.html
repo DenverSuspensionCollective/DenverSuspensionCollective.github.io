@@ -1,0 +1,7 @@
+<div class="admonition warning">
+  <p class="admonition-title">
+    <i class="bi bi-exclamation-triangle-fill admonition-icon"></i>
+    {{ include.title | default: "Warning" }}
+  </p>
+  {{ include.content | markdownify }}
+</div>

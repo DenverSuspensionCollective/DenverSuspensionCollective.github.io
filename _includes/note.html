@@ -1,0 +1,7 @@
+<div class="admonition note">
+  <p class="admonition-title">
+    <i class="bi bi-info-circle-fill admonition-icon"></i>
+    {{ include.title | default: "Note" }}
+  </p>
+  {{ include.content | markdownify }}
+</div>
