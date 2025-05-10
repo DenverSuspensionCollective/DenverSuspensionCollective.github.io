@@ -40,3 +40,10 @@
     }
   }
 }
+
+// Comparison Grid for Does/Doesn't sections
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}

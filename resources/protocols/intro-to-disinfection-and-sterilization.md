@@ -62,6 +62,8 @@ Proper hook reprocessing is critical to prevent transmission of bloodborne patho
   - **Hydrogen peroxide plasma** - For heat-sensitive materials
   - **Chemical sterilants** - Extended exposure to high-level disinfectants
 
+{% include note.html content="While several CDC-approved sterilization methods exist, steam sterilization is an almost universal standard for instrument reprocessing in the body art industry, as well as a required body art regulation in Denver." %}
+
 #### Spaulding Classifications
 
 The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/rational-approach.html) is the standard for determining appropriate reprocessing requirements in healthcare settings. This system categorizes medical devices based on their intended use and associated risk of infection transmission.
@@ -108,7 +110,6 @@ The [CDC's Spaulding Classification System](https://www.cdc.gov/infection-contro
   </tbody>
 </table>
 </div>
----
 
 #### Why Hooks Must Be Sterilized, Not Just Disinfected
 
@@ -220,13 +221,25 @@ Enzymatic detergents contain specific enzymes that break down biological materia
 1. **Proteases**: Break down proteins (including blood)
 2. **Lipases**: Break down fats and oils
 3. **Amylases**: Break down starches
-4. **Cellulases**: Break down plant matter
+4. **Carbohydrases**: Break down carbohydrates
 
 Benefits of enzymatic cleaners:
 - Target specific biological contaminants
 - Work at near-neutral pH (less corrosive)
 - Environmentally friendlier than harsh chemicals
 - More effective than regular detergents for biological materials
+
+#### Selecting Appropriate Enzymatic Detergents
+
+While formal standards exist (AAMI TIR30, ISO 17664), most enzymatic detergents don't explicitly reference these on their labeling unlike disinfectants. Instead, look for:
+
+1. **Intended Use Statement**: Must explicitly state it's for removing blood and other biological materials from medical/surgical instruments
+2. **Material Compatibility**: Technical documentation should state it's compatible with the materials you use (e.g. stainless steel, titanium)
+3. **Equipment Compatibility**: Ensure compatibility with ultrasonic cleaners (low-foaming properties)
+4. **Enzyme Formulation**: Multi-enzymatic formula 
+5. **Manufacturer Reputation**: Established company with healthcare focus and technical specification availability
+
+Common enzymatic detergents used in body art settings include Alconox Tergazyme, Metrex EmPower, and UPS all-in-ONE.
 
 #### Optimal Use of Ultrasonic Cleaners
 
@@ -257,21 +270,31 @@ Benefits of enzymatic cleaners:
   - Visually inspect for cleanliness
   - Dry before packaging for sterilization
 
-#### What Ultrasonic Cleaning Does and Doesn't Do
+{% include warning.html content="Although the final step of ultrasonic cleaning is relatively far along in the decontamination process, both the detergent solution and instruments retrieved from it are still contaminated and must be handled with PPE." %}
 
-**Does**:
-- Removes debris from hard-to-reach areas
-- Enhances manual cleaning efficacy
-- Standardizes the cleaning process
-- Reduces handling of contaminated instruments
-- Improves efficiency of the cleaning process
+#### What Ultrasonic Cleaning Does and Doesn’t Do
 
-**Doesn't**:
-- Sterilize instruments
-- Disinfect instruments
-- Replace manual pre-cleaning for heavily soiled items
-- Remove all contaminants without proper solution and time
-- Work effectively with plastic or rubber items that absorb sound waves
+<div class="comparison-grid">
+  <div>
+    <h5>✅ Does</h5>
+    <ul>
+      <li>Removes debris from hard-to-reach areas</li>
+      <li>Enhances manual cleaning efficacy</li>
+      <li>Standardizes the cleaning process</li>
+      <li>Reduces handling of contaminated instruments</li>
+      <li>Improves efficiency of the cleaning process</li>
+    </ul>
+  </div>
+  <div>
+    <h5>❌ Doesn’t</h5>
+    <ul>
+      <li>Sterilize instruments</li>
+      <li>Disinfect instruments</li>
+      <li>Replace manual pre-cleaning for heavily soiled items</li>
+      <li>Remove all contaminants without proper solution and time</li>
+    </ul>
+  </div>
+</div>
 
 #### Testing Ultrasonic Cleaner Efficiency
 
@@ -292,9 +315,9 @@ Benefits of enzymatic cleaners:
 #### Basic Principles
 
 A steam autoclave uses saturated steam under pressure to achieve sterilization. The three critical parameters for steam sterilization are:
-- **Temperature** (typically 121°C/250°F or 134°C/273°F)
-- **Pressure** (15-30 PSI)
-- **Time** (15-30 minutes depending on temperature and load)
+- **Temperature**
+- **Pressure**
+- **Time**
 
 #### How Steam Sterilization Works
 
@@ -307,7 +330,7 @@ A steam autoclave uses saturated steam under pressure to achieve sterilization. 
 
 #### Types of Steam Autoclaves
 
-The EN 13060 standard classifies autoclaves into three categories based on their capabilities:
+The [EN 13060](https://www.intertekinform.com/en-us/standards/une-en-13060-2015-a1-2019-9189_saig_aenor_une_aenor_une_2791979/) standard classifies autoclaves into three categories based on their capabilities:
 
 1. **Class N (Non-vacuum) Autoclaves**
    - Uses gravity displacement for air removal
@@ -333,7 +356,11 @@ The EN 13060 standard classifies autoclaves into three categories based on their
    - Suitable for some hollow instruments depending on specifications
    - **Common examples**: SciCan STATIM 2000/5000 (cassette autoclaves), some Tuttnauer EZ models
 
+{% include note.html content="[ANSI/AAMI ST55:2016 (R2023)](https://webstore.ansi.org/standards/aami/ansiaamist552016r2023) is the current North American standard for table-top autoclaves but because it does not specifically separate load types by class, the EN 13060 is commonly cited to communicate the differences." %}
+
 #### Critical Parameters
+
+{% include note.html content="The values below are common examples of critical parameters for steam sterilization. Please check the operating manual for the sterilizer you are using for exact values and always use the appropriate integrator in every load. " %}
 
 1. **Temperature**:
    - 121°C (250°F) for 30 minutes at 15 PSI, OR
@@ -370,8 +397,7 @@ The EN 13060 standard classifies autoclaves into three categories based on their
 4. **Monitoring**:
    - Use appropriate chemical indicators
    - Include a Type 5 integrator in each load
-   - Verify time, temperature, and pressure reached
-   - Document cycle parameters
+   - Verify and document cycle parameters (time, temperature, and pressure reached)
 
 5. **Post-sterilization**:
    - Allow proper cooling time
@@ -512,7 +538,6 @@ Biological monitoring uses bacterial spores to verify sterilization efficacy. Th
 2. **Placement**:
   - Inside a standard pack or PCD (Process Challenge Device)
   - In the area most challenging for sterilization (typically center/bottom of the load)
-  - Use multiple indicators for large loads or initial validation
 
 3. **Control Testing**:
   - Always run a control BI from the same lot
@@ -531,32 +556,17 @@ Biological monitoring uses bacterial spores to verify sterilization efficacy. Th
   - **Positive result** (growth in test BI, growth in control): Sterilization failure
   - **Invalid test** (no growth in control): Test must be repeated
 
-#### Record-Keeping Requirements
-
-Per Denver regulations:
-- Maintain records of all biological tests for a minimum of two years
-- Documentation must include:
-  - Date of test
-  - Sterilizer identification
-  - Cycle parameters (time, temperature, pressure)
-  - Test results
-  - Control results
-  - Corrective actions taken (if applicable)
-  - Name of person performing the test
-
 #### Responding to Failed Biological Tests
 
 1. **Immediate Actions**:
   - Remove sterilizer from service
   - Recall all items processed since last negative BI
   - Re-sterilize recalled items in a different sterilizer
-  - Notify all affected personnel
 
 2. **Troubleshooting**:
   - Check sterilizer operating parameters
   - Inspect door gaskets and seals
   - Verify proper loading procedures
-  - Check steam quality
   - Review maintenance records
 
 3. **Repeat Testing**:
@@ -596,29 +606,6 @@ According to Denver regulations, maintain the following records for a minimum of
   - Repairs performed
   - Validation testing after repairs
   - Preventive maintenance schedule
-
-#### Quality Assurance Program Elements
-
-1. **Regular Equipment Testing**:
-  - Daily: Bowie-Dick test for pre-vacuum sterilizers
-  - Weekly: Ultrasonic cleaning effectiveness test
-  - Monthly: Biological indicator testing
-
-2. **Staff Competency Assessment**:
-  - Initial training documentation
-  - Annual competency validation
-  - Continuing education
-
-3. **Process Validation**:
-  - Periodic review of procedures
-  - Random audits of documentation
-  - Observation of technique
-
-4. **Adverse Event Reporting**:
-  - Protocol for identifying adverse events
-  - Documentation of incidents
-  - Root cause analysis
-  - Corrective action implementation
 
 {% include heading_block.html title="Resources and References" %}
 
