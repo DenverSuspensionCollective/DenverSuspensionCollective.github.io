@@ -27,13 +27,13 @@ install:
 # ==== Updating Dependencies ==== #
 
 .PHONY: update
-update: update-bundle update-deps
+update: update-bundle update-npm
 
 .PHONY: update-bundle
 update-bundle:
 	bundle update --all
 	bundle update --bundler
 
-.PHONY: update-deps
-update-deps:
+.PHONY: update-npm
+update-npm:
 	npm update
