@@ -38,6 +38,7 @@ jobs:
       - name: create pull request
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.PAT_HAL_CODEBOT }}
           commit-message: "[automated] update bundle dependencies"
           title: "[automated] update bundle dependencies"
           body: "bundle update automated via gitHub actions"
@@ -68,6 +69,7 @@ jobs:
       - name: create pull request
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.PAT_HAL_CODEBOT }}
           commit-message: "[automated] update npm dependencies"
           title: "[automated] update npm dependencies"
           body: "npm update automated via gitHub actions"
