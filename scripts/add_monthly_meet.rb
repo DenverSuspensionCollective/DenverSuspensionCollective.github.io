@@ -15,6 +15,7 @@ Examples:
 require 'yaml'
 require 'optparse'
 require 'date'
+require 'pathname'
 
 class EventAdder
   def initialize
