@@ -36,6 +36,7 @@ jobs:
 
       # https://github.com/peter-evans/create-pull-request
       - name: create pull request
+        id: pr1
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.PAT_HAL_CODEBOT }}
@@ -45,6 +46,12 @@ jobs:
           branch: automated/update-bundle
           delete-branch: true
           reviewers: jessesquires, aebelenkiy
+
+      - name: enable automerge
+        if: steps.pr1.outputs.pull-request-operation == 'created'
+        run: gh pr merge --squash --auto "${{ steps.pr1.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.PAT_HAL_CODEBOT }}
 
   update-npm:
     name: Update npm
@@ -67,6 +74,7 @@ jobs:
 
       # https://github.com/peter-evans/create-pull-request
       - name: create pull request
+        id: pr2
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.PAT_HAL_CODEBOT }}
@@ -76,3 +84,9 @@ jobs:
           branch: automated/update-npm
           delete-branch: true
           reviewers: jessesquires, aebelenkiy
+
+      - name: enable automerge
+        if: steps.pr2.outputs.pull-request-operation == 'created'
+        run: gh pr merge --squash --auto "${{ steps.pr2.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.PAT_HAL_CODEBOT }}
