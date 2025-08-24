@@ -37,3 +37,8 @@ update-bundle:
 .PHONY: update-npm
 update-npm:
 	npm update
+
+# ==== Adding Meets ==== #
+.PHONY: monthly-meet
+monthly-meet:
+	bundle exec ruby ./scripts/add_monthly_meet.rb --start_date $(date) --location $(loc)
