@@ -1,0 +1,59 @@
+# GitHub Actions Virtual Environments
+# https://github.com/actions/virtual-environments/
+
+name: Add Monthly Meet
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: 'Year (YYYY)'
+        type: number
+        required: true
+        default: '2025'
+      month:
+        description: 'Month (MM)'
+        type: number
+        required: true
+      day:
+        description: 'Day (DD)'
+        type: number
+        required: true
+      location:
+        description: 'Location'
+        type: string
+        required: true
+        default: 'Denver, CO'
+
+jobs:
+  main:
+    name: Update Events
+    runs-on: ubuntu-latest
+    steps:
+      - name: ruby versions
+        run: |
+          ruby --version
+          gem --version
+
+      - name: git checkout
+        uses: actions/checkout@v4
+
+      # https://github.com/ruby/setup-ruby
+      - name: ruby setup
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: verify inputs
+        run: |
+          echo "Date: ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.date }}"
+          echo "Location: ${{ inputs.location }}"
+
+      - name: edit events.yml
+        run: make monthly-meet date="${{ inputs.year }}-${{ inputs.month }}-${{ inputs.date }}" loc="${{ inputs.location }"
+
+      - name: commit
+        run: git status
+
+      - name: jekyll build
+        run: bundle exec jekyll build --verbose --trace
