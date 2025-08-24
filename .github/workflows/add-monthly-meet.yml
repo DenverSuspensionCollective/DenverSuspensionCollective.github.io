@@ -60,7 +60,7 @@ jobs:
           token: ${{ secrets.PAT_HAL_CODEBOT }}
           commit-message: "[automated] Add monthly meet ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
           title: "[automated] Add monthly meet"
-          body: "Add ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }} ${{ inputs.location }}"
+          body: "Added: **${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}** ${{ inputs.location }}"
           branch: automated/update-events
           delete-branch: true
           reviewers: jessesquires, aebelenkiy
