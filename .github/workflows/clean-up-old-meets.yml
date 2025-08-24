@@ -1,0 +1,52 @@
+# GitHub Actions Virtual Environments
+# https://github.com/actions/virtual-environments/
+
+name: Remove Old Monthly Meets
+
+on:
+  workflow_dispatch:
+  schedule:
+    # First day of each month at midnight
+    # https://crontab.guru/#0_0_1_*_*
+    - cron: "0 0 1 * *"
+
+jobs:
+  main:
+    name: Delete Old Events
+    runs-on: ubuntu-latest
+    steps:
+      - name: ruby versions
+        run: |
+          ruby --version
+          gem --version
+
+      - name: git checkout
+        uses: actions/checkout@v4
+
+      # https://github.com/ruby/setup-ruby
+      - name: ruby setup
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: edit events.yml
+        run: bundle exec ruby ./scripts/clean_up_old_meets.rb
+
+      # https://github.com/peter-evans/create-pull-request
+      - name: create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.PAT_HAL_CODEBOT }}
+          commit-message: "[automated] Delete old monthly meets"
+          title: "[automated] Delete old monthly meets"
+          body: "Delete old monthly meets"
+          branch: automated/delete-old-events
+          delete-branch: true
+          reviewers: jessesquires, aebelenkiy
+
+      - name: enable automerge
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        run: gh pr merge --squash --auto "${{ steps.cpr.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.PAT_HAL_CODEBOT }}
