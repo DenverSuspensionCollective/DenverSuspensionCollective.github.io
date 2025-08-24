@@ -66,7 +66,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     optparse (0.6.0)
-    pathname (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.2)
@@ -112,7 +111,6 @@ DEPENDENCIES
   jekyll-sass-converter (= 2.2.0)
   jekyll-sitemap
   optparse
-  pathname
   tzinfo
   tzinfo-data
   yaml
