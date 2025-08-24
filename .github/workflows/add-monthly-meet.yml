@@ -37,8 +37,6 @@ jobs:
 
       - name: git checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT_HAL_CODEBOT }}
 
       # https://github.com/ruby/setup-ruby
       - name: ruby setup
@@ -54,15 +52,21 @@ jobs:
       - name: edit events.yml
         run: make monthly-meet date="${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}" loc="${{ inputs.location }}"
 
-      - name: jekyll build
-        run: bundle exec jekyll build --verbose --trace
+      # https://github.com/peter-evans/create-pull-request
+      - name: create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.PAT_HAL_CODEBOT }}
+          commit-message: "[automated] Add monthly meet ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
+          title: "[automated] Add monthly meet"
+          body: "Add ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }} ${{ inputs.location }}"
+          branch: automated/update-events
+          delete-branch: true
+          reviewers: jessesquires, aebelenkiy
 
-      - name: commit
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git status
-          git add .
-          git commit -m "[automated] Add monthly meet ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
-          git push
-          git status
+      - name: enable automerge
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        run: gh pr merge --merge --auto "${{ steps.cpr.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.PAT_HAL_CODEBOT }}
