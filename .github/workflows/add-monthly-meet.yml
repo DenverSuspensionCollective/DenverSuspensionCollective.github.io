@@ -50,7 +50,7 @@ jobs:
           echo "Location: ${{ inputs.location }}"
 
       - name: edit events.yml
-        run: make monthly-meet date="${{ inputs.year }}-${{ inputs.month }}-${{ inputs.date }}" loc="${{ inputs.location }"
+        run: make monthly-meet date="${{ inputs.year }}-${{ inputs.month }}-${{ inputs.date }}" loc="${{ inputs.location }}"
 
       - name: commit
         run: git status
