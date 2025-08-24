@@ -37,6 +37,8 @@ jobs:
 
       - name: git checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_HAL_CODEBOT }}
 
       # https://github.com/ruby/setup-ruby
       - name: ruby setup
@@ -52,8 +54,15 @@ jobs:
       - name: edit events.yml
         run: make monthly-meet date="${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}" loc="${{ inputs.location }}"
 
-      - name: commit
-        run: git status
-
       - name: jekyll build
         run: bundle exec jekyll build --verbose --trace
+
+      - name: commit
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git status
+          git add .
+          git commit -m "[automated] Add monthly meet ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
+          git push
+          git status
