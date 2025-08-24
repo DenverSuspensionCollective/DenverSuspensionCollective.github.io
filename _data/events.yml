@@ -6,6 +6,8 @@ monthly_meets:
   location: Fort Collins, CO
 - start_date: 2025-10-19
   location: Denver, CO
+- start_date: '2025-01-01'
+  location: Denver, CO
 past_events:
 - name: April 2025 Retreat
   page: retreats/2025.md
