@@ -8,16 +8,16 @@ on:
     inputs:
       year:
         description: 'Year (YYYY)'
-        type: number
+        type: string
         required: true
         default: '2025'
       month:
         description: 'Month (MM)'
-        type: number
+        type: string
         required: true
       day:
         description: 'Day (DD)'
-        type: number
+        type: string
         required: true
       location:
         description: 'Location'
@@ -59,7 +59,7 @@ jobs:
         with:
           token: ${{ secrets.PAT_HAL_CODEBOT }}
           commit-message: "[automated] Add monthly meet ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
-          title: "[automated] Add monthly meet"
+          title: "[automated] Add monthly meet ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
           body: "Added: **${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}** in _${{ inputs.location }}_"
           branch: automated/update-events
           delete-branch: true
