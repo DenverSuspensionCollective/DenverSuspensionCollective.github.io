@@ -1,0 +1,700 @@
+- awg: null
+  mm: "0.396"
+  inch_decimal: "0.0156"
+  inch_fractional: "1/64"
+  highlight: false
+
+- awg: "26"
+  mm: "0.405"
+  inch_decimal: "0.0159"
+  inch_fractional: null
+  highlight: false
+
+- awg: "25"
+  mm: "0.455"
+  inch_decimal: "0.0179"
+  inch_fractional: null
+  highlight: false
+
+- awg: "24"
+  mm: "0.511"
+  inch_decimal: "0.0201"
+  inch_fractional: null
+  highlight: false
+
+- awg: "23"
+  mm: "0.574"
+  inch_decimal: "0.0226"
+  inch_fractional: null
+  highlight: false
+
+- awg: "22"
+  mm: "0.643"
+  inch_decimal: "0.0253"
+  inch_fractional: null
+  highlight: false
+
+- awg: "21"
+  mm: "0.723"
+  inch_decimal: "0.0285"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "0.795"
+  inch_decimal: "0.0313"
+  inch_fractional: "1/32"
+  highlight: false
+
+- awg: "20"
+  mm: "0.812"
+  inch_decimal: "0.032"
+  inch_fractional: null
+  highlight: false
+
+- awg: "19"
+  mm: "0.912"
+  inch_decimal: "0.0359"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "1"
+  inch_decimal: "0.0394"
+  inch_fractional: null
+  highlight: true
+- awg: "18"
+  mm: "1.024"
+  inch_decimal: "0.0403"
+  inch_fractional: null
+  highlight: false
+
+- awg: "17"
+  mm: "1.15"
+  inch_decimal: "0.0453"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "1.191"
+  inch_decimal: "0.0469"
+  inch_fractional: "3/64"
+  highlight: false
+
+- awg: "16"
+  mm: "1.291"
+  inch_decimal: "0.0508"
+  inch_fractional: null
+  highlight: false
+
+- awg: "15"
+  mm: "1.45"
+  inch_decimal: "0.0571"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "1.588"
+  inch_decimal: "0.0625"
+  inch_fractional: "1/16"
+  highlight: false
+
+- awg: "14"
+  mm: "1.628"
+  inch_decimal: "0.0641"
+  inch_fractional: null
+  highlight: false
+
+- awg: "13"
+  mm: "1.828"
+  inch_decimal: "0.072"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "1.984"
+  inch_decimal: "0.0781"
+  inch_fractional: "5/64"
+  highlight: false
+
+- awg: null
+  mm: "2"
+  inch_decimal: "0.0787"
+  inch_fractional: null
+  highlight: true
+- awg: "12"
+  mm: "2.053"
+  inch_decimal: "0.0808"
+  inch_fractional: null
+  highlight: false
+
+- awg: "11"
+  mm: "2.305"
+  inch_decimal: "0.0907"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "2.383"
+  inch_decimal: "0.0938"
+  inch_fractional: "3/32"
+  highlight: false
+
+- awg: "10"
+  mm: "2.588"
+  inch_decimal: "0.1019"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "2.779"
+  inch_decimal: "0.1094"
+  inch_fractional: "7/64"
+  highlight: false
+
+- awg: "9"
+  mm: "2.906"
+  inch_decimal: "0.1144"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "3"
+  inch_decimal: "0.1181"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "3.175"
+  inch_decimal: "0.125"
+  inch_fractional: "1/8"
+  highlight: false
+
+- awg: "8"
+  mm: "3.264"
+  inch_decimal: "0.1285"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "3.571"
+  inch_decimal: "0.1406"
+  inch_fractional: "9/64"
+  highlight: false
+
+- awg: "7"
+  mm: "3.665"
+  inch_decimal: "0.1443"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "3.97"
+  inch_decimal: "0.1563"
+  inch_fractional: "5/32"
+  highlight: false
+
+- awg: null
+  mm: "4"
+  inch_decimal: "0.1575"
+  inch_fractional: null
+  highlight: true
+- awg: "6"
+  mm: "4.115"
+  inch_decimal: "0.162"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "4.366"
+  inch_decimal: "0.1719"
+  inch_fractional: "11/64"
+  highlight: false
+
+- awg: "5"
+  mm: "4.621"
+  inch_decimal: "0.1819"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "4.763"
+  inch_decimal: "0.1875"
+  inch_fractional: "3/16"
+  highlight: false
+
+- awg: null
+  mm: "5"
+  inch_decimal: "0.1969"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "5.159"
+  inch_decimal: "0.2031"
+  inch_fractional: "13/64"
+  highlight: false
+
+- awg: "4"
+  mm: "5.189"
+  inch_decimal: "0.2043"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "5.558"
+  inch_decimal: "0.2188"
+  inch_fractional: "7/32"
+  highlight: false
+
+- awg: "3"
+  mm: "5.827"
+  inch_decimal: "0.2294"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "5.954"
+  inch_decimal: "0.2344"
+  inch_fractional: "15/64"
+  highlight: false
+
+- awg: null
+  mm: "6"
+  inch_decimal: "0.2362"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "6.35"
+  inch_decimal: "0.25"
+  inch_fractional: "1/4"
+  highlight: false
+
+- awg: "2"
+  mm: "6.544"
+  inch_decimal: "0.2576"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "6.746"
+  inch_decimal: "0.2656"
+  inch_fractional: "17/64"
+  highlight: false
+
+- awg: null
+  mm: "7"
+  inch_decimal: "0.2756"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "7.145"
+  inch_decimal: "0.2813"
+  inch_fractional: "9/32"
+  highlight: false
+
+- awg: "1"
+  mm: "7.348"
+  inch_decimal: "0.2893"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "7.541"
+  inch_decimal: "0.2969"
+  inch_fractional: "19/64"
+  highlight: false
+
+- awg: null
+  mm: "7.938"
+  inch_decimal: "0.3125"
+  inch_fractional: "5/16"
+  highlight: false
+
+- awg: null
+  mm: "8"
+  inch_decimal: "0.315"
+  inch_fractional: null
+  highlight: true
+- awg: "0"
+  mm: "8.251"
+  inch_decimal: "0.3248"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "8.334"
+  inch_decimal: "0.3281"
+  inch_fractional: "21/64"
+  highlight: false
+
+- awg: null
+  mm: "8.733"
+  inch_decimal: "0.3438"
+  inch_fractional: "11/32"
+  highlight: false
+
+- awg: null
+  mm: "9"
+  inch_decimal: "0.3543"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "9.129"
+  inch_decimal: "0.3594"
+  inch_fractional: "23/64"
+  highlight: false
+
+- awg: "00"
+  mm: "9.266"
+  inch_decimal: "0.3648"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "9.525"
+  inch_decimal: "0.375"
+  inch_fractional: "3/8"
+  highlight: false
+
+- awg: null
+  mm: "9.921"
+  inch_decimal: "0.3906"
+  inch_fractional: "25/64"
+  highlight: false
+
+- awg: null
+  mm: "10"
+  inch_decimal: "0.3937"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "10.32"
+  inch_decimal: "0.4063"
+  inch_fractional: "13/32"
+  highlight: false
+
+- awg: "000"
+  mm: "10.4"
+  inch_decimal: "0.4094"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "10.716"
+  inch_decimal: "0.4219"
+  inch_fractional: "27/64"
+  highlight: false
+
+- awg: null
+  mm: "11"
+  inch_decimal: "0.4331"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "11.113"
+  inch_decimal: "0.4375"
+  inch_fractional: "7/16"
+  highlight: false
+
+- awg: null
+  mm: "11.509"
+  inch_decimal: "0.4531"
+  inch_fractional: "29/64"
+  highlight: false
+
+- awg: "0000"
+  mm: "11.68"
+  inch_decimal: "0.4598"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "11.908"
+  inch_decimal: "0.4688"
+  inch_fractional: "15/32"
+  highlight: false
+
+- awg: null
+  mm: "12"
+  inch_decimal: "0.4724"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "12.304"
+  inch_decimal: "0.4844"
+  inch_fractional: "31/64"
+  highlight: false
+
+- awg: null
+  mm: "12.7"
+  inch_decimal: "0.5"
+  inch_fractional: "1/2"
+  highlight: false
+
+- awg: null
+  mm: "13"
+  inch_decimal: "0.5118"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "13.096"
+  inch_decimal: "0.5156"
+  inch_fractional: "33/64"
+  highlight: false
+
+- awg: "00000"
+  mm: "13.12"
+  inch_decimal: "0.5165"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "13.495"
+  inch_decimal: "0.5313"
+  inch_fractional: "17/32"
+  highlight: false
+
+- awg: null
+  mm: "13.891"
+  inch_decimal: "0.5469"
+  inch_fractional: "35/64"
+  highlight: false
+
+- awg: null
+  mm: "14"
+  inch_decimal: "0.5512"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "14.288"
+  inch_decimal: "0.5625"
+  inch_fractional: "9/16"
+  highlight: false
+
+- awg: null
+  mm: "14.684"
+  inch_decimal: "0.5781"
+  inch_fractional: "37/64"
+  highlight: false
+
+- awg: "000000"
+  mm: "14.73"
+  inch_decimal: "0.5799"
+  inch_fractional: null
+  highlight: false
+
+- awg: null
+  mm: "15"
+  inch_decimal: "0.5906"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "15.083"
+  inch_decimal: "0.5938"
+  inch_fractional: "19/32"
+  highlight: false
+
+- awg: null
+  mm: "15.479"
+  inch_decimal: "0.6094"
+  inch_fractional: "39/64"
+  highlight: false
+
+- awg: null
+  mm: "15.875"
+  inch_decimal: "0.625"
+  inch_fractional: "5/8"
+  highlight: false
+
+- awg: null
+  mm: "16"
+  inch_decimal: "0.6299"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "16.271"
+  inch_decimal: "0.6406"
+  inch_fractional: "41/64"
+  highlight: false
+
+- awg: null
+  mm: "16.67"
+  inch_decimal: "0.6563"
+  inch_fractional: "21/32"
+  highlight: false
+
+- awg: null
+  mm: "17"
+  inch_decimal: "0.6693"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "17.066"
+  inch_decimal: "0.6719"
+  inch_fractional: "43/64"
+  highlight: false
+
+- awg: null
+  mm: "17.463"
+  inch_decimal: "0.6875"
+  inch_fractional: "11/16"
+  highlight: false
+
+- awg: null
+  mm: "17.859"
+  inch_decimal: "0.7031"
+  inch_fractional: "45/64"
+  highlight: false
+
+- awg: null
+  mm: "18"
+  inch_decimal: "0.7087"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "18.258"
+  inch_decimal: "0.7188"
+  inch_fractional: "23/32"
+  highlight: false
+
+- awg: null
+  mm: "18.654"
+  inch_decimal: "0.7344"
+  inch_fractional: "47/64"
+  highlight: false
+
+- awg: null
+  mm: "19"
+  inch_decimal: "0.748"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "19.05"
+  inch_decimal: "0.75"
+  inch_fractional: "3/4"
+  highlight: false
+
+- awg: null
+  mm: "19.446"
+  inch_decimal: "0.7656"
+  inch_fractional: "49/64"
+  highlight: false
+
+- awg: null
+  mm: "19.845"
+  inch_decimal: "0.7813"
+  inch_fractional: "25/32"
+  highlight: false
+
+- awg: null
+  mm: "20"
+  inch_decimal: "0.7874"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "20.241"
+  inch_decimal: "0.7969"
+  inch_fractional: "51/64"
+  highlight: false
+
+- awg: null
+  mm: "20.638"
+  inch_decimal: "0.8125"
+  inch_fractional: "13/16"
+  highlight: false
+
+- awg: null
+  mm: "21"
+  inch_decimal: "0.8268"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "21.034"
+  inch_decimal: "0.8281"
+  inch_fractional: "53/64"
+  highlight: false
+
+- awg: null
+  mm: "21.433"
+  inch_decimal: "0.8438"
+  inch_fractional: "27/32"
+  highlight: false
+
+- awg: null
+  mm: "21.829"
+  inch_decimal: "0.8594"
+  inch_fractional: "55/64"
+  highlight: false
+
+- awg: null
+  mm: "22"
+  inch_decimal: "0.8661"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "22.225"
+  inch_decimal: "0.875"
+  inch_fractional: "7/8"
+  highlight: false
+
+- awg: null
+  mm: "22.621"
+  inch_decimal: "0.8906"
+  inch_fractional: "57/64"
+  highlight: false
+
+- awg: null
+  mm: "23"
+  inch_decimal: "0.9055"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "23.02"
+  inch_decimal: "0.9063"
+  inch_fractional: "29/32"
+  highlight: false
+
+- awg: null
+  mm: "23.416"
+  inch_decimal: "0.9219"
+  inch_fractional: "59/64"
+  highlight: false
+
+- awg: null
+  mm: "23.813"
+  inch_decimal: "0.9375"
+  inch_fractional: "15/16"
+  highlight: false
+
+- awg: null
+  mm: "24"
+  inch_decimal: "0.9449"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "24.209"
+  inch_decimal: "0.9531"
+  inch_fractional: "61/64"
+  highlight: false
+
+- awg: null
+  mm: "24.608"
+  inch_decimal: "0.9688"
+  inch_fractional: "31/32"
+  highlight: false
+
+- awg: null
+  mm: "25"
+  inch_decimal: "0.9843"
+  inch_fractional: null
+  highlight: true
+- awg: null
+  mm: "25.004"
+  inch_decimal: "0.9844"
+  inch_fractional: "63/64"
+  highlight: false
+
+- awg: null
+  mm: "25.4"
+  inch_decimal: "1"
+  inch_fractional: "1"
+  highlight: false
