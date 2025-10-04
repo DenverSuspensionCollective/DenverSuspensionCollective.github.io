@@ -27,16 +27,10 @@
       - title: Rigging
         page: resources/protocols/rigging.md
 
-    #
-    # TODO: uncomment below to add more resources
-    # See: https://github.com/DenverSuspensionCollective/DenverSuspensionCollective.github.io/issues/36
-    #
-    # - heading: Tools
-    #   items:
-    #   - title: Tools Page 1
-    #     page: resources/tools/page1.md
-    #   - title: Tools Page 2
-    #     page: resources/tools/page2.md
+    - heading: Tools
+      items:
+      - title: AWG Conversions
+        page: resources/tools/awg-conversions.md
 
 - title: contact
   page: contact.md
