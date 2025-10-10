@@ -4,6 +4,9 @@ monthly_meets:
   location: Denver, CO
 - start_date: '2025-11-29'
   location: Denver, CO
+- start_date: '2025-11-30'
+  location: Denver, CO
+  name: Community Hook Pull
 past_events:
 - name: April 2025 Retreat
   page: retreats/2025.md
