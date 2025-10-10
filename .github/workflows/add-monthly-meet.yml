@@ -59,7 +59,10 @@ jobs:
           echo "Event Type: ${{ inputs.event_type }}"
 
       - name: edit events.yml
-        run: make monthly-meet date="${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}" loc="${{ inputs.location }} type="${{ inputs.event_type }}
+        run: make monthly-meet \
+          date="${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}" \
+          loc="${{ inputs.location }}" \
+          type="${{ inputs.event_type }}"
 
       # https://github.com/peter-evans/create-pull-request
       - name: create pull request
