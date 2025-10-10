@@ -67,8 +67,8 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.PAT_HAL_CODEBOT }}
-          commit-message: "[automated] Add monthly meet ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
-          title: "[automated] Add monthly meet ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
+          commit-message: "[automated] Add event ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
+          title: "[automated] Add event ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
           body: "Added: ${{ inputs.event_type }} **${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}** in _${{ inputs.location }}_"
           branch: automated/update-events
           delete-branch: true
