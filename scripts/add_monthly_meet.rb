@@ -1,15 +1,20 @@
 #!/usr/bin/env ruby
 
 =begin
-Script to add new monthly meet events to events.yml
+Script to add new events to events.yml
 
 Usage:
-    ruby add_monthly_meet.rb --start_date YYYY-MM-DD --location "Location Name"
-    ruby add_monthly_meet.rb -d YYYY-MM-DD -l "Location Name"
+    ruby add_monthly_meet.rb --start_date YYYY-MM-DD --location "Location Name" [--event_type TYPE]
+    ruby add_monthly_meet.rb -d YYYY-MM-DD -l "Location Name" [-t TYPE]
+
+Event types:
+    monthly_meet (default) - Regular monthly meet
+    hook_pull - Community hook pull event
 
 Examples:
     ruby add_monthly_meet.rb --start_date 2025-11-15 --location "Denver, CO"
     ruby add_monthly_meet.rb -d 2025-12-20 -l "Boulder, CO"
+    ruby add_monthly_meet.rb --start_date 2025-11-15 --location "Denver, CO" --event_type hook_pull
 =end
 
 require 'yaml'
@@ -38,7 +43,7 @@ class EventAdder
     parser = OptionParser.new do |opts|
       opts.banner = "Usage: #{$0} [options]"
       opts.separator ""
-      opts.separator "Add a new monthly meet event to events.yml"
+      opts.separator "Add a new event to events.yml"
       opts.separator ""
       opts.separator "Options:"
 
@@ -51,17 +56,26 @@ class EventAdder
         @options[:location] = location
       end
 
+      opts.on('-t', '--event_type TYPE', 'Event type: monthly_meet or hook_pull (optional, defaults to monthly_meet)') do |type|
+        validate_event_type(type)
+        @options[:event_type] = type
+      end
+
       opts.on('-h', '--help', 'Show this help message') do
         puts opts
         puts ""
         puts "Examples:"
         puts "  #{$0} --start_date 2025-11-15 --location \"Denver, CO\""
         puts "  #{$0} -d 2025-12-20 -l \"Boulder, CO\""
+        puts "  #{$0} --start_date 2025-11-15 --location \"Denver, CO\" --event_type hook_pull"
         exit
       end
     end
 
     parser.parse!
+
+    # Set default event type if not provided
+    @options[:event_type] ||= 'monthly_meet'
 
     # Check required arguments
     missing_args = []
@@ -80,6 +94,13 @@ class EventAdder
     Date.strptime(date_string, '%Y-%m-%d')
   rescue Date::Error
     raise ArgumentError, "Invalid date format: #{date_string}. Use YYYY-MM-DD format."
+  end
+
+  def validate_event_type(type)
+    valid_types = ['monthly_meet', 'hook_pull']
+    unless valid_types.include?(type)
+      raise ArgumentError, "Invalid event type: #{type}. Valid options are: #{valid_types.join(', ')}"
+    end
   end
 
   def determine_events_file_path
@@ -105,7 +126,7 @@ class EventAdder
     raise "Error writing YAML file: #{e.message}"
   end
 
-  def add_monthly_meet(events_data, start_date, location)
+  def add_monthly_meet(events_data, start_date, location, event_type)
     # Ensure monthly_meets section exists
     events_data['monthly_meets'] ||= []
 
@@ -114,6 +135,11 @@ class EventAdder
       'start_date' => start_date,
       'location' => location
     }
+
+    # Set name field based on event type
+    if event_type == 'hook_pull'
+      new_entry['name'] = 'Community Hook Pull'
+    end
 
     # Add to monthly_meets
     events_data['monthly_meets'] << new_entry
@@ -128,13 +154,14 @@ class EventAdder
     events_data = load_events_yaml
 
     # Add new monthly meet
-    events_data = add_monthly_meet(events_data, @options[:start_date], @options[:location])
+    events_data = add_monthly_meet(events_data, @options[:start_date], @options[:location], @options[:event_type])
 
     # Save updated data
     save_events_yaml(events_data)
 
     # Success message
-    puts "✅ Successfully added monthly meet: #{@options[:start_date]} at #{@options[:location]}"
+    event_description = @options[:event_type] == 'hook_pull' ? 'hook pull' : 'monthly meet'
+    puts "✅ Successfully added #{event_description}: #{@options[:start_date]} at #{@options[:location]}"
   end
 end
 
