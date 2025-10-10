@@ -24,6 +24,14 @@ on:
         type: string
         required: true
         default: 'Denver, CO'
+      event_type:
+        description: 'Event Type'
+        required: true
+        default: monthly_meet
+        type: choice
+        options:
+          - monthly_meet
+          - hook_pull
 
 jobs:
   main:
