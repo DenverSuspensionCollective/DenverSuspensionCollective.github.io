@@ -56,6 +56,7 @@ jobs:
         run: |
           echo "Date: ${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}"
           echo "Location: ${{ inputs.location }}"
+          echo "Event Type: ${{ inputs.event_type }}"
 
       - name: edit events.yml
         run: make monthly-meet date="${{ inputs.year }}-${{ inputs.month }}-${{ inputs.day }}" loc="${{ inputs.location }}"
