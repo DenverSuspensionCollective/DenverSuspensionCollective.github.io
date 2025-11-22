@@ -9,17 +9,19 @@ title: Code of Conduct
 
 Denver Suspension Collective (DSC) is committed to preventing violence and making our events a safe and inclusive place to volunteer, learn, and network. We do not tolerate behavior that is violent, threatening, intimidating, harassing, bullying, or coercive towards anyone.
 
-Bullying, harassment and/or discrimination in the workplace is unlawful in accordance with Title VII of the Civil Rights Act of 1964, the Americans with Disabilities Act (ADA), and the Occupational Safety and Health Act (OSHA).
+For the purposes of this Code, "attendees" includes practitioners, suspendees, volunteers, staff, and anyone present at DSC events (including spectators, vendors, and guests). Unless otherwise specified, references to "attendees" in this document are meant to include all of these groups.
 
-With this Code of Conduct (COC) we are encouraging everyone to behave responsibly and to be a credit to our community. This entails acting in good faith and showing respect for every person that they work alongside.
+Bullying, harassment and/or discrimination at DSC events or within our community is unacceptable and may also violate applicable laws and regulations.
 
-Volunteers and suspendees are bound by federal and state workplace safety regulations. This means that everyone is responsible for ensuring that work spaces are free from sexual harassment, discrimination or bullying.
+With this Code of Conduct (COC) we are encouraging everyone to behave responsibly and to be a credit to our community. This entails acting in good faith and showing respect for every person they interact with at DSC events.
+
+Everyone involved in DSC events is responsible for helping ensure that event spaces remain free from sexual harassment, discrimination, bullying, or other forms of harm.
 
 We do not permit any act of harassment, including harassment or discrimination that is based, in fact or perception, on an individual's sex, race, ethnicity, religion, national origin, disability, age, sexual orientation, or gender identification, as well as any other legally protected characteristics.
 
-This COC is a living document and, as such, is subject to ongoing review. DSC welcomes suggestions for amendments - and acknowledges the need for continual examination of our community's working practices and standards.
+This COC is a living document and, as such, is subject to ongoing review. DSC welcomes suggestions for amendments - and acknowledges the need for continual examination of our community's practices and standards.
 
-We believe that this Code is an opportunity for everyone to work towards a more collaborative, communicative and empowering space. This means that everyone feels confident that they will not be exposed to emotional, cultural or physical harm and because the ways in which we work are broad -- we must be extra vigilant about ensuring there is no space for problematic behavior to exist.
+We believe that this Code is an opportunity for everyone to work towards a more collaborative, communicative and empowering space. This means that everyone feels confident that they will not be exposed to emotional, cultural or physical harm and because the ways in which we come together as a community are broad -- we must be extra vigilant about ensuring there is no space for problematic behavior to exist.
 
 {% include heading_block.html title="Purpose" %}
 
@@ -27,35 +29,35 @@ This COC is intended to create and maintain a safe environment for everyone, and
 
 {% include heading_block.html title="Scope" %}
 
-This COC applies to all of our events. Any violation of this policy could result in disciplinary action, including expulsion from current events, suspension from future events, and/or suspension of any volunteer position. In addition to potential negative consequences for individuals, discrimination may result in violations of laws which may result in civil or criminal litigation against the individuals who engaged in discriminatory practices.
+This COC applies to all DSC events and activities, and to all attendees as defined above. Any violation of this policy could result in community consequences, including expulsion from current events, suspension from future events, and/or removal from any volunteer or role. Some forms of discrimination or harassment may also violate applicable laws, which individuals are responsible for understanding and following.
 
 {% include heading_block.html title="When Does This Code Apply?" %}
 
-This code applies to all volunteers, suspendees and enthusiasts and it applies in all aspects of a suspension event, wherever that may take place.
+This code applies to all attendees and it applies in all aspects of DSC events, wherever they may take place.
 
-All those involved have a responsibility for ensuring they treat their fellow attendees and contacts in an event space with dignity and respect, and to be aware of the potential impact their behavior has on others. With this code, DSC encourages all performers to call out inappropriate behavior as soon as it arises. (See raising a complaint section below.)
+All those involved have a responsibility for ensuring they treat their fellow attendees in an event space with dignity and respect, and to be aware of the potential impact their behavior has on others. With this code, DSC encourages attendees to call out inappropriate behavior as soon as it arises. (See raising a complaint section below.)
 
-The nature of suspension involves an intense interaction with many individuals. This process can expose volunteers and suspendees to vulnerable situations.
+The nature of suspension involves an intense interaction with many individuals. This process can expose attendees to vulnerable situations.
 
 {% include heading_block.html title="General Conduct" %}
 
-Harassment of any kind is about the abuse of power. DSC encourages practitioners to take responsibility for the power they have in the workplace, and not use it abusively over others who may be more vulnerable than themselves.
+Harassment of any kind is about the abuse of power. DSC encourages practitioners and other attendees to take responsibility for the power they have within DSC events and our community, and not use it abusively over others who may be more vulnerable than themselves.
 
 Some general guidelines are:
 
-- Volunteers / attendees should not be subject to negative commentary and/or stereotypes on: sexuality, gender identity, age, physical attributes or abilities, race or ethnicity, class, size, attractiveness, or personality characteristics, clothing or sexiness.
+- Attendees should not be subject to negative commentary and/or stereotypes on: sexuality, gender identity, age, physical attributes or abilities, race or ethnicity, class, size, attractiveness, or personality characteristics, clothing or sexiness.
 
 - Avoid being dismissive and rude.
 
-- Making assumptions about gender, sexuality, race, class or religion of volunteers / attendees is disrespectful.
+- Making assumptions about gender, sexuality, race, class or religion of attendees is disrespectful.
 
 - Strive to use people's proper names, pronunciation and pronouns.
 
-- Shaming or public outbursts are threatening and have absolutely no place in a workplace environment.
+- Shaming or public outbursts are threatening and have absolutely no place at our events or within our community.
 
 - We are literally getting under your skin; this intimacy is a lot more comfortable for both parties if personal hygiene is looked after.
 
-- Be polite to your fellow volunteers / attendees.
+- Be polite to your fellow attendees.
 
 - Photographs are to only be taken with the prior consent of the person being photographed. Please notify volunteers if you do not wish your photo to be taken.
 
@@ -63,9 +65,9 @@ Some general guidelines are:
 
 - Help us to maintain a tidy and clean venue.
 
-- Do not hesitate to inform the volunteers if you have suggestions or notice any violations of these rules.
+- Do not hesitate to inform volunteers or DSC organizers if you have suggestions or notice any violations of these rules.
 
-- There are sharp objects and contaminated equipment around. Pay attention to what might be near you. If you are not a volunteer, or, you are a volunteer but do not have a specific role, do not touch anything unless you are directed to do so. If in doubt, ask someone. Don't touch anything with blood on it, not even your own blood.
+- There are sharp objects and potentially contaminated equipment around. Pay attention to what might be near you. If you are not a volunteer, or you are a volunteer but do not have a specific role, do not touch anything unless you are directed to do so. If in doubt, ask someone. Don't touch anything with blood on it, not even your own blood.
 
 {% include heading_block.html title="Harassment" %}
 
@@ -111,7 +113,7 @@ Bullying is deliberate and intentional. It is usually not a one-off incident, bu
 
 By way of example only, a pattern of any of the following (non-exhaustive) types of conduct amount to bullying:
 
-- Sharing content about co-workers online that is derogatory and/or shaming
+- Sharing content about other attendees or community members online that is derogatory and/or shaming
 
 - Personal insults and name calling
 
@@ -119,7 +121,7 @@ By way of example only, a pattern of any of the following (non-exhaustive) types
 
 - Public or private humiliation
 
-- Shouting at colleagues in public and/or private
+- Shouting at other attendees or community members in public and/or private
 
 - Instantaneous rage, often over trivial issues or genuine mistakes
 
@@ -129,7 +131,7 @@ By way of example only, a pattern of any of the following (non-exhaustive) types
 
 - Making offensive comments about other volunteers
 
-- Not giving credit for work contributions and ideas
+- Not giving credit for contributions and ideas
 
 - Intimidation and threats in general
 
@@ -147,11 +149,11 @@ Apart from the direct impact on a victim's health, long-term exposure to bullyin
 
 Anyone who is asked to stop any harassing behavior should comply immediately. If you are being harassed, or witness inappropriate behavior, speak out about it. Seek support for yourself or offer support to the person harmed. If you feel comfortable to do so, call out the inappropriate behavior immediately. You might find it helpful to use this type of language: "That is not appropriate -- it makes me feel uncomfortable". Or you can raise it at a later time.
 
-The "bystander effect" is all too common - a culture of silence perpetuates harm. If the behavior is not rectified immediately, or if you do not feel comfortable addressing the perpetrator directly, feel free to fill in an incident report form, which can be obtained from event coordinators.
+The "bystander effect" is all too common - a culture of silence perpetuates harm. If the behavior is not rectified immediately, or if you do not feel comfortable addressing the perpetrator directly, feel free to fill in an incident report form, which can be obtained from event coordinators or completed online using our [Code of Conduct incident report form](https://forms.gle/nRUaXtrjPBijf3D59).
 
 {% include heading_block.html title="Making a Complaint of Sexual Harassment" %}
 
-Every team / event should have policies to deal with sexual harassment, discrimination and bullying. If you experience or witness sexual harassment in any event setting you have a right to speak up and, if appropriate, to make a formal complaint.
+DSC maintains policies to deal with sexual harassment, discrimination and bullying at our events. If you experience or witness sexual harassment in any event setting you have a right to speak up and, if appropriate, to make a formal complaint.
 
 If you decide to make a complaint then you can expect the following to happen:
 
@@ -173,4 +175,4 @@ If you decide to make a complaint then you can expect the following to happen:
 
 - If a person is found to have sexually harassed you there should be clear consequences for their actions.
 
-- By law you are protected from being adversely affected as a result of making a complaint of sexual harassment.
+- DSC will not tolerate retaliation against anyone for making a good-faith complaint of sexual harassment or supporting someone else's complaint. Some forms of retaliation may also be unlawful.
