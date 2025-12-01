@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.7)
-      public_suffix (>= 2.0.2, < 7.0)
+    addressable (2.8.8)
+      public_suffix (>= 2.0.2, < 8.0)
     base64 (0.3.0)
     bigdecimal (3.3.1)
     colorator (1.1.0)
@@ -55,7 +55,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.15.2)
+    json (2.16.0)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
@@ -68,7 +68,7 @@ GEM
     optparse (0.8.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (6.0.2)
+    public_suffix (7.0.0)
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
@@ -84,7 +84,7 @@ GEM
     tzinfo-data (1.2025.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
-    webrick (1.9.1)
+    webrick (1.9.2)
     yaml (0.4.0)
 
 PLATFORMS
@@ -116,4 +116,4 @@ DEPENDENCIES
   yaml
 
 BUNDLED WITH
-   2.7.2
+  4.0.0.beta2
