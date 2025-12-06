@@ -1,0 +1,69 @@
+banner: retreat2025.png
+registration:
+  link: https://tkt.page/2026-dsc-suscon
+  waitlist: null
+  pricing_options:
+    - date_begin: 2026-01-01
+      date_end: 2026-01-31
+      cost: 250
+    - date_begin: 2026-02-01
+      date_end: 2026-03-31
+      cost: 300
+  close_date: 2026-04-01
+  description: >
+    Registration includes a full event pass for the 2026 Denver Suscon, an event t-shirt, and one suspension (we will attempt to 
+    accommodate additional suspensions if time allows).
+    You will be emailed an invoice within one week of submitting the registration form.
+    Payment is due 7 days after receiving your invoice in order to reserve the spot in
+    your registration tier listed below. Once payment is received,
+    you will be added to the Facebook attendee group.
+    **Registration is non-refundable.**
+event_start: 2026-04-17
+event_end: 2026-04-19
+intro: >
+  Join us for the inaugural 2026 Denver Suscon, a registrant-only event focused on education and community.
+description:
+  - This will be the first Denver Suspension Collective Suscon. Please note that this event is not open to the public
+    and is for registrants only. _Full information and event protocols will be made available upon payment of your registration._
+    **This event is drug and alcohol free.**
+  - Most suspensions will be accommodated at the event, but if you think your suspension may require special attention,
+    involve multiple practitioners, or have additional risks for any reason,
+    please contact us to discuss what's possible.
+  - A consent form will be required by all attendees at the Suscon.
+venue:
+  name: Void Studios
+  address: 1790 S Bannock St, Denver, CO 80223
+  link: "https://www.voidstudios.net/"
+  map: "https://maps.app.goo.gl/N3nT48w2AW1tVMDz9"
+  image: void_studios.jpg
+  description: >
+    We will be hosted by Void Studios, a beautiful 7,500 sq. ft. creative production space in Denver.
+  points:
+   - "4 Dynamic Indoor Points"
+   - "1 Aerial Rig Outdoor (weather-permitting)"
+   - "1 Cube"
+accommodation: >
+  **There is no accommodation included in the cost of registration.** Upon registration,
+  you will be added to a Facebook group where you can coordinate shared accommodations
+  with other attendees. The closest hotels are about a mile away and there are many listings
+  on Airbnb near the venue.
+food: >
+  Snacks and light refreshments (all vegetarian, mostly vegan) will be available daily during the event.
+  There are a few restaurants within walking distance, as well as many food delivery options available.
+hooks:
+  - We will provide hooks and shackles for most suspensions. Please note that the hooks
+    provided have been used before and have been processed and sterilized in accordance
+    with the City and County of Denver Rules and Regulations for Body Art Establishments.
+  - Some new hooks will be available for purchase at the event but in order to use them there,
+    sterilization must be arranged beforehand. If you have any concerns about previously used
+    hooks or want to arrange to purchase hooks for your suspension at the event, please contact us.
+  - If you bring your own hooks to use at the event,
+    please ensure they are in sterile packages which have not been compromised.
+covid:
+  - For everyone's wellbeing during the 2026 Denver Suscon, we encourage attendees to take precautions while traveling,
+    including wearing masks, maintaining distance from others when possible, and using hand sanitizer regularly.
+    Upon arrival, anyone experiencing COVID symptoms should notify the organizer or volunteers,
+    who will provide rapid tests as needed.
+  - While we aim to create a comfortable environment for all, participants displaying COVID symptoms may
+    be asked to wear a mask during the event. Hand sanitizer will be widely available throughout the event,
+    but participants are also encouraged to bring hand sanitizer for personal use outside the event.

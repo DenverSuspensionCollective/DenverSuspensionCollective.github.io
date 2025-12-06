@@ -1,0 +1,43 @@
+- date: 2026-04-17
+  items:
+  - time_begin: "7:00"
+    time_end: "9:30"
+    details: Load-in/Setup
+    volunteers_only: true
+  - time_begin: "9:30"
+    time_end: "10:15"
+    details: Orientation
+  - time_begin: "10:30"
+    time_end: "12:00"
+    details: Class/Presentation
+  - time_begin: "13:00"
+    time_end: "21:00"
+    details: Suspensions
+
+- date: 2026-04-18
+  items:
+  - time_begin: "9:30"
+    time_end: "10:30"
+    details: Class/Presentation
+  - time_begin: "10:45"
+    time_end: "12:15"
+    details: Class/Presentation
+  - time_begin: "12:15"
+    time_end: "21:00"
+    details: Suspensions
+
+- date: 2026-04-19
+  items:
+  - time_begin: "9:30"
+    time_end: "10:30"
+    details: Class/Presentation
+  - time_begin: "10:45"
+    time_end: "12:15"
+    details: Class/Presentation
+  - time_begin: "12:15"
+    time_end: "19:00"
+    details: Suspensions
+  - time_begin: "19:00"
+    time_end: "22:00"
+    details: Load-out/Cleanup
+    volunteers_only: true

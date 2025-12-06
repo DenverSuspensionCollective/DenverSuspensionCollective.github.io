@@ -1,0 +1,25 @@
+include_tba_card: true
+presenters:
+  - name: Bridget Hall
+    image: bridget_hall.jpg
+    presentation_title: Aseptic Technique for Hook Suspension Practitioners
+    presentation_description: >
+      Aseptic technique class description.
+    bio: >
+      Bridget Hall is a suspension practitioner...
+  - name: Lisa and Julia
+    image: lisa_and_julia.jpg
+    presentation_title: "Lisa and Julia's Class"
+    presentation_description: >
+      Description of the class.
+    bio: >
+      Bio...
+  - name: Melanie Leandro
+    image: null
+    presentation_title: "Flesh Hook Basics: Selection and Placement"
+    presentation_description: >
+      This course demonstrates various hook options common to body suspension, their pros, cons as well as uses.
+      It will cover hook placement for a select few suspension positions and give facilitators a well rounded
+      approach to selecting the best hook for the suspension. We will also be going over various techniques
+      including holding your hook, manipulating the tissue, and selection of needles.
+    bio: null
