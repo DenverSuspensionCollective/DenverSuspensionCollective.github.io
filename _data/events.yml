@@ -2,6 +2,8 @@
 monthly_meets:
 - start_date: '2025-12-20'
   location: Denver, CO
+- start_date: '2026-01-31'
+  location: Denver, CO
 past_events:
 - name: April 2025 Retreat
   page: retreats/2025.md
