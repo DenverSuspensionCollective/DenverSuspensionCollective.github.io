@@ -7,7 +7,7 @@ monthly_meets:
 - start_date: '2026-02-14'
   location: Fort Collins, CO
 - name: 2026 Denver Suscon
-  page: conventions/2026.md
+  page: suscon/2026.md
   start_date: 2026-04-17
   end_date: 2026-04-19
   location: Denver, CO
