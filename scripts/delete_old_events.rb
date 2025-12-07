@@ -11,7 +11,7 @@ class EventCleaner
 
   def run
     determine_events_file_path
-    clean_old_meets
+    delete_old_events
   rescue StandardError => e
     puts "❌ Error: #{e.message}"
     exit 1
@@ -42,7 +42,7 @@ class EventCleaner
     raise "Error writing YAML file: #{e.message}"
   end
 
-  def clean_old_meets
+  def delete_old_events
     puts "Loading events from: #{@events_file}"
 
     # Load existing events data
@@ -51,33 +51,33 @@ class EventCleaner
     # Get today's date
     today = Date.today
 
-    # Filter out past monthly meets
-    if events_data['monthly_meets']
-      original_count = events_data['monthly_meets'].length
+    # Filter out past events
+    if events_data['upcoming_events']
+      original_count = events_data['upcoming_events'].length
 
-      events_data['monthly_meets'] = events_data['monthly_meets'].select do |meet|
+      events_data['upcoming_events'] = events_data['upcoming_events'].select do |event|
         begin
-          meet_date = meet['start_date'].is_a?(Date) ? meet['start_date'] : Date.parse(meet['start_date'])
-          meet_date >= today
+          event_date = event['start_date'].is_a?(Date) ? event['start_date'] : Date.parse(event['start_date'])
+          event_date >= today
         rescue => e
-          puts "⚠️  Warning: Could not parse date '#{meet['start_date']}' for meet at #{meet['location']}: #{e.message}"
-          # Keep the meet if we can't parse the date to be safe
+          puts "⚠️  Warning: Could not parse date '#{event['start_date']}' for event at #{event['location']}: #{e.message}"
+          # Keep the event if we can't parse the date to be safe
           true
         end
       end
 
-      removed_count = original_count - events_data['monthly_meets'].length
+      removed_count = original_count - events_data['upcoming_events'].length
 
       if removed_count > 0
         # Save updated data
         save_events_yaml(events_data)
-        puts "✅ Removed #{removed_count} past monthly meet(s)"
+        puts "✅ Removed #{removed_count} past event(s)"
         puts "✅ Successfully updated #{@events_file}"
       else
-        puts "ℹ️  No past monthly meets found to remove"
+        puts "ℹ️  No past events found to remove"
       end
     else
-      puts "ℹ️  No monthly_meets section found in events.yml"
+      puts "ℹ️  No upcoming_events section found in events.yml"
     end
   end
 end
