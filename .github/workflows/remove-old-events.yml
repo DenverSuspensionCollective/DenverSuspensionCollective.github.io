@@ -1,7 +1,7 @@
 # GitHub Actions Virtual Environments
 # https://github.com/actions/virtual-environments/
 
-name: Remove Old Monthly Meets
+name: Remove Old Events
 
 on:
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
           bundler-cache: true
 
       - name: edit events.yml
-        run: bundle exec ruby ./scripts/clean_up_old_meets.rb
+        run: make delete-old-events
 
       # https://github.com/peter-evans/create-pull-request
       - name: create pull request
@@ -38,9 +38,9 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.PAT_HAL_CODEBOT }}
-          commit-message: "[automated] Delete old monthly meets"
-          title: "[automated] Delete old monthly meets"
-          body: "Delete old monthly meets"
+          commit-message: "[automated] Delete old events"
+          title: "[automated] Delete old events"
+          body: "Delete old events"
           branch: automated/delete-old-events
           delete-branch: true
           reviewers: jessesquires, aebelenkiy
