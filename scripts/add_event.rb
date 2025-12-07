@@ -4,17 +4,17 @@
 Script to add new events to events.yml
 
 Usage:
-    ruby add_monthly_meet.rb --start_date YYYY-MM-DD --location "Location Name" [--event_type TYPE]
-    ruby add_monthly_meet.rb -d YYYY-MM-DD -l "Location Name" [-t TYPE]
+    ruby add_event.rb --start_date YYYY-MM-DD --location "Location Name" [--event_type TYPE]
+    ruby add_event.rb -d YYYY-MM-DD -l "Location Name" [-t TYPE]
 
 Event types:
     monthly_meet (default) - Regular monthly meet
     hook_pull - Community hook pull event
 
 Examples:
-    ruby add_monthly_meet.rb --start_date 2025-11-15 --location "Denver, CO"
-    ruby add_monthly_meet.rb -d 2025-12-20 -l "Boulder, CO"
-    ruby add_monthly_meet.rb --start_date 2025-11-15 --location "Denver, CO" --event_type hook_pull
+    ruby add_event.rb --start_date 2025-11-15 --location "Denver, CO"
+    ruby add_event.rb -d 2025-12-20 -l "Boulder, CO"
+    ruby add_event.rb --start_date 2025-11-15 --location "Denver, CO" --event_type hook_pull
 =end
 
 require 'yaml'
@@ -126,9 +126,9 @@ class EventAdder
     raise "Error writing YAML file: #{e.message}"
   end
 
-  def add_monthly_meet(events_data, start_date, location, event_type)
-    # Ensure monthly_meets section exists
-    events_data['monthly_meets'] ||= []
+  def add_event(events_data, start_date, location, event_type)
+    # Ensure upcoming_events section exists
+    events_data['upcoming_events'] ||= []
 
     # Create new entry
     new_entry = {
@@ -141,8 +141,8 @@ class EventAdder
       new_entry['name'] = 'Community Hook Pull'
     end
 
-    # Add to monthly_meets
-    events_data['monthly_meets'] << new_entry
+    # Add to upcoming events
+    events_data['upcoming_events'] << new_entry
 
     events_data
   end
@@ -153,8 +153,8 @@ class EventAdder
     # Load existing events data
     events_data = load_events_yaml
 
-    # Add new monthly meet
-    events_data = add_monthly_meet(events_data, @options[:start_date], @options[:location], @options[:event_type])
+    # Add new event
+    events_data = add_event(events_data, @options[:start_date], @options[:location], @options[:event_type])
 
     # Save updated data
     save_events_yaml(events_data)

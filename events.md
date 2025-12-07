@@ -9,9 +9,9 @@ Please <a href="{% link contact.md %}">contact us</a> if you're interested in at
 </p>
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-{% assign sorted_meets = site.data.events.monthly_meets | sort: 'start_date' %}
+{% assign sorted_events = site.data.events.upcoming_events | sort: 'start_date' %}
 
-{% for event in sorted_meets %}
+{% for event in sorted_events %}
 <div class="col">
     <div class="card">
         <div class="card-body">
