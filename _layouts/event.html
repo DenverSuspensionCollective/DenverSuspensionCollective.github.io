@@ -8,6 +8,7 @@ layout: default
 {% assign schedule = event.schedule %}
 {% assign presenters = event.presentations.presenters %}
 {% assign sponsors = event.sponsors %}
+{% assign speaker_layout_cards = page.speaker_layout_cards %}
 
 <article>
     <h1 class="display-5">{{ page.title }}</h1>
@@ -92,7 +93,11 @@ layout: default
     </div>
     {% endfor %}
 
-    {% include event_speaker_list.html event=event %}
+    {% if speaker_layout_cards %}
+        {% include event_speaker_cards.html event=event %}
+    {% else %}
+        {% include event_speaker_list.html event=event %}
+    {% endif %}
 
     {% include heading_block.html title="Venue" icon="bi-building-fill" %}
     <p>{{ details.venue.description }} <a href="{{ details.venue.link }}">{{ details.venue.name }}</a>
