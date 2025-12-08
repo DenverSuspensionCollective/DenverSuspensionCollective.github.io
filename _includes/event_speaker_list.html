@@ -2,7 +2,7 @@
 
 {% include heading_block.html title="Presentations" icon="bi-easel" %}
 
-<p>There will be one class or presentation each morning hosted by one of our volunteer speakers.</p>
+<p>{{ event.presentations.section_description }}</p>
 
 <ul class="list-unstyled pt-3">
     {% for each in presenters %}

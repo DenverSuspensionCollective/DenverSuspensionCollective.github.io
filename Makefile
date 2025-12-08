@@ -38,7 +38,12 @@ update-bundle:
 update-npm:
 	npm update
 
-# ==== Adding Meets ==== #
+# ==== Managing Events ==== #
+
 .PHONY: monthly-meet
 monthly-meet:
-	bundle exec ruby ./scripts/add_monthly_meet.rb --start_date "$(date)" --location "$(loc)" --event_type "$(type)"
+	bundle exec ruby ./scripts/add_event.rb --start_date "$(date)" --location "$(loc)" --event_type "$(type)"
+
+.PHONY: delete-old-events
+delete-old-events:
+	bundle exec ruby ./scripts/delete_old_events.rb

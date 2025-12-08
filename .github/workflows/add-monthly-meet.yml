@@ -10,7 +10,7 @@ on:
         description: 'Year (YYYY)'
         type: string
         required: true
-        default: '2025'
+        default: '2026'
       month:
         description: 'Month (MM)'
         type: string
