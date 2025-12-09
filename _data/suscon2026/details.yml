@@ -12,11 +12,8 @@ registration:
   close_date: 2026-04-01
   description: >
     Registration includes a full event pass for the 2026 Denver Suscon, an event t-shirt, and one suspension (we will attempt to 
-    accommodate additional suspensions if time allows).
-    You will be emailed an invoice within one week of submitting the registration form.
-    Payment is due 7 days after receiving your invoice in order to reserve the spot in
-    your registration tier listed below. Once payment is received,
-    you will be added to the Facebook attendee group.
+    accommodate additional suspensions if time allows). 
+    Once payment is received, you will be added to the Facebook attendee group within 48 hours.
     **Registration is non-refundable.**
 event_start: 2026-04-17
 event_end: 2026-04-19
@@ -24,12 +21,7 @@ intro: >
   Join us for the inaugural 2026 Denver Suscon, a registrant-only event focused on education and community.
 description:
   - This will be the first Denver Suspension Collective Suscon. Please note that this event is not open to the public
-    and is for registrants only. _Full information and event protocols will be made available upon payment of your registration._
-    **This event is drug and alcohol free.**
-  - Most suspensions will be accommodated at the event, but if you think your suspension may require special attention,
-    involve multiple practitioners, or have additional risks for any reason,
-    please contact us to discuss what's possible.
-  - A consent form will be required by all attendees at the Suscon.
+    and is for registrants only.
 venue:
   name: Void Studios
   address: 1790 S Bannock St, Denver, CO 80223
@@ -59,6 +51,9 @@ hooks:
     hooks or want to arrange to purchase hooks for your suspension at the event, please contact us.
   - If you bring your own hooks to use at the event,
     please ensure they are in sterile packages which have not been compromised.
+  - Most suspensions will be accommodated at the event, but if you think your suspension may require special attention,
+    involve multiple practitioners, use an unusually high number of hooks, or have additional risks for any reason,
+    please contact us to discuss what's possible.
 covid:
   - For everyone's wellbeing during the 2026 Denver Suscon, we encourage attendees to take precautions while traveling,
     including wearing masks, maintaining distance from others when possible, and using hand sanitizer regularly.
