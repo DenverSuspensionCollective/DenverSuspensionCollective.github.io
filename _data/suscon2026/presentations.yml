@@ -2,11 +2,11 @@ include_tba_card: true
 presenters:
   - name: Bridget Hall
     image: bridget_hall.jpg
-    presentation_title: Aseptic Technique for Hook Suspension Practitioners
+    presentation_title: Aseptic Technique for the Suspension Practitioner
     presentation_description: >
-      Aseptic technique class description.
+      A comprehensive look at aseptic technique for all roles within a body suspension. This class will discuss what aseptic technique is, how it protects practitioners and suspendees, and the recommended procedures for maintaining hygiene and preventing blood borne infections from start to finish.
     bio: >
-      Bridget Hall is a suspension practitioner...
+      Bridget Hall is a professional body piercer and suspension practitioner from Indiana, currently based in Ohio. She has been piercing for over 5 years and has been involved in the suspension community since 2022. Bridget has participated in educational piercing and/or suspension events in four countries. She has a passion for keeping education and knowledge accessible and available within the body modification community. 
   - name: Lisa and Julia
     image: lisa_and_julia.jpg
     presentation_title: "Lisa and Julia's Class"
@@ -14,12 +14,4 @@ presenters:
       Description of the class.
     bio: >
       Bio...
-  - name: Melanie Leandro
-    image: null
-    presentation_title: "Flesh Hook Basics: Selection and Placement"
-    presentation_description: >
-      This course demonstrates various hook options common to body suspension, their pros, cons as well as uses.
-      It will cover hook placement for a select few suspension positions and give facilitators a well rounded
-      approach to selecting the best hook for the suspension. We will also be going over various techniques
-      including holding your hook, manipulating the tissue, and selection of needles.
-    bio: null
+
