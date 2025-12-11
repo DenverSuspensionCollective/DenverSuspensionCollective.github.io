@@ -15,7 +15,7 @@
                 <p class="card-text">{{ each.presentation_description }}</p>
             </div>
             <div class="card-footer">
-                <small class="text-body-secondary">{{ each.bio }}</small>
+                <small class="text-body-secondary">{{ each.bio | markdownify }}</small>
             </div>
         </div>
     </div>
