@@ -67,6 +67,8 @@ Some general guidelines are:
 
 - Do not hesitate to inform volunteers or DSC organizers if you have suggestions or notice any violations of these rules.
 
+- DSC events are drug-free and alcohol-free spaces. Suspendees, facilitators, and volunteers are expected to remain sober, and we cannot safely or ethically suspend you if anyone involved is under the influence. The use, possession, or sale of alcohol or other drugs at events is prohibited.
+
 - There are sharp objects and potentially contaminated equipment around. Pay attention to what might be near you. If you are not a volunteer, or you are a volunteer but do not have a specific role, do not touch anything unless you are directed to do so. If in doubt, ask someone. Don't touch anything with blood on it, not even your own blood.
 
 {% include heading_block.html title="Relationships and Power Dynamics Between Practitioners/Volunteers and Suspendees" %}
