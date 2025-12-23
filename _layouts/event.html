@@ -139,11 +139,13 @@ layout: default
             </tr>
         {% endfor %}
         </tbody>
-        <caption class="bg-warning-subtle bg-gradient text-body px-2">
-            <b><i class="bi bi-exclamation-triangle-fill"></i></b>
-            <span class="fw-medium">Registration closes on {{ details.registration.close_date | date: "%B %-d, %Y" }}</span>
-        </caption>
     </table>
+
+    <div class="alert alert-info my-4 fw-medium" role="alert">
+        <b><i class="bi bi-info-circle-fill"></i></b> International attendees are eligible for a <b>25% discount</b>.
+        If you are traveling from outside of the United States,
+        please <a href="{% link contact.md %}" class="alert-link">contact us</a> for a coupon discount code to use at registration.
+    </div>
 
     {% if details.registration.link == null %}
         {% assign is_closed = true %}
@@ -174,8 +176,13 @@ layout: default
         {% endif %}
     </div>
 
+    <div class="alert alert-warning my-4 fw-medium" role="alert">
+        <b><i class="bi bi-exclamation-triangle-fill"></i></b> Registration
+        closes on {{ details.registration.close_date | date: "%B %-d, %Y" }}
+    </div>
+
     <div class="alert alert-danger my-4" role="alert">
-        <b>Note:</b> <i>This event is not open to the public.
+        <b><i class="bi bi-x-octagon-fill"></i> Note:</b> <i>This event is not open to the public.
         Full information and protocols will be provided upon registration.
         All participants must complete a consent form.
         By registering for this event, you acknowledge that you have read and agree to our
