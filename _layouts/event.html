@@ -115,27 +115,35 @@ layout: default
 
     {% include heading_block.html title="Registration & Pricing" icon="bi-person-badge-fill" %}
     <p>{{ details.registration.description | markdownify }}</p>
-    <ul class="list-group list-group-flush mb-4">
+
+    <table class="table table-borderless align-middle">
+        <thead>
+            <tr>
+                <td width="150px"></td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
         {% for each in details.registration.pricing_options %}
-        <li class="list-group-item">
-            <span class="fw-medium font-monospace pe-3">
-                ${{ each.cost }} USD
-            </span>
-            <span class="fst-italic">
-                {{ each.date_begin | date: "%b %-d" }} &mdash; {{ each.date_end | date: "%b %-d" }}
-            </span>
-            {% if details.registration.pricing_options.first == each %}
-            <span class="text-body-secondary ps-3">
-                <i class="bi bi-star-fill"></i> Introductory Rate
-            </span>
-            {% endif %}
-        </li>
+            <tr class="border-top">
+                <td class="fw-medium font-monospace">${{ each.cost }} USD</td>
+                <td class="text-body-secondary">
+                    {% if each.type == "early" %}
+                    Early Registration<br/>
+                    <i class="bi bi-star-fill text-warning"></i> <i>Limited Availability</i>
+                    {% endif %}
+                    {% if each.type == "regular" %}
+                    Regular Registration
+                    {% endif %}
+                </td>
+            </tr>
         {% endfor %}
-        <li class="list-group-item bg-warning-subtle bg-gradient">
+        </tbody>
+        <caption class="bg-warning-subtle bg-gradient text-body px-2">
             <b><i class="bi bi-exclamation-triangle-fill"></i></b>
             <span class="fw-medium">Registration closes on {{ details.registration.close_date | date: "%B %-d, %Y" }}</span>
-        </li>
-    </ul>
+        </caption>
+    </table>
 
     {% if details.registration.link == null %}
         {% assign is_closed = true %}

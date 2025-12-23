@@ -3,12 +3,10 @@ registration:
   link: null
   waitlist: null
   pricing_options:
-    - date_begin: 2025-01-01
-      date_end: 2025-01-31
-      cost: 250
-    - date_begin: 2025-02-01
-      date_end: 2025-03-31
-      cost: 300
+    - cost: 250
+      type: early
+    - cost: 300
+      type: regular
   close_date: 2025-04-01
   description: >
     Registration includes a full retreat pass, event t-shirt, and two suspensions.
