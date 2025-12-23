@@ -2,6 +2,7 @@ section_description: "There will be one class or presentation each morning hoste
 include_tba_card: true
 presenters:
   - name: Eden Thomson
+    id: eden
     image: eden_thomson.jpg
     presentation_title: Rigging Fundamentals for Hook Suspension Practitioners
     presentation_description: >
@@ -19,6 +20,7 @@ presenters:
       of standardized testing protocols and procedures to ensure the safety and
       well-being of the broader community.
   - name: Sylvia Walton
+    id: sylvia
     image: sylvia_walton.jpg
     presentation_title: "Outdoor Suspension: Pack in to Pack out"
     presentation_description: >
@@ -35,6 +37,7 @@ presenters:
       into a profession in Rope Access. Sylvia’s passion for efficient, safe rigging aims to enhance
       comfort and elevate technical skills for fellow practitioners.
   - name: Melanie Leandro
+    id: melanie
     image: null
     presentation_title: "Flesh Hook Basics: Selection and Placement"
     presentation_description: >
