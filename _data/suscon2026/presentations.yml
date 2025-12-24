@@ -1,0 +1,21 @@
+section_description: "There will be two classes or presentations each day, hosted by our volunteer speakers."
+include_tba_card: true
+presenters:
+  - name: Bridget Hall
+    id: bridgethall
+    image: bridget_hall.jpg
+    presentation_title: Aseptic Technique for the Suspension Practitioner
+    presentation_description: >
+      A comprehensive look at aseptic technique for all roles within a body suspension. This class will discuss what aseptic technique is, how it protects practitioners and suspendees, and the recommended procedures for maintaining hygiene and preventing blood borne infections from start to finish.
+    bio: >
+      Bridget Hall is a professional body piercer and suspension practitioner from Indiana, currently based in Ohio. She has been piercing for over 5 years and has been involved in the suspension community since 2022. Bridget has participated in educational piercing and/or suspension events in four countries. She has a passion for keeping education and knowledge accessible and available within the body modification community.
+  - name: Lisa B. and Julia Church
+    id: lisaandjulia
+    image: lisa_and_julia.jpg
+    presentation_title: "Skin, Psyche, and the Sacred Pull"
+    presentation_description: >
+      Skin, Psyche, and the Sacred Pull is a deep dive into the psychological, somatic, and neurobiological layers of hook suspension, exploring how vulnerability, community, and the nervous system come together to create profound transformation. Attendees will learn how psychological concepts appear in suspension spaces, why co-regulation is essential for safety and connection, and how the brain’s own mechanisms and shape the emotional and physical experience of going up. This class blends science with soul and offers a rich, grounded framework for understanding how suspension changes us from the inside out.
+    bio: >
+      Lisa B. began her suspension journey in 2012 and started facilitating in 2013. Over the years, she has developed strong connections within the international suspension community and has been a consistent advocate for accessibility, safety, and inclusivity. Her contributions have supported the growth of a more informed and welcoming environment for both new and experienced participants. She currently serves as an advisor for State of Bliss, where she provides practical guidance on media, styling, and people management. Lisa approaches her work with clarity, honesty, and a focus on collaboration, helping support both the creative and operational needs of the team. She remains actively involved in efforts to nurture and sustain the suspension community in the UK.
+      <br><br>
+      Julia Church comes from a colorful background in biochemistry and spent several years working in environmental, pharmaceutical, and genetic research industries. She ultimately ended up in natural medicine and quality control after realizing she was unwilling to sell her soul to a pharmaceutical company. Her first experience with suspension was facilitated by Lisa in 2015, prior to a marathon of surgeries that took six years to complete. A decade later, she has returned to suspension in search of community, exploration, and communion with the divine self. Above all else, she is passionate about the things that science cannot explain.

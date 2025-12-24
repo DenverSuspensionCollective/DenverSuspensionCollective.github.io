@@ -1,50 +1,44 @@
-banner: retreat2025.png
+banner: suscon2026.jpg
 registration:
-  link: null
+  link: https://tkt.page/2026-dsc-suscon
   waitlist: null
   pricing_options:
-    - cost: 250
+    - cost: 275
       type: early
-    - cost: 300
+    - cost: 325
       type: regular
-  close_date: 2025-04-01
+  close_date: 2026-04-01
   description: >
-    Registration includes a full retreat pass, event t-shirt, and two suspensions.
-    You will be emailed an invoice within one week of submitting the registration form.
-    Payment is due 7 days after receiving your invoice in order to reserve the spot in
-    your registration tier listed below. Once payment is received,
-    you will be added to the Facebook attendee group.
+    Registration includes a full event pass for the 2026 Denver Suscon, an event t-shirt, and one suspension.
+    *We will attempt to accommodate additional suspensions if time allows.*
+    Once payment is received, you will be added to the Facebook attendee group within 48 hours.
     **Registration is non-refundable.**
-event_start: 2025-04-12
-event_end: 2025-04-14
+event_start: 2026-04-17
+event_end: 2026-04-19
 intro: >
-  Join us for the inaugural Denver Suspension Collective Retreat, a registrant-only event focused on education and community.
+  Join us for the 2026 Denver Suscon, a registrant-only event focused on education and community.
 description:
-  - This will be the first Denver Suspension Collective Retreat. Please note that this event is not open to the public
-    and for registrants only. _Full information and event protocols will be made available upon payment of your registration._
-    **This event is drug and alcohol free.**
-  - Most suspensions will be accommodated at the retreat but if you think your suspension may require special attention,
-    involve multiple practitioners, or have additional risks for any reason,
-    please contact us to discuss what's possible.
-  - A consent form will be required by all attendees at the retreat.
+  - After the positive feedback and mommentum from of our inaugural retreat event last year,
+    we are excited to announce the first Denver Suspension Collective Suscon. This year's event will include a larger
+    focus on education with more classes each day and continue our commitment to building community.
+    Please note that this event is not open to the public and is for registrants only.
 venue:
-  name: Studio Friction
-  address: 740 Lipan St. Denver, CO 80204
-  link: "https://studiofriction.com"
-  map: "https://maps.app.goo.gl/N3nT48w2AW1tVMDz9"
-  image: studio_friction.jpg
+  name: Void Studios
+  address: 1790 S Bannock St, Denver, CO 80223
+  link: "https://www.voidstudios.net/"
+  map: "https://maps.app.goo.gl/Ncn2NiLosD1V7c2u9"
+  image: void_studios.jpg
   description: >
-    We will be hosted by Studio Friction, a rope and aerial centered non-profit
-    community space we have worked with for over a year.
+    We will be hosted by Void Studios, a beautiful 7,500 sq. ft. creative production space in Denver.
   points:
-   - "3 Dynamic Indoor Points"
+   - "4 Dynamic Indoor Points"
    - "1 Aerial Rig Outdoor (weather-permitting)"
    - "1 Cube"
 accommodation: >
   **There is no accommodation included in the cost of registration.** Upon registration,
   you will be added to a Facebook group where you can coordinate shared accommodations
-  with other attendees. The closest hotels are about a mile away and there are many listings
-  on Airbnb near the venue.
+  with other attendees. There are several hotels within a mile and many listings on Airbnb
+  near the venue.
 food: >
   Snacks and light refreshments (all vegetarian, mostly vegan) will be available daily during the event.
   There are a few restaurants within walking distance, as well as many food delivery options available.
@@ -57,8 +51,11 @@ hooks:
     hooks or want to arrange to purchase hooks for your suspension at the event, please contact us.
   - If you bring your own hooks to use at the event,
     please ensure they are in sterile packages which have not been compromised.
+  - Most suspensions will be accommodated at the event, but if you think your suspension may require special attention,
+    involve multiple practitioners, use an unusually high number of hooks, or have additional risks for any reason,
+    please contact us to discuss what's possible.
 covid:
-  - For everyone's wellbeing during our retreat, we encourage attendees to take precautions while traveling,
+  - For everyone's wellbeing during the 2026 Denver Suscon, we encourage attendees to take precautions while traveling,
     including wearing masks, maintaining distance from others when possible, and using hand sanitizer regularly.
     Upon arrival, anyone experiencing COVID symptoms should notify the organizer or volunteers,
     who will provide rapid tests as needed.
