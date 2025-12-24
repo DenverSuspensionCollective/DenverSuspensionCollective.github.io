@@ -47,72 +47,6 @@ layout: default
       </li>
     </ul>
 
-    {% include heading_block.html title="Sponsors" icon="bi-star" %}
-    <p>This event is proudly sponsored by the following individuals, organizations, and businesses.</p>
-    <div class="row row-cols-1 row-cols-md-2 g-4 mb-4 pb-3">
-        {% for each in sponsors %}
-        <div class="col">
-            <div class="card">
-                <img src="{{ each.image | img_url: 'sponsors' }}" class="card-img-top" alt="{{ each.name }}">
-                <div class="card-footer">
-                    <p class="card-text text-center text-un">
-                    {% if each.link != null %}
-                        <a href="{{ each.link }}" target="_blank">{{ each.name }}</a>
-                    {% else %}
-                        {{ each.name }}
-                    {% endif %}
-                    </p>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-
-    {% include heading_block.html title="Schedule" icon="bi-calendar3" %}
-    {% for each in schedule %}
-    <h4 class="h4">
-        {{ each.date | date: "%A" }}
-        <small class="text-body-tertiary">{{ each.date | date: "%B %-d" }}</small>
-    </h4>
-    <div class="table-responsive">
-    <table class="table table-sm table-striped table-bordered">
-        <tbody>
-            {% for item in each.items %}
-            <tr>
-                <td width="200px">{{ item.time_begin | date: "%I:%M %p" }} &mdash; {{ item.time_end | date: "%I:%M %p" }}</td>
-                <td>
-                    {{ item.details }}
-                    {% if item.volunteers_only %}
-                    <i>(volunteers only)</i>
-                    {% endif %}
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-    </div>
-    {% endfor %}
-
-    {% if speaker_layout_cards %}
-        {% include event_speaker_cards.html event=event %}
-    {% else %}
-        {% include event_speaker_list.html event=event %}
-    {% endif %}
-
-    {% include heading_block.html title="Venue" icon="bi-building-fill" %}
-    <p>{{ details.venue.description }} <a href="{{ details.venue.link }}">{{ details.venue.name }}</a>
-        is located at <a href="{{ details.venue.map }}">{{ details.venue.address }}</a>.
-    </p>
-    <p>The following suspension points will be set up:</p>
-    <ul>
-        {% for each in details.venue.points %}
-        <li>{{ each }}</li>
-        {% endfor %}
-    </ul>
-    <div>
-      <img src="{{ details.venue.image | img_url: 'venues' }}" class="img-fluid img-thumbnail" alt="{{ details.venue.location }}">
-    </div>
-
     {% include heading_block.html title="Registration & Pricing" icon="bi-person-badge-fill" %}
     <p>{{ details.registration.description | markdownify }}</p>
 
@@ -187,6 +121,72 @@ layout: default
         All participants must complete a consent form.
         By registering for this event, you acknowledge that you have read and agree to our
         <a href="{% link resources/general/code-of-conduct.md %}" class="alert-link">Code of Conduct</a>.</i>
+    </div>
+
+    {% include heading_block.html title="Sponsors" icon="bi-star" %}
+    <p>This event is proudly sponsored by the following individuals, organizations, and businesses.</p>
+    <div class="row row-cols-1 row-cols-md-2 g-4 mb-4 pb-3">
+        {% for each in sponsors %}
+        <div class="col">
+            <div class="card">
+                <img src="{{ each.image | img_url: 'sponsors' }}" class="card-img-top" alt="{{ each.name }}">
+                <div class="card-footer">
+                    <p class="card-text text-center text-un">
+                    {% if each.link != null %}
+                        <a href="{{ each.link }}" target="_blank">{{ each.name }}</a>
+                    {% else %}
+                        {{ each.name }}
+                    {% endif %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% include heading_block.html title="Schedule" icon="bi-calendar3" %}
+    {% for each in schedule %}
+    <h4 class="h4">
+        {{ each.date | date: "%A" }}
+        <small class="text-body-tertiary">{{ each.date | date: "%B %-d" }}</small>
+    </h4>
+    <div class="table-responsive">
+    <table class="table table-sm table-striped table-bordered">
+        <tbody>
+            {% for item in each.items %}
+            <tr>
+                <td width="200px">{{ item.time_begin | date: "%I:%M %p" }} &mdash; {{ item.time_end | date: "%I:%M %p" }}</td>
+                <td>
+                    {{ item.details }}
+                    {% if item.volunteers_only %}
+                    <i>(volunteers only)</i>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </div>
+    {% endfor %}
+
+    {% if speaker_layout_cards %}
+        {% include event_speaker_cards.html event=event %}
+    {% else %}
+        {% include event_speaker_list.html event=event %}
+    {% endif %}
+
+    {% include heading_block.html title="Venue" icon="bi-building-fill" %}
+    <p>{{ details.venue.description }} <a href="{{ details.venue.link }}">{{ details.venue.name }}</a>
+        is located at <a href="{{ details.venue.map }}">{{ details.venue.address }}</a>.
+    </p>
+    <p>The following suspension points will be set up:</p>
+    <ul>
+        {% for each in details.venue.points %}
+        <li>{{ each }}</li>
+        {% endfor %}
+    </ul>
+    <div>
+      <img src="{{ details.venue.image | img_url: 'venues' }}" class="img-fluid img-thumbnail" alt="{{ details.venue.location }}">
     </div>
 
     {% include heading_block.html title="Accommodation" icon="bi-house-fill" %}
