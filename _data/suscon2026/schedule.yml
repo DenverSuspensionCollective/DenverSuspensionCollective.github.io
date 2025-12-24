@@ -2,7 +2,7 @@
   items:
   - time_begin: "7:00"
     time_end: "9:30"
-    details: Load-in/Setup
+    details: Load-in and Setup
     volunteers_only: true
   - time_begin: "9:30"
     time_end: "10:15"
@@ -18,10 +18,10 @@
   items:
   - time_begin: "9:30"
     time_end: "10:30"
-    details: Class/Presentation
+    details: Class/Presentation - To Be Announced
   - time_begin: "10:45"
     time_end: "12:15"
-    details: Class/Presentation
+    details: Class/Presentation - To Be Announced
   - time_begin: "12:15"
     time_end: "21:00"
     details: Suspensions
@@ -30,14 +30,14 @@
   items:
   - time_begin: "9:30"
     time_end: "10:30"
-    details: Class/Presentation
+    details: Class/Presentation - To Be Announced
   - time_begin: "10:45"
     time_end: "12:15"
-    details: Class/Presentation
+    details: Class/Presentation - To Be Announced
   - time_begin: "12:15"
     time_end: "19:00"
     details: Suspensions
   - time_begin: "19:00"
     time_end: "22:00"
-    details: Load-out/Cleanup
+    details: Load-out and Cleanup
     volunteers_only: true
