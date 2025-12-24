@@ -76,10 +76,15 @@ layout: default
     </table>
 
     <div class="alert alert-info my-4 fw-medium" role="alert">
-        <b><i class="bi bi-info-circle-fill"></i></b> International attendees are eligible for a <b>25% discount</b>.
+        <b><i class="bi bi-info-circle-fill"></i> International Attendee Discount:</b> We recognize the additional cost of
+        traveling to the United States, and international collaboration is deeply important to us.
+        Attendees joining us from outside the U.S. are eligible for a <b>25% discount</b>.
         If you are traveling from outside of the United States,
-        please <a href="{% link contact.md %}" class="alert-link">contact us</a> for a coupon discount code to use at registration.
+        please <a href="{% link contact.md %}" class="alert-link">contact us</a>
+        for a coupon discount code to use at registration.
     </div>
+
+
 
     {% if details.registration.link == null %}
         {% assign is_closed = true %}
@@ -111,8 +116,8 @@ layout: default
     </div>
 
     <div class="alert alert-warning my-4 fw-medium" role="alert">
-        <b><i class="bi bi-exclamation-triangle-fill"></i></b> Registration
-        closes on {{ details.registration.close_date | date: "%B %-d, %Y" }}
+        <b><i class="bi bi-exclamation-triangle-fill"></i> Registration Closes:</b>
+        {{ details.registration.close_date | date: "%B %-d, %Y" }}
     </div>
 
     <div class="alert alert-danger my-4" role="alert">
