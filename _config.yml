@@ -48,9 +48,9 @@ sass:
   style: compressed
 
 # Metadata
-title: 'DSC'
-description: 'Denver Suspension Collective'
-url: 'https://denversuspensioncollective.github.io/'
+title: "DSC"
+description: "Denver Suspension Collective"
+url: "https://www.denversuspension.com"
 logo: logo.jpg
 favicon: /favicon.ico
 timezone: America/Denver
