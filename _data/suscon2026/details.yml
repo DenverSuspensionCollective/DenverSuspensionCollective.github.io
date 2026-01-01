@@ -1,6 +1,6 @@
 banner: suscon2026.jpg
 registration:
-  link: https://tkt.page/2026-dsc-suscon
+  link: "https://tkt.page/2026-dsc-suscon"
   waitlist: null
   pricing_options:
     - cost: 275
@@ -13,6 +13,10 @@ registration:
     *We will attempt to accommodate additional suspensions if time allows.*
     Once payment is received, you will be added to the Facebook attendee group within 48 hours.
     **Registration is non-refundable.**
+scholarship:
+  page: suscon/2026/scholarship.md
+  form: "https://forms.gle/Cky4ZKKviYy7hTfW9"
+  email: denversusconscholarship@gmail.com
 event_start: 2026-04-17
 event_end: 2026-04-19
 intro: >
