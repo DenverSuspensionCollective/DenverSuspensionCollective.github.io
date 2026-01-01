@@ -13,6 +13,9 @@ watch:
 	bundle exec jekyll build
 	bundle exec jekyll build --watch --incremental
 
+.PHONY: incr
+incr: watch
+
 .PHONY: preview
 preview:
 	bundle exec jekyll serve --watch

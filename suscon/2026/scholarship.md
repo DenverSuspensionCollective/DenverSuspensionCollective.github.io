@@ -26,9 +26,7 @@ image:
     Submitting an application does not guarantee a scholarship.
     Please wait until you’ve been notified to book accommodations.
     <br><br>
-    <b>
-    For any questions, please email <a href="{{ email_link }}">DenverSusconScholarship [at] gmail [dot] com</a>.
-    </b>
+    For any questions, please email: <a href="{{ email_link }}" class="alert-link">DenverSusconScholarship [at] gmail [dot] com</a>
 </div>
 
 {% include heading_block.html title="Eligibility for Application" icon="bi-list-stars" %}
@@ -39,11 +37,11 @@ image:
 
 **Commitment to Skill Development:** Applicants must be interested in improving skills as a practitioner, and display an openness to learning and feedback. The Denver Suscon is an education focused event, attendees must be committed to participating in classes and hands-on learning opportunities.
 
-**Code of Conduct and Professionalism:** Applicants must be willing to abide by the Denver Suspension Collective [Code of Conduct]({% link resources/general/code-of-conduct.md %}). The DSC reserves the right to revoke the scholarship or remove the attendee for any behavior that violates the CoC.
+**Code of Conduct and Professionalism:** Applicants must be willing to abide by the DSC [Code of Conduct]({% link resources/general/code-of-conduct.md %}). The DSC reserves the right to revoke the scholarship or remove the attendee for any behavior that violates the CoC.
 
 **Ability to Volunteer as Needed:** Applicants may be asked to volunteer during the Denver Suscon as needed. Volunteer duties may include: load-in, load-out, and registration. Learning opportunities and suspensions will take priority.
 
-**Cost of Travel and Lodging:** The Denver Suspension Collective Scholarship does not provide accommodations such as lodging or travel cost. Applicants must be able to provide their own necessary accommodations.
+**Cost of Travel and Lodging:** The DSC Scholarship does not provide accommodations such as lodging or travel cost. Applicants must be able to provide their own necessary accommodations.
 
 {% include heading_block.html title="Application Requirements" icon="bi-award" %}
 
