@@ -1,9 +1,9 @@
 ---
 layout: standalone
-title: American Wire Gauge Conversions
+title: Wire Gauge, Imperial, and Metric Conversions
 ---
 
-*American Wire Gauge (AWG) Conversion Chart for Imperial and Metric units.*
+*This table spans diameters from 1/64 inch to 1 inch, listing every 1/64-inch fractional increment and every standard AWG (American Wire Gauge) size within that range. Each diameter is shown in fractional inches (where exact), decimal inches, and millimeters. Decimal inches are rounded to four decimal places and metric values to three decimal places using standard rounding.*
 
 <div class="table-responsive">
     <table class="table table-striped table-bordered align-middle">
