@@ -84,7 +84,13 @@ layout: default
         for a coupon discount code to use at registration.
     </div>
 
-
+    <div class="alert alert-danger my-4" role="alert">
+        <b><i class="bi bi-x-octagon-fill"></i> Note:</b> <i>This event is not open to the public.
+        Full information and protocols will be provided upon registration.
+        All participants must complete a consent form.
+        By registering for this event, you acknowledge that you have read and agree to our
+        <a href="{% link resources/general/code-of-conduct.md %}" class="alert-link">Code of Conduct</a>.</i>
+    </div>
 
     {% if details.registration.link == null %}
         {% assign is_closed = true %}
@@ -113,20 +119,26 @@ layout: default
             Join the Waitlist
         </a>
         {% endif %}
+        <p class="text-center">
+            <b>
+                Registration Closes: {{ details.registration.close_date | date: "%B %-d, %Y" }}
+            </b>
+        </p>
     </div>
 
-    <div class="alert alert-warning my-4 fw-medium" role="alert">
-        <b><i class="bi bi-exclamation-triangle-fill"></i> Registration Closes:</b>
-        {{ details.registration.close_date | date: "%B %-d, %Y" }}
+    {% if details.scholarship != null %}
+    {% include heading_block.html title="Scholarships" icon="bi-award" %}
+    <p>
+        The Denver Suspension Collective is committed to keeping education accessible and available
+        and we understand that events can be cost prohibitive for many practitioners.
+        We are offering scholarships for eligible attendees.
+    </p>
+    <div class="d-grid gap-2 col-8 mx-auto my-2">
+        <a href="{% link {{ details.scholarship.page }} %}" class="btn btn-success btn-lg" role="button">
+            Apply Here
+        </a>
     </div>
-
-    <div class="alert alert-danger my-4" role="alert">
-        <b><i class="bi bi-x-octagon-fill"></i> Note:</b> <i>This event is not open to the public.
-        Full information and protocols will be provided upon registration.
-        All participants must complete a consent form.
-        By registering for this event, you acknowledge that you have read and agree to our
-        <a href="{% link resources/general/code-of-conduct.md %}" class="alert-link">Code of Conduct</a>.</i>
-    </div>
+    {% endif %}
 
     {% include heading_block.html title="Sponsors" icon="bi-star" %}
     <p>This event is proudly sponsored by the following individuals, organizations, and businesses.</p>
