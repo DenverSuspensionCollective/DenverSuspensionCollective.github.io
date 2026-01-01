@@ -1,3 +1,8 @@
+event_name: Denver Suscon
+event_year: 2026
+event_start: 2026-04-17
+event_end: 2026-04-19
+event_page: suscon/2026/index.md
 banner: suscon2026.jpg
 registration:
   link: "https://tkt.page/2026-dsc-suscon"
@@ -17,8 +22,9 @@ scholarship:
   page: suscon/2026/scholarship.md
   form: "https://forms.gle/Cky4ZKKviYy7hTfW9"
   email: denversusconscholarship@gmail.com
-event_start: 2026-04-17
-event_end: 2026-04-19
+  count: 4
+  deadline: 2026-01-31
+  notification_date: 2026-02-07
 intro: >
   Join us for the 2026 Denver Suscon, a registrant-only event focused on education and community.
 description:
