@@ -6,7 +6,7 @@ registration:
     - cost: 275
       type: early
     - cost: 325
-      type: regular
+      type: general
   close_date: 2026-04-01
   description: >
     Registration includes a full event pass for the 2026 Denver Suscon, an event t-shirt, and one suspension.
