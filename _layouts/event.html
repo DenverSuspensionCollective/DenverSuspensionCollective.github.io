@@ -120,23 +120,42 @@ layout: default
         </a>
         {% endif %}
         <p class="text-center">
-            <b>
-                Registration Closes: {{ details.registration.close_date | date: "%B %-d, %Y" }}
-            </b>
+            <i>
+                Registration Closes: {{ details.registration.close_date | date: "%B %-d" }}
+            </i>
         </p>
     </div>
 
     {% if details.scholarship != null %}
     {% include heading_block.html title="Scholarships" icon="bi-award" %}
+
+    {% if details.scholarship.form == null %}
+        {% assign scholarship_closed = true %}
+        {% assign scholarship_btn_text = "Applications Closed" %}
+        {% assign scholarship_disabled = "disabled" %}
+    {% else %}
+        {% assign scholarship_closed = false %}
+        {% assign scholarship_btn_text = "Apply Now" %}
+        {% assign scholarship_disabled = "" %}
+    {% endif %}
+
     <p>
         The Denver Suspension Collective is committed to keeping education accessible and available
         and we understand that events can be cost prohibitive for many practitioners.
         We are offering scholarships for eligible attendees.
     </p>
     <div class="d-grid gap-2 col-8 mx-auto my-2">
-        <a href="{% link {{ details.scholarship.page }} %}" class="btn btn-outline-primary btn-lg" role="button">
-            Apply Here
+        <a href="{% link {{ details.scholarship.page }} %}"
+           class="btn btn-outline-primary btn-lg {{ scholarship_disabled }}"
+           aria-disabled="{{ scholarship_closed }}"
+           role="button">
+            {{ scholarship_btn_text }}
         </a>
+        <p class="text-center">
+            <i>
+                Applications Close: {{ details.scholarship.deadline | date: "%B %-d" }}
+            </i>
+        </p>
     </div>
     {% endif %}
 
