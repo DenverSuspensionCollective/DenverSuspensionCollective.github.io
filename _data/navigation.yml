@@ -29,7 +29,7 @@
 
     - heading: Tools
       items:
-      - title: AWG Conversions
+      - title: Wire Gauge Conversions
         page: resources/tools/awg-conversions.md
 
 - title: contact
