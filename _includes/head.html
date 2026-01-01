@@ -14,7 +14,7 @@
     </title>
 
     {% if page.image %}
-        {% capture page_image %} {% link_absolute {{ page.image | img_url }} %} {% endcapture %}
+        {% capture page_image %} {% link_absolute {{ page.image.file | img_url: page.image.sub_dir }} %} {% endcapture %}
     {% else %}
         {% capture page_image %} {% link_absolute {{ site.logo | img_url }} %} {% endcapture %}
     {% endif %}
