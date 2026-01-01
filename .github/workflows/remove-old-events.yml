@@ -35,7 +35,7 @@ jobs:
       # https://github.com/peter-evans/create-pull-request
       - name: create pull request
         id: cpr
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.PAT_HAL_CODEBOT }}
           commit-message: "[automated] Delete old events"
