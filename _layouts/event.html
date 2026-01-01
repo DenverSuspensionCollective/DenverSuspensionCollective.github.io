@@ -134,7 +134,7 @@ layout: default
         We are offering scholarships for eligible attendees.
     </p>
     <div class="d-grid gap-2 col-8 mx-auto my-2">
-        <a href="{% link {{ details.scholarship.page }} %}" class="btn btn-success btn-lg" role="button">
+        <a href="{% link {{ details.scholarship.page }} %}" class="btn btn-outline-primary btn-lg" role="button">
             Apply Here
         </a>
     </div>
@@ -212,7 +212,7 @@ layout: default
     {% include heading_block.html title="Food & Drink" icon="bi-cup-hot-fill" %}
     <p>{{ details.food | markdownify }}</p>
 
-    {% include heading_block.html title="Hooks" icon="bi-link" %}
+    {% include heading_block.html title="Hooks" icon="bi-link-45deg" %}
     {% for each in details.hooks %}
         <p>{{ each | markdownify }}</p>
     {% endfor %}

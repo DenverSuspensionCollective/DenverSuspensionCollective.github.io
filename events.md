@@ -57,7 +57,7 @@ For a list of global suspension events, please check out
 
 <h3 class="h3">Past Events</h3>
 
-<p>
+<p class="lead">
     In addition to monthly meets, we occasionally host larger events.
 </p>
 
