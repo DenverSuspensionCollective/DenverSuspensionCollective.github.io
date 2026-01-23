@@ -9,6 +9,8 @@ upcoming_events:
   start_date: 2026-04-17
   end_date: 2026-04-19
   location: Denver, CO
+- start_date: '2026-03-01'
+  location: Denver, CO
 past_events:
 - name: April 2025 Retreat
   page: retreat/2025.md
