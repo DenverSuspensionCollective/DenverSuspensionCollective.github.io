@@ -8,6 +8,7 @@ layout: default
 {% assign schedule = event.schedule %}
 {% assign presenters = event.presentations.presenters %}
 {% assign sponsors = event.sponsors %}
+{% assign suture_class = event.suture_class %}
 {% assign speaker_layout_cards = page.speaker_layout_cards %}
 
 <article>
@@ -209,6 +210,13 @@ layout: default
         {% include event_speaker_cards.html event=event %}
     {% else %}
         {% include event_speaker_list.html event=event %}
+    {% endif %}
+
+    {% if suture_class != null %}
+    {% include heading_block.html title="Suturing Class" icon="bi-bandaid-fill" %}
+    <p>
+        {{ suture_class.description | markdownify }}
+    </p>
     {% endif %}
 
     {% include heading_block.html title="Venue" icon="bi-building-fill" %}
