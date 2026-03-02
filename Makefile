@@ -41,6 +41,15 @@ update-bundle:
 update-npm:
 	npm update
 
+# ====== Preview ====== #
+.PHONY: safari
+safari:
+	open http://dsc.localhost
+
+.PHONY: firefox
+firefox:
+	open -a Firefox http://dsc.localhost
+
 # ==== Managing Events ==== #
 
 .PHONY: monthly-meet
