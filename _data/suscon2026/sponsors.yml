@@ -1,3 +1,11 @@
+- name: Industrial Strength LLC
+  link: "https://industrialstrengthneedles.com"
+  image: industrial_strength.jpg
+
+- name: PurKlenz
+  link: "https://www.purklenz.com"
+  image: purklenz.jpg
+
 - name: Bridget Hall Body Piercing
   link: "https://bridgepiercesit.square.site"
   image: bridget_hall.jpg
@@ -13,10 +21,6 @@
 - name: Ontario Suspension Collective
   link: "https://www.onhooks.com"
   image: osc.jpg
-
-- name: PurKlenz
-  link: "https://www.purklenz.com"
-  image: purklenz.jpg
 
 - name: Thirteen Hooks Suspension Seminars
   link: "https://www.13hooks.org/"
