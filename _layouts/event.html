@@ -214,9 +214,9 @@ layout: default
 
     {% if suture_class != null %}
     {% include heading_block.html title="Suturing Class" icon="bi-bandaid-fill" %}
-    <p>
-        {{ suture_class.description | markdownify }}
-    </p>
+    {% for each in suture_class.details %}
+        <p>{{ each | markdownify }}</p>
+    {% endfor %}
     {% endif %}
 
     {% include heading_block.html title="Venue" icon="bi-building-fill" %}
