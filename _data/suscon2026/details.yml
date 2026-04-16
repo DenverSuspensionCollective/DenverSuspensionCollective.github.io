@@ -5,7 +5,7 @@ event_end: 2026-04-19
 event_page: suscon/2026/index.md
 banner: suscon2026.jpg
 registration:
-  link: "https://tkt.page/2026-dsc-suscon"
+  link: null
   waitlist: null
   pricing_options:
     - cost: 275
