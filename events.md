@@ -8,7 +8,9 @@ We host monthly hook suspension events in Colorado.
 Please <a href="{% link contact.md %}">contact us</a> if you're interested in attending.
 </p>
 
+
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+{% if site.data.events.upcoming_events != null %}
 {% assign sorted_events = site.data.events.upcoming_events | sort: 'start_date' %}
 
 {% for event in sorted_events %}
@@ -46,6 +48,23 @@ Please <a href="{% link contact.md %}">contact us</a> if you're interested in at
     </div>
 </div>
 {% endfor %}
+{% else %}
+<div class="col">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title mb-2">
+                No upcoming events
+            </h5>
+            <p class="card-text mb-2">
+                <i class="bi bi-calendar-event"></i> TBD
+            </p>
+            <p class="card-text">
+                <i class="bi bi-geo-alt-fill"></i> TBD
+            </p>
+        </div>
+    </div>
+</div>
+{% endif %}
 </div>
 
 <p class="text-secondary mt-4">
@@ -63,7 +82,7 @@ For a list of global suspension events, please check out
 
 {% assign past_events = site.data.events.past_events | sort: 'start_date' %}
 <ul>
-{% for event in past_events %}
+{% for event in past_events reversed %}
 <li>
     <a href="{% link {{ event.page }} %}">{{ event.name }}</a>
 </li>

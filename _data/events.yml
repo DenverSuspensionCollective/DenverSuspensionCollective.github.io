@@ -1,12 +1,13 @@
 ---
 upcoming_events:
+
+past_events:
 - name: 2026 Denver Suscon
   page: suscon/2026/index.md
   start_date: 2026-04-17
   end_date: 2026-04-19
   location: Denver, CO
-past_events:
-- name: April 2025 Retreat
+- name: 2025 Retreat
   page: retreat/2025.md
   start_date: 2025-04-12
   end_date: 2025-04-14
