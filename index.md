@@ -8,13 +8,6 @@ layout: default
 The Denver Suspension Collective is an established group of hook suspension practitioners and enthusiasts who have been facilitating suspensions in Colorado since 2015. Our mission is to create an inclusive, supportive environment where people can safely explore suspension under expert guidance. We prioritize education, safety protocols, and creating connections within the global suspension community.
 </p>
 
-<div class="my-4 py-4">
-<h2 class="h2">2026 Denver Suscon</h2>
-<a href="{% link suscon/2026/index.md %}">
-    <img src="{{ "suscon2026.jpg" | img_url: 'events' }}" class="img-fluid img-thumbnail" alt="Denver Suscon 2026">
-</a>
-</div>
-
 <div class="text-secondary">
     <h4 class="h4">What is Hook Suspension?</h4>
     <p>
