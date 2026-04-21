@@ -11,7 +11,7 @@
 
 ### Dependencies
 
-- [Jekyll](https://jekyllrb.com) ([Latest](https://github.com/jekyll/jekyll/releases/latest)) ([Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/))
+- [Jekyll](https://jekyllrb.com) ([Latest](https://github.com/jekyll/jekyll/releases/latest))
 - [Bootstrap](https://getbootstrap.com) ([package](https://www.npmjs.com/package/bootstrap))
 - [Bootstrap Icons](https://icons.getbootstrap.com) ([package](https://www.npmjs.com/package/bootstrap-icons))
 
