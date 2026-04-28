@@ -5,7 +5,7 @@ title: Events
 
 <p class="lead">
 We host monthly hook suspension events in Colorado.
-Please <a href="{% link contact.md %}">contact us</a> if you're interested in attending.
+Sign up for <a href="{{ site.email_signup_form }}">our mailing list</a> if you're interested in attending.
 </p>
 
 
