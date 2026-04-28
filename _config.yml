@@ -70,6 +70,7 @@ logo: logo.jpg
 favicon: /favicon.ico
 timezone: America/Denver
 email: denver.suspension.collective@gmail.com
+email_signup_form: "https://docs.google.com/forms/d/e/1FAIpQLSfJxPE0YEO3RAvZOa2skcNBsvhOy8GqnXEZA16tJOuifF7R4A/viewform"
 
 # Author
 author:

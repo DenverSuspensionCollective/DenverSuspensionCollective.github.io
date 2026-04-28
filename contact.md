@@ -7,9 +7,12 @@ title: Contact
 
 <ul class="list-unstyled">
     <li class="py-2 lead">
-        <i class="bi bi-envelope pe-1"></i> You can contact DSC by <a href="{{ email_link }}">emailing us here</a>.
+        <i class="bi bi-send pe-1"></i> You can contact DSC by <a href="{{ email_link }}">emailing us here</a>.
     </li>
     <li class="py-2 lead">
         <i class="bi bi-instagram pe-1"></i> Follow us on Instagram at <a href="https://instagram.com/denver.suspension">@denver.suspension</a>.
+    </li>
+    <li class="py-2 lead">
+        <i class="bi bi-envelope-check pe-1"></i> Sign up to <a href="{{ site.email_signup_form }}">our mailing list</a> for news about upcoming events.
     </li>
 </ul>
