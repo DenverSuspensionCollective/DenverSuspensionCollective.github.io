@@ -6,6 +6,8 @@ upcoming_events:
   location: Denver, CO
 - start_date: '2026-05-13'
   location: Fort Collins, CO
+- start_date: '2026-06-13'
+  location: Fort Collins, CO
 past_events:
 - name: 2026 Denver Suscon
   page: suscon/2026/index.md
