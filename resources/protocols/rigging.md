@@ -200,7 +200,7 @@ When selecting an appropriate cord for use with body suspension, a safety factor
 - 1/8" QNR Polyester Cord with Kevlar Core --- MBS 825 lbs
 - 1/8" Polyester Cord --- MBS 400 lbs
 
-[**Cord Calculator**](https://docs.google.com/spreadsheets/d/1NG3_Zai3ntha1OdE_BdJEdPDxjSq9F92NWY50dqIRcU/edit?usp=sharing)
+[**Cord Calculator**](https://www.wll.wtf)
 
 {% include heading_block.html title="Terminations" %}
 
