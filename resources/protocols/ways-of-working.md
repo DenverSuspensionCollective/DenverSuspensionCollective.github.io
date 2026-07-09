@@ -83,9 +83,9 @@ What we ask of observers isn't distance, it's awareness:
 
 - Route suggestions or concerns through those facilitators rather than directly to the suspendee during an active suspension; this is the same "one voice" principle practitioners themselves follow.
 
-- If you're newer, err toward asking before stepping in.
+- Err toward asking before stepping in.
 
-- At DSC events, the default is that clapping and cheering are generally discouraged. This helps maintain a calm environment, and it avoids making it seem like we are only celebrating the moment someone leaves the ground rather than their entire participation in the experience. Suspendees may have different expectations or desires on an individual basis.
+- At DSC events, the default is that clapping and cheering are generally discouraged. This helps maintain a calm environment, and it avoids making it seem like we are only celebrating the moment someone leaves the ground rather than their entire participation in the experience. Suspendees may have different expectations or desires on an individual basis, which will always be honored upon request.
 
 - Occasionally facilitators may request extra space or communicate other needs for a suspendee, such as for silence; please respect these requests.
 
