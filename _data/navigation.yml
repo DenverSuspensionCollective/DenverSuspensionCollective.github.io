@@ -26,6 +26,8 @@
         page: resources/protocols/infection-control.md
       - title: Rigging
         page: resources/protocols/rigging.md
+      - title: Ways of Working
+        page: resources/protocols/ways-of-working.md
 
     - heading: Tools
       items:
