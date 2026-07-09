@@ -19,13 +19,13 @@ Everyone involved in DSC events is responsible for helping ensure that event spa
 
 We do not permit any act of harassment, including harassment or discrimination that is based, in fact or perception, on an individual's sex, race, ethnicity, religion, national origin, disability, age, sexual orientation, or gender identity, as well as any other legally protected characteristics.
 
-This COC is a living document and, as such, is subject to ongoing review. DSC welcomes suggestions for amendments --- and acknowledges the need for continual examination of our community's practices and standards.
+This COC is a living document and, as such, is subject to ongoing review. DSC welcomes suggestions for amendments, and acknowledges the need for continual examination of our community's practices and standards.
 
 We believe that this COC is an opportunity for everyone to work towards a more collaborative, communicative, and empowering space. This means that everyone feels confident that they will not be exposed to emotional, cultural, or physical harm. Because the ways in which we come together as a community are broad, we must be extra vigilant about ensuring there is no space for problematic behavior to exist.
 
 {% include heading_block.html title="Purpose" %}
 
-This COC is intended to create and maintain a safe environment for everyone, and to encourage and enable anyone to raise legitimate concerns within the group prior to seeking resolution outside the organization. Consent is everything --- we have a zero-tolerance policy for any breaches of consent.
+This COC is intended to create and maintain a safe environment for everyone, and to encourage and enable anyone to raise legitimate concerns within the group prior to seeking resolution outside the organization. Consent is everything; we have a zero-tolerance policy for any breaches of consent.
 
 {% include heading_block.html title="Scope" %}
 
@@ -71,6 +71,10 @@ Some general guidelines are:
 
 * There are sharp objects and potentially contaminated equipment around. Pay attention to what might be near you. If you are not a volunteer, or you are a volunteer but do not have a specific role, do not touch anything unless you are directed to do so. If in doubt, ask someone. Don't touch anything with blood on it, not even your own blood.
 
+{% include heading_block.html title="Ways of Working During a Suspension" %}
+
+Facilitating a suspension calls for skills that are softer than anything we can codify in a protocol: reading the room, communicating with care, and setting ego aside. Guidance for practitioners, volunteers, support roles, and observers during active suspensions (covering role fluidity, communication with the suspendee, handling disagreements, and observer participation) is maintained in the <a href="{% link resources/protocols/ways-of-working.md %}">Ways of Working During a Suspension</a> document.
+
 {% include heading_block.html title="Relationships and Power Dynamics Between Practitioners/Volunteers and Suspendees" %}
 
 Suspension can be an intense, vulnerable, and sometimes mind-altering experience. Practitioners and volunteers involved in a suspension hold significant power and responsibility during and after that experience. This power dynamic can affect a suspendee's ability to freely consent to new romantic or sexual relationships in the same way they might outside of this context.
@@ -101,11 +105,11 @@ Unwanted conduct may consist of acts, requests, spoken words, gestures, or the p
 
 Examples of harassment might include:
 
-* Verbal harassment --- jokes, comments, ridicule or songs
+* Verbal harassment: jokes, comments, ridicule or songs
 
-* Written harassment --- texts, messages, social media posts, emails, letters and notices
+* Written harassment: texts, messages, social media posts, emails, letters and notices
 
-* Physical harassment --- unnecessary touching, non-consensual touching or any form of assault
+* Physical harassment: unnecessary touching, non-consensual touching or any form of assault
 
 {% include heading_block.html title="Sexual Harassment" %}
 
@@ -171,9 +175,9 @@ Apart from the direct impact on a victim's health, long-term exposure to bullyin
 
 {% include heading_block.html title="Steps To Take Where Harassment Has Occurred" %}
 
-Anyone who is asked to stop any harassing behavior should comply immediately. If you are being harassed, or witness inappropriate behavior, speak out about it. Seek support for yourself or offer support to the person harmed. If you feel comfortable to do so, call out the inappropriate behavior immediately. You might find it helpful to use this type of language: "That is not appropriate --- it makes me feel uncomfortable". Or you can raise it at a later time.
+Anyone who is asked to stop any harassing behavior should comply immediately. If you are being harassed, or witness inappropriate behavior, speak out about it. Seek support for yourself or offer support to the person harmed. If you feel comfortable to do so, call out the inappropriate behavior immediately. You might find it helpful to use this type of language: "That is not appropriate; it makes me feel uncomfortable". Or you can raise it at a later time.
 
-The "bystander effect" is all too common --- a culture of silence perpetuates harm. If the behavior is not rectified immediately, or if you do not feel comfortable addressing the perpetrator directly, feel free to fill in an incident report form, which can be obtained from event coordinators or completed online using our [Code of Conduct incident report form](https://forms.gle/nRUaXtrjPBijf3D59).
+The "bystander effect" is all too common; a culture of silence perpetuates harm. If the behavior is not rectified immediately, or if you do not feel comfortable addressing the perpetrator directly, feel free to fill in an incident report form, which can be obtained from event coordinators or completed online using our [Code of Conduct incident report form](https://forms.gle/nRUaXtrjPBijf3D59).
 
 {% include heading_block.html title="Making a Complaint of Harassment" %}
 
