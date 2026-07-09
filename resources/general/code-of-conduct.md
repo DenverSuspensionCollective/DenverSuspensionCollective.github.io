@@ -19,13 +19,13 @@ Everyone involved in DSC events is responsible for helping ensure that event spa
 
 We do not permit any act of harassment, including harassment or discrimination that is based, in fact or perception, on an individual's sex, race, ethnicity, religion, national origin, disability, age, sexual orientation, or gender identity, as well as any other legally protected characteristics.
 
-This COC is a living document and, as such, is subject to ongoing review. DSC welcomes suggestions for amendments --- and acknowledges the need for continual examination of our community's practices and standards.
+This COC is a living document and, as such, is subject to ongoing review. DSC welcomes suggestions for amendments, and acknowledges the need for continual examination of our community's practices and standards.
 
 We believe that this COC is an opportunity for everyone to work towards a more collaborative, communicative, and empowering space. This means that everyone feels confident that they will not be exposed to emotional, cultural, or physical harm. Because the ways in which we come together as a community are broad, we must be extra vigilant about ensuring there is no space for problematic behavior to exist.
 
 {% include heading_block.html title="Purpose" %}
 
-This COC is intended to create and maintain a safe environment for everyone, and to encourage and enable anyone to raise legitimate concerns within the group prior to seeking resolution outside the organization. Consent is everything --- we have a zero-tolerance policy for any breaches of consent.
+This COC is intended to create and maintain a safe environment for everyone, and to encourage and enable anyone to raise legitimate concerns within the group prior to seeking resolution outside the organization. Consent is everything; we have a zero-tolerance policy for any breaches of consent.
 
 {% include heading_block.html title="Scope" %}
 
@@ -71,6 +71,26 @@ Some general guidelines are:
 
 * There are sharp objects and potentially contaminated equipment around. Pay attention to what might be near you. If you are not a volunteer, or you are a volunteer but do not have a specific role, do not touch anything unless you are directed to do so. If in doubt, ask someone. Don't touch anything with blood on it, not even your own blood.
 
+{% include heading_block.html title="Ways of Working During a Suspension" %}
+
+Facilitating a suspension calls for skills that are softer than anything we can codify in a protocol: reading the room, communicating with care, and setting ego aside. This section is primarily guidance for practitioners, volunteers, and support roles during active suspensions; the guidance for observers applies to everyone present. Suspensions are often intense emotional, physical, and psychological experiences, and conversations or actions that may seem minor can be amplified for the suspendee.
+
+**The suspendee comes first.** The suspendee is the core of the suspension experience. Their physical and emotional wellbeing takes priority over personal preferences and interpersonal conflicts. Suspendees are encouraged to communicate their needs, expectations, intentions, and boundaries before and during a suspension whenever possible, and the facilitators actively involved in the suspension should check in and adapt to the suspendee's needs throughout the experience.
+
+**Roles are assigned but fluid.** Suspensions usually begin with assigned roles, but practitioners often need to be flexible, switching between duties as needed. If your role changes, you should feel free to move into another role. If you are coaching the suspendee and they are not receptive to your process, step back and let someone else fill that role. If someone makes a judgment call that changes your work (for example, adjusting or changing something you rigged), you should not feel undermined; step back and allow that decision to be made without conflict. When you step back, make the handoff explicit ("you've got coaching?") so no role is silently dropped. The lead practitioner on a suspension is responsible for making final decisions. That said, there are moments when it is ambiguous who the lead practitioner actually is. Working without a strict hierarchy is one of our values, but there are moments when someone needs to step into that role. Experienced facilitators should always be ready to step into the lead role, or to step back and allow it to be filled by someone else, without a power struggle.
+
+**One voice to the suspendee.** Generally, only one person should be interacting with the suspendee at a time. It can be very chaotic if somebody is telling the suspendee to drink some water while somebody else is telling them to breathe. If you are not the coach in that moment, take a step back and let the coach do the coaching. If you think your suggestion would be valuable, find a discreet way to let the coach know so they can decide what to do with that information. This applies to everyone in the orbit of a suspension: practitioners, support roles, and observers alike. Support roles (such as an emotional support person for the suspendee, or photographers) have a greater degree of access to the suspendee and their experience; be aware of your surroundings in these roles so you don't unintentionally interfere with a practitioner's ability to work safely. Be attentive and listen to the needs of those around you.
+
+**Communicate concerns discreetly.** Unless something is an immediate safety issue, we communicate it discreetly without alerting the suspendee. Examples include a hook that was pierced a little shallowly, or a hook hole opening slightly after the hook is loaded. We do not loudly explain that there is an issue; we discreetly notify one of the lead practitioners on that suspension so they can make a judgment call on whether a risk needs to be mitigated. Doing otherwise could worry the suspendee unnecessarily. Discretion is about tone and timing, not withholding: if a risk materially affects the suspendee's choices, such as whether to continue, the lead practitioner informs them calmly, and a suspendee's direct questions should always be answered honestly. If something is an immediate safety issue, act and speak without delay.
+
+**Mind your language around the suspendee.** We avoid language that can be concerning to the suspendee and lead them to worry about their suspension. For example, we do not ask, "Do you feel like you're going to throw up?" or discuss our own negative experiences with that particular suspension. Instead, we can offer them water or express optimism about their experience. Anything negative that is relevant can be discussed after the suspension is over.
+
+**Resolve disagreements away from the suspendee.** While the lead practitioner on a suspension is responsible for resolving conflict during a suspension, practitioners are encouraged to resolve interpersonal issues between themselves first, if able. If facilitators are unable to work together effectively or respectfully, roles should be reassigned, if possible, to support the suspendee's experience. Concerns involving safety should be escalated to practitioners with appropriate experience. Disagreements around technique or preference that aren't immediate safety concerns should be deferred until after the suspension.
+
+**Observers are part of the space.** DSC events are something we do together, observers and first-timers included, and the presence of observers can often help suspendees feel supported. Facilitators frequently invite observers to help, such as taking photos or getting water for the suspendee, and that shared participation is part of our culture. What we ask of observers isn't distance, it's awareness: follow the lead of the facilitators actively involved in the suspension, be mindful of where you're standing, and route suggestions or concerns through those facilitators rather than directly to the suspendee during an active suspension; this is the same "one voice" principle practitioners themselves follow. If you're newer, err toward asking before stepping in. At DSC events, the default is that clapping and cheering are generally discouraged to help maintain a calm environment and keep the focus on the suspendee's experience, though suspendees may have different expectations or desires on an individual basis. Occasionally facilitators may request extra space or communicate other needs for a suspendee, such as for silence; please respect these requests.
+
+**Everyone can speak up.** All attendees should feel empowered to speak up if they see something that seems wrong. Where possible, concerns should be directed to one of the facilitators actively involved in the suspension in a way that doesn't unnecessarily alarm the suspendee. If immediate intervention is necessary to protect someone's safety, act without delay. As noted in the "General Conduct" section above, do not hesitate to inform volunteers or DSC organizers if you have suggestions or notice any violations of these rules.
+
 {% include heading_block.html title="Relationships and Power Dynamics Between Practitioners/Volunteers and Suspendees" %}
 
 Suspension can be an intense, vulnerable, and sometimes mind-altering experience. Practitioners and volunteers involved in a suspension hold significant power and responsibility during and after that experience. This power dynamic can affect a suspendee's ability to freely consent to new romantic or sexual relationships in the same way they might outside of this context.
@@ -101,11 +121,11 @@ Unwanted conduct may consist of acts, requests, spoken words, gestures, or the p
 
 Examples of harassment might include:
 
-* Verbal harassment --- jokes, comments, ridicule or songs
+* Verbal harassment: jokes, comments, ridicule or songs
 
-* Written harassment --- texts, messages, social media posts, emails, letters and notices
+* Written harassment: texts, messages, social media posts, emails, letters and notices
 
-* Physical harassment --- unnecessary touching, non-consensual touching or any form of assault
+* Physical harassment: unnecessary touching, non-consensual touching or any form of assault
 
 {% include heading_block.html title="Sexual Harassment" %}
 
@@ -171,9 +191,9 @@ Apart from the direct impact on a victim's health, long-term exposure to bullyin
 
 {% include heading_block.html title="Steps To Take Where Harassment Has Occurred" %}
 
-Anyone who is asked to stop any harassing behavior should comply immediately. If you are being harassed, or witness inappropriate behavior, speak out about it. Seek support for yourself or offer support to the person harmed. If you feel comfortable to do so, call out the inappropriate behavior immediately. You might find it helpful to use this type of language: "That is not appropriate --- it makes me feel uncomfortable". Or you can raise it at a later time.
+Anyone who is asked to stop any harassing behavior should comply immediately. If you are being harassed, or witness inappropriate behavior, speak out about it. Seek support for yourself or offer support to the person harmed. If you feel comfortable to do so, call out the inappropriate behavior immediately. You might find it helpful to use this type of language: "That is not appropriate; it makes me feel uncomfortable". Or you can raise it at a later time.
 
-The "bystander effect" is all too common --- a culture of silence perpetuates harm. If the behavior is not rectified immediately, or if you do not feel comfortable addressing the perpetrator directly, feel free to fill in an incident report form, which can be obtained from event coordinators or completed online using our [Code of Conduct incident report form](https://forms.gle/nRUaXtrjPBijf3D59).
+The "bystander effect" is all too common; a culture of silence perpetuates harm. If the behavior is not rectified immediately, or if you do not feel comfortable addressing the perpetrator directly, feel free to fill in an incident report form, which can be obtained from event coordinators or completed online using our [Code of Conduct incident report form](https://forms.gle/nRUaXtrjPBijf3D59).
 
 {% include heading_block.html title="Making a Complaint of Harassment" %}
 
