@@ -8,7 +8,13 @@
     {% for each in presenters %}
     <div class="col">
         <div class="card">
+            {% if each.image %}
             <img src="{{ each.image | img_url: 'presenters' }}" class="card-img-top" alt="{{ each.name }}">
+            {% else %}
+            <div class="card-img-top bg-secondary-subtle">
+                <h1 class="p-4 m-4 display-1 text-center"><i class="bi bi-person-fill"></i></h1>
+            </div>
+            {% endif %}
             <div class="card-body">
                 <h5 class="card-title">{{ each.presentation_title }}</h5>
                 <p class="card-text lead">{{ each.name }}</p>
