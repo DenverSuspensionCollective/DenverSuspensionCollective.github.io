@@ -6,6 +6,8 @@ upcoming_events:
   location: Denver, CO
 - start_date: '2026-11-22'
   location: Denver, CO
+- start_date: '2026-12-05'
+  location: Denver, CO
 past_events:
 - name: 2026 Denver Suscon
   page: suscon/2026/index.md
