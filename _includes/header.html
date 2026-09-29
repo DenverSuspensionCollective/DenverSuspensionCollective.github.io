@@ -10,6 +10,13 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav nav-underline">
                 {% for item in site.data.navigation %}
+                    {% if item.external_url %}
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="{{ item.external_url }}" target="_blank" rel="noopener noreferrer">
+                            {{ item.title }}
+                        </a>
+                    </li>
+                    {% else %}
                 {% capture url %}{% link {{ item.page }} %}{% endcapture %}
                 {% assign component = url | replace: '/', '' %}
 
@@ -44,6 +51,7 @@
                             {{ item.title }}
                         </a>
                     </li>
+                    {% endif %}
                     {% endif %}
                 {% endfor %}
 
