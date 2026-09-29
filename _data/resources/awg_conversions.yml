@@ -23,13 +23,13 @@
   highlight: false
 
 - awg: "23"
-  mm: "0.574"
+  mm: "0.573"
   inch_decimal: "0.0226"
   inch_fractional: null
   highlight: false
 
 - awg: "22"
-  mm: "0.643"
+  mm: "0.644"
   inch_decimal: "0.0253"
   inch_fractional: null
   highlight: false
@@ -316,7 +316,7 @@
   highlight: true
 - awg: "0"
   mm: "8.251"
-  inch_decimal: "0.3248"
+  inch_decimal: "0.3249"
   inch_fractional: null
   highlight: false
 
@@ -373,8 +373,8 @@
   highlight: false
 
 - awg: "000"
-  mm: "10.4"
-  inch_decimal: "0.4094"
+  mm: "10.405"
+  inch_decimal: "0.4096"
   inch_fractional: null
   highlight: false
 
@@ -402,8 +402,8 @@
   highlight: false
 
 - awg: "0000"
-  mm: "11.68"
-  inch_decimal: "0.4598"
+  mm: "11.684"
+  inch_decimal: "0.4600"
   inch_fractional: null
   highlight: false
 
@@ -477,8 +477,8 @@
   highlight: false
 
 - awg: "000000"
-  mm: "14.73"
-  inch_decimal: "0.5799"
+  mm: "14.733"
+  inch_decimal: "0.5800"
   inch_fractional: null
   highlight: false
 
