@@ -1,5 +1,5 @@
 - awg: null
-  mm: "0.396"
+  mm: "0.397"
   inch_decimal: "0.0156"
   inch_fractional: "1/64"
   highlight: false
@@ -41,7 +41,7 @@
   highlight: false
 
 - awg: null
-  mm: "0.795"
+  mm: "0.794"
   inch_decimal: "0.0313"
   inch_fractional: "1/32"
   highlight: false
@@ -135,7 +135,7 @@
   highlight: false
 
 - awg: null
-  mm: "2.383"
+  mm: "2.381"
   inch_decimal: "0.0938"
   inch_fractional: "3/32"
   highlight: false
@@ -147,7 +147,7 @@
   highlight: false
 
 - awg: null
-  mm: "2.779"
+  mm: "2.778"
   inch_decimal: "0.1094"
   inch_fractional: "7/64"
   highlight: false
@@ -176,7 +176,7 @@
   highlight: false
 
 - awg: null
-  mm: "3.571"
+  mm: "3.572"
   inch_decimal: "0.1406"
   inch_fractional: "9/64"
   highlight: false
@@ -188,7 +188,7 @@
   highlight: false
 
 - awg: null
-  mm: "3.97"
+  mm: "3.969"
   inch_decimal: "0.1563"
   inch_fractional: "5/32"
   highlight: false
@@ -240,7 +240,7 @@
   highlight: false
 
 - awg: null
-  mm: "5.558"
+  mm: "5.556"
   inch_decimal: "0.2188"
   inch_fractional: "7/32"
   highlight: false
@@ -252,7 +252,7 @@
   highlight: false
 
 - awg: null
-  mm: "5.954"
+  mm: "5.953"
   inch_decimal: "0.2344"
   inch_fractional: "15/64"
   highlight: false
@@ -275,7 +275,7 @@
   highlight: false
 
 - awg: null
-  mm: "6.746"
+  mm: "6.747"
   inch_decimal: "0.2656"
   inch_fractional: "17/64"
   highlight: false
@@ -286,7 +286,7 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "7.145"
+  mm: "7.144"
   inch_decimal: "0.2813"
   inch_fractional: "9/32"
   highlight: false
@@ -327,7 +327,7 @@
   highlight: false
 
 - awg: null
-  mm: "8.733"
+  mm: "8.731"
   inch_decimal: "0.3438"
   inch_fractional: "11/32"
   highlight: false
@@ -338,7 +338,7 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "9.129"
+  mm: "9.128"
   inch_decimal: "0.3594"
   inch_fractional: "23/64"
   highlight: false
@@ -356,7 +356,7 @@
   highlight: false
 
 - awg: null
-  mm: "9.921"
+  mm: "9.922"
   inch_decimal: "0.3906"
   inch_fractional: "25/64"
   highlight: false
@@ -367,7 +367,7 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "10.32"
+  mm: "10.319"
   inch_decimal: "0.4063"
   inch_fractional: "13/32"
   highlight: false
@@ -408,7 +408,7 @@
   highlight: false
 
 - awg: null
-  mm: "11.908"
+  mm: "11.906"
   inch_decimal: "0.4688"
   inch_fractional: "15/32"
   highlight: false
@@ -419,7 +419,7 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "12.304"
+  mm: "12.303"
   inch_decimal: "0.4844"
   inch_fractional: "31/64"
   highlight: false
@@ -436,7 +436,7 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "13.096"
+  mm: "13.097"
   inch_decimal: "0.5156"
   inch_fractional: "33/64"
   highlight: false
@@ -448,7 +448,7 @@
   highlight: false
 
 - awg: null
-  mm: "13.495"
+  mm: "13.494"
   inch_decimal: "0.5313"
   inch_fractional: "17/32"
   highlight: false
@@ -488,13 +488,13 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "15.083"
+  mm: "15.081"
   inch_decimal: "0.5938"
   inch_fractional: "19/32"
   highlight: false
 
 - awg: null
-  mm: "15.479"
+  mm: "15.478"
   inch_decimal: "0.6094"
   inch_fractional: "39/64"
   highlight: false
@@ -511,13 +511,13 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "16.271"
+  mm: "16.272"
   inch_decimal: "0.6406"
   inch_fractional: "41/64"
   highlight: false
 
 - awg: null
-  mm: "16.67"
+  mm: "16.669"
   inch_decimal: "0.6563"
   inch_fractional: "21/32"
   highlight: false
@@ -551,13 +551,13 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "18.258"
+  mm: "18.256"
   inch_decimal: "0.7188"
   inch_fractional: "23/32"
   highlight: false
 
 - awg: null
-  mm: "18.654"
+  mm: "18.653"
   inch_decimal: "0.7344"
   inch_fractional: "47/64"
   highlight: false
@@ -574,13 +574,13 @@
   highlight: false
 
 - awg: null
-  mm: "19.446"
+  mm: "19.447"
   inch_decimal: "0.7656"
   inch_fractional: "49/64"
   highlight: false
 
 - awg: null
-  mm: "19.845"
+  mm: "19.844"
   inch_decimal: "0.7813"
   inch_fractional: "25/32"
   highlight: false
@@ -614,13 +614,13 @@
   highlight: false
 
 - awg: null
-  mm: "21.433"
+  mm: "21.431"
   inch_decimal: "0.8438"
   inch_fractional: "27/32"
   highlight: false
 
 - awg: null
-  mm: "21.829"
+  mm: "21.828"
   inch_decimal: "0.8594"
   inch_fractional: "55/64"
   highlight: false
@@ -637,7 +637,7 @@
   highlight: false
 
 - awg: null
-  mm: "22.621"
+  mm: "22.622"
   inch_decimal: "0.8906"
   inch_fractional: "57/64"
   highlight: false
@@ -648,7 +648,7 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "23.02"
+  mm: "23.019"
   inch_decimal: "0.9063"
   inch_fractional: "29/32"
   highlight: false
@@ -677,7 +677,7 @@
   highlight: false
 
 - awg: null
-  mm: "24.608"
+  mm: "24.606"
   inch_decimal: "0.9688"
   inch_fractional: "31/32"
   highlight: false
@@ -688,7 +688,7 @@
   inch_fractional: null
   highlight: true
 - awg: null
-  mm: "25.004"
+  mm: "25.003"
   inch_decimal: "0.9844"
   inch_fractional: "63/64"
   highlight: false
