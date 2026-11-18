@@ -114,7 +114,7 @@ The pre-wash removes soil before disinfection. The disinfectant label requires i
 
 1. Follow the receiving organization's packing requirements.
 
-1. Include a copy of the DSC cord donation letter in each package.
+1. Include a copy of the [DSC cord donation letter](#appendix-cord-donation-letter) in each package.
 
 1. Ship only to a receiving organization that has confirmed acceptance in writing.
 
@@ -136,3 +136,36 @@ The pre-wash removes soil before disinfection. The disinfectant label requires i
 
 - *[CDC, Guidelines for Environmental Infection Control in Health-Care Facilities: Laundry and Bedding](https://www.cdc.gov/infection-control/hcp/environmental-control/laundry-bedding.html)*
 - *[Lysol Laundry Sanitizer product label (EPA Reg. No. 777-128)](https://www.webstaurantstore.com/documents/pdf/lysol_lls_sellsheet.pdf)*
+
+{% include heading_block.html title="Appendix: Cord Donation Letter" %}
+
+*Template letter to include in each donation package. Fill in the bracketed fields before printing.*
+
+<div class="card bg-body-tertiary p-4 mb-4" markdown="1">
+
+**Denver Suspension Collective**<br>
+denversuspension.com
+
+---
+
+To the team at *[Receiving Organization]*,
+
+Thank you for accepting this donation of synthetic cord.
+
+Every piece of cord in this package was used once in a hook suspension, a practice in which a person is suspended from hooks placed temporarily through the skin. The cord is never used for suspension again. After that single use, it was processed according to the DSC Cord Recovery protocol:
+
+- Any segment of cord with visible blood or other potentially infectious material was cut out and discarded at the event.
+- The remaining cord was cut only at the knots, sealed in a collection bag, and inspected again before washing.
+- It was washed with detergent, soaked for 15 minutes in an EPA-registered laundry disinfectant labeled to kill HIV, hepatitis B and hepatitis C, washed again and air dried.
+- Before packing, each piece was checked to be dry, free of mildew and staining, and at least one yard long.
+
+The full protocol is published at {{ page.url | absolute_url }}.
+
+If you have any questions or concerns about this shipment, please contact us at *[contact email]*.
+
+Sincerely,
+
+*[Name]*<br>
+Denver Suspension Collective
+
+</div>
